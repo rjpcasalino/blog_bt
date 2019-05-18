@@ -39,3 +39,4 @@ Thumbs.db
 ### Misc
 /node_modules
 *.env
+/_site
