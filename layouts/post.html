@@ -36,15 +36,6 @@
  </head>
 
   <body>
-  <!-- <img src="https://www.boringtranquility.io/assets/imgs/food_basket.png"/> -->
-	<h3>Boring Tranquility</h3>
-<p><code>There is an ongoing -- albeit abated -- stream, which is all about its flow. We can learn much from the play of water upon the 
-shore. Just seeing a gentle caress spreading liquid via the so numerous infinitesimal canyons of sand is enough. - Bernard Truman</code></p>
-
-<p><a href="https://en.wikipedia.org/wiki/Daniel_Webster">"Liberty and Union, now and forever, one and inseparable!"</a></p>
-	<hr>
-        {% for a in archives %}
-         <li><a href="/{{a}}">{{a}}</a></li>
-        {% endfor %}
+   {{ content|safe }}
   </body>
 </html>

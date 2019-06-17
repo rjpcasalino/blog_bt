@@ -1,6 +1,6 @@
 ---
 title: About
-layout: basic
+layout: post
 ---
 
 A mystery 

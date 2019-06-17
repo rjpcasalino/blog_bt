@@ -1,6 +1,5 @@
 ---
 title: archives
-layout: none
+layout: archives
 ---
 
-archives
