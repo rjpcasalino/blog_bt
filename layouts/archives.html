@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <title>{{title}}</title>
- </head>
-
- <body>
-  {% for a in archives %}
-  <li>{{a}}</li>
+{% include 'partials/header.html' %}  
+ {% for p in pages %}
+ <li><a href="/{{p}}">{{p}}</a></li>
   {% endfor %}
- </body>
-</html>
+ {% include 'partials/footer.html'  %}
