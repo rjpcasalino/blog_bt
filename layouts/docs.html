@@ -1,5 +1,16 @@
-{% include 'partials/header.html' %}  
- {% for p in pages %}
- <li><a href="/{{p}}">{{p}}</a></li>
+ <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">
+	 A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated.
+ </blockquote>
+ <p>
+ I am Ryan Casalino and somehow you have found my blog. I am currently on a roadtrip.
+ Checkout <a href="/el_camino_real">the document</a> for daily updates.*
+
+ {% for d in docs %}
+ <ul>
+	 <li>
+		 <a href="/{{d}}">{{d}}</a>
+	 </li>
+ </ul>
   {% endfor %}
- {% include 'partials/footer.html'  %}
+ 
+  *<small>subject to change</small></br>

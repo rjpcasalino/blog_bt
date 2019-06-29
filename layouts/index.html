@@ -4,12 +4,7 @@
    <h1>Boring Tranquility</h1>
     <p><a href="https://en.wikipedia.org/wiki/Daniel_Webster">"Liberty and Union, now and forever, one and inseparable!"</a></p>
     <hr>
-         
-    <p> -- posts -- </p>
-     <ul>
-       {% for a in archives %}
-      <li><a href="/archives/2019/{{a}}">{{a}}</a></li>
-        {% endfor %}
-     </ul>
     
+	{% include '/docs.html' %}
+
 {% include '/partials/footer.html' %}
