@@ -37,7 +37,13 @@ In Arizona the radio signals are weak. When they do come through they are babble
 
 ![Power plant](/static/Power_plant.jpg)
 
-Further along still the trucks that feed the Empire rush in all directions. The docile mouths wait for the sweet sugar or fat burger. Palettes of fruits grace the wind.  
+Further along still the trucks that feed the Empire rush in all directions. The docile mouths wait for the sweet sugar or fat burger. Palettes of fruit grace the wind.  
+
+<br>
+<hr>
+
+Distant motors hum. Sky dull baby blue. Dry earth almost the color of clay. This is indeed a strange region of the Empire. Collective memory here is populated with empires past. There is a deeply felt sense of siege at night. Some firecracker prematurely ejects its violent sound effect after whistling merrily. The pop startles and makes jump -- for in that sudden fright there is the vision of the hand that lit the fuse. The hand of some Roman. Some Citizen. There are not all citizens here. There are Americans and Citizen Americans.   
+
 
 <br>
 <hr>
@@ -46,7 +52,7 @@ There are tanks on the national mall. Some drunk is angry and shouting, "Showman
 
 >"Resolved, that the flag of the thirteen United States shall be thirteen stripes, alternate red and white; that the Union be thirteen stars, white on a blue field, representing a new constellation."
 
-Does it not feel like death when the nation hates itself? Headlong in their rush to condemn. The mind wonders on wonderful mornings surrounded by memories and making sense of confusion. The twists and turns of neurons. Pop, sizzle, and fade.
+Mind wonders on wonderful New Mexican mornings surrounded by memories and the making of sense out of confusion. The twists and turns of neurons. Pop, sizzle, and fade.
 
 ![Flag](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_the_United_States_%281777-1795%29.svg/640px-Flag_of_the_United_States_%281777-1795%29.svg.png)
 
