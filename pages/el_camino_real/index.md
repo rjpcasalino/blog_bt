@@ -37,7 +37,7 @@ In Arizona the radio signals are weak. When they do come through they are babble
 
 ![Power plant](/static/Power_plant.jpg)
 
-Further along still the trunks that feed the Empire rush in all directions. The docile mouths wait for the sweet sugar or fat burger. Palettes of fruits grace the wind.  
+Further along still the trucks that feed the Empire rush in all directions. The docile mouths wait for the sweet sugar or fat burger. Palettes of fruits grace the wind.  
 
 <br>
 <hr>
