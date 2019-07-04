@@ -46,6 +46,8 @@ There are tanks on the national mall. Some drunk is angry and shouting, "Showman
 
 >"Resolved, that the flag of the thirteen United States shall be thirteen stripes, alternate red and white; that the Union be thirteen stars, white on a blue field, representing a new constellation."
 
-![Flag](/static/Flag_barn.jpg)
+Does it not feel like death when the nation hates itself? Headlong in their rush to condemn. The mind wonders on wonderful mornings surrounded by memories and making sense of confusion. The twists and turns of neurons. Pop, sizzle, and fade.
 
-The dry heat warps the mind as fat men hose down SUVs in the summer sun. Earpieces bulging as the liquid rolls down the plastic siding. Talk, talk, talk. Fireworks with awful sounding names gather to await a light. 
+![Flag](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_the_United_States_%281777-1795%29.svg/640px-Flag_of_the_United_States_%281777-1795%29.svg.png)
+
+This dry heat warps the mind, makes for the delirious as fat men hose down SUVs in the summer sun. Earpieces bulging with clear liquid rolling down plastic sidings. Talk, talk, talk. Fireworks with awful sounding names ("Civil War", "Bloodhound Mortar") rest under tents staffed with derelicts on drugs. They are young and speak in tongues powered by besotted minds. What it is they see in their glazed eyes? They know how to rap, he says. He knows, actually. And, yeah, I am the one who taught that guy over there in the red shirt -- who, by the way, can help you with anything you need -- how to rap. He's a good guy. Today is a good day. Hello, guys. Hey, how are you? He says all these things as I wonder about the makeshift bazaar. He is a born Walmart greeter. He is of the Moonlanders.   
