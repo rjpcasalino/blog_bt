@@ -63,9 +63,13 @@ This dry heat warps the mind, makes for the delirious as fat men hose down SUVs 
 
 Missed sunrise and the Empire spans before me albeit blocked by a plywood fence. The air is calm and cool. Updated my `vimrc` because there was an issue with esc key delays. Yesterday was somber. For a flicker of a moment I saw the skies full across all the cities and towns and parking lots and abandoned malls and unkempt baseball fields fill with bursts of lavish color. Below I stare at people of the First Nations and there is a strong desire very deeply felt of wanting to escape my body and the Empire surrounding it to "see with eyes unclouded by hate" all before me. To not be American but to see all Americans. The Moonlanders. The Marslanders. 
 
-> Center of equal daughters /
-> equal sons /
-> all /
-> all alike endured / grown / ungrown / perennial with the earth / with freedom, law, and love
+```
+Centre of equal daughters, equal sons,
+All, all alike endear’d, grown, ungrown, young or old,
+Strong, ample, fair, enduring, capable, rich,
+Perennial with the Earth, with Freedom, Law and Love,
+A grand, sane, towering, seated Mother,
+Chair’d in the adamant of Time.
+```
 
 The internet can't be reached as I write this - v cool. 
