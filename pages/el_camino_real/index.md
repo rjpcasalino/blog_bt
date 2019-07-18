@@ -61,7 +61,7 @@ This dry heat warps the mind, makes for the delirious as fat men hose down SUVs 
 <br>
 <hr>
 
-Missed sunrise and the Empire spans before me albeit blocked by a plywood fence. The air is calm and cool. Updated my `vimrc` because there was an issue with esc key delays. Yesterday was somber. For a flicker of a moment I saw the skies full across all the cities and towns and parking lots and abandoned malls and unkempt baseball fields fill with bursts of lavish color. Below I stare at people of the First Nations and there is a strong desire very deeply felt of wanting to escape my body and the Empire surrounding it to "see with eyes unclouded by hate" all before me. To not be American but to see all Americans. The Moonlanders. The Marslanders. 
+Missed sunrise and the Empire spans before me albeit blocked by a plywood fence. The air is calm and cool. Updated my `vimrc` because there was an issue with esc key delays. Yesterday was somber. For a flicker of a moment I saw the skies full across all the cities and towns and parking lots and abandoned malls and unkempt baseball fields fill with bursts of lavish color. Below I stare at people of the First Nations and there is a strong desire *very* (you derivative fool) deeply felt of wanting to escape my body and the Empire surrounding it to "see with eyes unclouded by hate" all before me. To not be American but to see all Americans. The Moonlanders. The Marslanders. 
 
 ```
 Centre of equal daughters, equal sons,
@@ -72,4 +72,12 @@ A grand, sane, towering, seated Mother,
 Chair’d in the adamant of Time.
 ```
 
-The internet can't be reached as I write this - v cool. 
+<br>
+<hr>
+
+Walking downtown through the rich and the poor. The poor are the bureaucrats and the non doers the forever safes and never challenged. They stand idle waiting for the government bus to come and take them home. They are the castoffs and the dead. They are overweight sugar gulpers testing the strength of the fabric which surrounds their bulging bodies. Here is the center. The center of all power. The tents only appear at night. They only come at night. Mostly.
+
+<br>
+<hr>
+
+It is late July.
