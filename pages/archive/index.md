@@ -1,5 +1,5 @@
 ---
 title: documents
-layout: doc_tree
+layout: archive
 ---
 
