@@ -3,10 +3,14 @@
  <body>
    <h1>Boring Tranquility</h1>
     <p><a href="https://en.wikipedia.org/wiki/Daniel_Webster">"Liberty and Union, now and forever, one and inseparable!"</a></p>
-    <p>I am Ryan Casalino. I am a programmer. Somehow you have found my blog. I am currently on a roadtrip.
-    Checkout <a href="/el_camino_real">this document</a> for daily updates.</p>
+    <p>I am Ryan. I am a programmer based in Seattle, WA USA. This is my blog.</p>
     <hr>
-    {% for p in posts %}
-    <li><a href="/posts/{{p}}">{{p}}</a></li>
-    {% endfor %}
+    <div style="margin: 0 auto;">
+	    <small>posts</small>
+	    <ol>
+	    {% for p in posts|sort %}
+    		<li><a href="/posts/{{p}}">{{p}}</a></li>
+    	    {% endfor %}
+	    </ol>
+    </div>
 {% include '/partials/footer.html' %}
