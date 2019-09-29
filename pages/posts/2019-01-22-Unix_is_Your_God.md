@@ -3,7 +3,7 @@ layout: post
 title:  "Unix is Your God"
 ---
 
-Judge me? Don't you know that Unix is your God? It's so clear now. It seems like it shouldn't be so, but it is and that's just the way it is.
+Don't you know that Unix is your God? It's so clear now. It seems like it shouldn't be so, but it is and that's just the way it is.
 Now, now...do not cry...it's only the rhythm. It flows in one ear and right out the other.
 
 Programming is a blazing rush; more beautiful than the towering steel of Manhattan; more glorious than the American Revolution.

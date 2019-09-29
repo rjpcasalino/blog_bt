@@ -5,13 +5,9 @@ title: 'New Dark Age Highlights'
 
 I try to read as much I can. I have a Kindle that contains some of "my" books. Everything you highlight or take note of on the Kindle
 is sent to an Amazon server (probably in Virginia). I assume they then have some software query over it all in order to build a better
-consumer profile.
+consumer profile. 
 
-I thought it'd be fun to share each and every highlight and/or note I make in these digital books.
-
-The snippets should be read top down. The very first highlight is the first one I made in the book. I will denote if it's a note if it is.
-
-*New Dark Age highlights and notes*
+*New Dark Age highlights*
 
 - `immiserates`
 
@@ -45,7 +41,6 @@ The snippets should be read top down. The very first highlight is the first one 
 
 - `As in most proto-environmental claims, the proposed solutions are either appeals to regulation (taxing data), conservative regressions (banning pornography, or switching from colour to black-and-white photographs to save transmission costs) or hapless techno-fixes (like the miracle-material graphene) – all ludicrous, unworkable, and unable to think at the scale of the networks they seek to address.`
 
-- `it is nonlocal,` - ??
 
 - `Such histories give the lie to the heroic narrative of history – the lone genius toiling away to produce a unique insight.`
 

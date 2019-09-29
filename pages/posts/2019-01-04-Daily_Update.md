@@ -16,3 +16,6 @@ about an enduring sense of well being that supposedly once was. *National Review
 - U.S. Senators Patty Murray and Maria Cantwell; State Rep is Reuven Carlyle and 7th District is Pramila Jayapal. Know this. Learn this. Think local, act local.
 - [AOC](https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez) blasted for dancing in her youth. Curious to see what she actually does as a Representative. Can't discount someone before they try. God Bless her in her attempts to defund ICE. Might be worth watching her speak while playing [*Young Dumb & Broke [sic]*](https://www.youtube.com/watch?v=IPfJnp1guPc).
 - I fear my love affair with tech is cresting. I find myself reaching back while I know I should be far more aware of what I want to see in the future. Nostalgia is a powerful force. Our corporate masters know this better than anyone.
+
+*UPDATE: 09/29/2019*
+Well, that was a bust :)
