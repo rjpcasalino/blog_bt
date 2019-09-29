@@ -1,5 +1,0 @@
----
-title: documents
-layout: archive
----
-
