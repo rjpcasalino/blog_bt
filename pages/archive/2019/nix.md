@@ -1,16 +1,15 @@
 ---
-title: nix
+title: 'Nix: Getting Started'
 layout: post
 ---
 
-I moved off EC2 and back to bare metal. On an old Samsung 1TB drive from 2008 this HTML file sits. How fast the Nix addiction spreads! 
-I am running NixOS upon all my machines. Such are the actions of madmen! Well, that's not actually entirely true. I am not running Nix 
-on my desktop box. Its anointment will come later as I get more comfortable cruising on my ThinkPad. NixOS has been such a joy. Ease 
-of installation is a key indicator of a worthwhile distribution. Nix has that. I plopped down beside the makeshift workstation I had 
-assembled in my office and surfed the information superhighway to the NixOS manual: 
+** living doc **
 
-(Imagine, if you please, an American sitting on his home office sofa besides his cat.)
-If imagination is not your bag, you can always scope out the [image](static/asset/path).
+I moved off EC2 and back to bare metal. On an old Samsung 1TB drive from 2008 this HTML file sits. How fast the Nix addiction spreads! 
+I am running NixOS upon all my machines. Such are the actions of madmen! Well, that's not actually entirely true. Ease 
+of installation is a key indicator of a worthwhile distribution. Nix has that.
+
+(based off nix docs 06-07/2019
 
 ### Getting started
 
