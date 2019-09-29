@@ -8,8 +8,8 @@
     <div style="margin: 0 auto;">
 	    <small>posts</small>
 	    <ol>
-	    {% for p in posts|sort(reverse=True) %}
-    		<li><a href="/posts/{{p}}">{{p}}</a></li>
+	    {% for t, l in posts.items()|sort(reverse=True) %}
+    		<li><a href="/posts/{{l}}">{{t}}</a></li>
     	    {% endfor %}
 	    </ol>
     </div>
