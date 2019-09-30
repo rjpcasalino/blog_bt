@@ -18,3 +18,10 @@ layout: post
 - LEFT JOIN, INNER JOIN, OUTER JOIN (Venn diagrams galore!)
 
 - I've been thinking recently of writing a small cmd line utility with either C or Go.
+
+- *China’s Influence & American Interests: PROMOTING CONSTRUCTIVE VIGILANCE* [Larry Diamond](https://en.wikipedia.org/wiki/Larry_Diamond)
+
+> "Although it was beyond the scope of our work to document in detail the political trajectory of the People’s Republic of China, it is critical to understand  that  under  Communist  Party  general  secretary  Xi  Jinping  China has become increasingly authoritarian and marked by rising lev-els of ideological indoctrination and control; diminishing tolerance for dissent; new crackdowns on human-rights lawyers; an unprecedented new assault on the rights of the Uighur and other Muslim minorities; and the emergence of a new surveillance state set on compiling digital profiles of every Chinese citizen with a “social credit score” that will dou-ble as a political loyalty index determining access to a wide range of ser-vices  and  privileges  in  Chinese  life.  For  readers  of  this  report,  it  is  critical to remember that the PRC remains a Leninist regime in which the Communist Party not only reigns supreme over the state at home but also now presides over a vast and lavishly resourced bureaucracy to project global influence, through so-called “united front” ties, to will-ing or ill-informed constituencies around the world."
+
+- In UNIX use `pr` to print lines and `cat` to print concatenated contents
+
