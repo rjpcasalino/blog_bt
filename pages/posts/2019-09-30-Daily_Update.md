@@ -14,3 +14,7 @@ layout: post
 > "Yet the matriarchs of the orcas that frequent Puget Sound still remember the big winter chinook that used to thrive here. The fat, juicy fish are precious winter food for orcas at the southernmost end of their vast foraging range. The orcas, called southern residents for a reason, cruise all the way to California to feed on Central Valley salmon runs. L pod was off Monterey early this year. The oldest whale among all the southern residents, L25, born about 1928, led the way. She brought her whole family because her mother did before her, and her grandmother before that. In the southern resident pods, the matriarchs lead the search for food — particularly in times of scarcity. But was L pod chasing fish in California — or only L25’s memory of them? The fish have become so scarce, it is hard to know if the whales got any nourishment."
 
 - hmmm, seems I need to learn more markdown syntax to get the desired effect (quoting and paragraphs) 
+
+- LEFT JOIN, INNER JOIN, OUTER JOIN (Venn diagrams galore!)
+
+- I've been thinking recently of writing a small cmd line utility with either C or Go.
