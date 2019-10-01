@@ -3,6 +3,8 @@ title: 'Daily Update'
 layout: post
 ---
 
+Today is China's National Day. Free Hong Kong, you dumb son of a bitch. 
+
 - [Hong Kong Protester Is Shot By Police As Clashes Over Democracy Take A Dark Turn](https://www.npr.org/2019/10/01/765971927/hong-kong-protester-reportedly-shot-by-police-during-mass-demonstrations)
 
 Meanwhile we are snarled in impeachment intrigue.
@@ -50,3 +52,9 @@ func TestStatusRoute(t *testing.T) {
 }
 
 ```
+
+Harvard does not discriminate against Asian-Americans!
+
+I must make a default.nix for a work repo...but I am so lazy. So very lazy. "Informed by data..."
+
+Slump in manufacturing worries global markets. So, what's new?
