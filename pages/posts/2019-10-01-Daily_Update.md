@@ -58,3 +58,5 @@ Harvard does not discriminate against Asian-Americans!
 I must make a default.nix for a work repo...but I am so lazy. So very lazy. "Informed by data..."
 
 Slump in manufacturing worries global markets. So, what's new?
+
+- [Mary Abbott is dead](https://www.nytimes.com/2019/10/01/arts/design/mary-abbott-dead.html?action=click&module=Well&pgtype=Homepage&section=Obituaries)
