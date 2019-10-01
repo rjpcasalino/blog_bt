@@ -17,4 +17,8 @@ Meanwhile we are snarled in impeachment intrigue.
 
 Cold War II, folks. 
 
+Ordered a System76 branded nuc yesterday. Fairly excited to put NixOS on that bad boy.
 
+- [Joining Apple Computer:Bill Atkinson](https://www.folklore.org/StoryView.py?project=Macintosh&story=Joining_Apple_Computer&sortOrder=Sort+by+Date)
+
+>"Inspired by a mind-expanding LSD journey in 1985, I designed the HyperCard authoring system that enabled non-programmers to make their own interactive media. HyperCard used a metaphor of stacks of cards containing graphics, text, buttons, and links that could take you to another card. The HyperTalk scripting language implemented by Dan Winkler was a gentle introduction to event-based programming. Steve Jobs wanted me to leave Apple and join him at Next, but I chose to stay with Apple to finish HyperCard. Apple published HyperCard in 1987, six years before Mosaic, the first web browser."
