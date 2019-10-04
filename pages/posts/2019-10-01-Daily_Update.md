@@ -60,3 +60,5 @@ I must make a default.nix for a work repo...but I am so lazy. So very lazy. "Inf
 Slump in manufacturing worries global markets. So, what's new?
 
 - [Mary Abbott is dead](https://www.nytimes.com/2019/10/01/arts/design/mary-abbott-dead.html?action=click&module=Well&pgtype=Homepage&section=Obituaries)
+
+- [311's Nick Hexum & George Clanton Evoke 'The Ultimate Nostalgic Experience'](https://www.billboard.com/articles/news/8531401/311-nick-hexum-george-clanton-collab-two-singles)
