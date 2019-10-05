@@ -14,9 +14,9 @@ What are moments of love? How would you describe them if some child were to ask?
 
 I think I would say something like this:
 
-> When the mere sound of someone's laughter makes one recall all that is good and decent in life / in an onrush from the rearguard all the memories of youth.
+> When the mere sound of someone's laughter makes one recall all that is good and decent in life. This recollection is an onrush from the rearguard all the memories of youth.
 
-I had such a moment the other day, Anna. You mean so much to me. Without you days are aimless and the world is a bit more tame, less wild - to its detriment. Without your laughter, without your keen insight there isn't much worth anything. I've gotten everything I've ever wanted with you. And I know, from living with you, that something one wants is something one *needs*. O, I love you. I hope this an okay medium of reaching you. It's cheesy, I know.
+I had such a moment the other day, Anna. You mean so much to me. Without you days are aimless and the world is less wild - to its detriment. Without your laughter, without your keen insight...without these there isn't much worth anything. I've gotten everything I've ever wanted with you. And I know, from living with you, that something one wants is something one *needs*. O, I love you. I hope this an okay medium of reaching you. It's cheesy, I know, but...
 
 <marquee>la de da...</marquee>
 
