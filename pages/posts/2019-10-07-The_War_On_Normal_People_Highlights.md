@@ -29,7 +29,7 @@ I read Andrew Yang's *The War on Normal People: The Truth About America's Disapp
 
 > "The fund for disability insurance recently ran out and was combined with the greater Social Security fund, which is itself scheduled to run out of money in 2034."
 
-> 'inferior good'—the poorer you are, the more of it you consume.
+> 'inferior good'—the poorer you are, the more of it you consume."
 
 > "Sam Altman, the head of the technology firm Y Combinator, is giving 100 households in Oakland approximately $1,000 to $2,000 per month for about a year to measure the impacts on recipients. The goal is to roll out a larger five-year trial afterward."
 
