@@ -2,7 +2,7 @@
 title: 'The Gulf War Is It Taking Place? or The Gulf War Did Not Take Place by Jean Buadrillard'
 layout: post
 ---
-
+![gulf war](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimgc.allpostersimages.com%2Fimages%2FP-473-488-90%2F65%2F6536%2F4JC4100Z%2Fposters%2Fjohn-gaps-iii-kuwait-gulf-war.jpg&f=1&nofb=1)
 
 Jean Baudrillard is a recent influence; his secreted symposiums mark (*wet*) many a bush of my mind.
 
