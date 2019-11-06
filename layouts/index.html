@@ -10,7 +10,7 @@
 	    <small>posts</small>
 	    <ol>
 	    {% for t, l in posts.items()|sort(reverse=True) %}
-    		<li><a href="/posts/{{l}}">{{t}}</a></li>
+    		<li><a href="/posts/{{l}}">{{t|replace("-", " ")|replace("_", " ")}}</a></li>
     	    {% endfor %}
 	    </ol>
     </div>
