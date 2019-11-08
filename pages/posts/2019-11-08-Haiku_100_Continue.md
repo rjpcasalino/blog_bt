@@ -1,3 +1,3 @@
 100 Continue OK
-Dance through fibers wire just us
+Dance through fiber wire just us
 Further 200 Awaits  
