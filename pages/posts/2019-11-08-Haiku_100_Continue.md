@@ -1,5 +1,6 @@
 ---
 title: '100 Continue Haiku'
+layout: post
 ---
 
 100 Continue OK
