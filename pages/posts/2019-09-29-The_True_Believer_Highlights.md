@@ -37,4 +37,3 @@ This was 1951.
 
 > The slaveholders of the South became the more aggressive in spreading their way of life the more it became patent that their position was untenable in a modern world.
 
-I thought a lot about Trump while reading this on and off through the months. Probably more so these last few days. Of course Hitler and Stalin and Nero et al are mentioned numerous times. I do not think that Trump is Hitler. That's a sophomoric blip of a thought. Bush wasn't Hitler, folks. There are moments in my day when I will resolve that I will only read black writers in a given month. This Kanye Sunday Service stuff is very very scary. But, `la-di-da` as Annie Hall would say. I think it is something I probably will do...at some point.
