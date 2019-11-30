@@ -5,8 +5,6 @@ layout: post
 
 *A living document of notes related to tech*
 
---11/29/19--
-
 - `pgrep` is a useful tool for finding a process in Unix-like systems (i.e., Linux)
 	- `pgrep -l firefox` will print the PID as well as the process name
 - `kill -9 <PID>` force kill a process 
@@ -15,3 +13,4 @@ layout: post
 	- > An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;) . Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.  
 - Better understanding of [GnuPG](https://gnupg.org/faq/gnupg-faq.html) is probably a prerequisite for any programmer approaching the five year mark.
 - Read up on [Varnish](https://varnish-cache.org/docs/6.3/index.html) 
+- `rfkill` - tool for enabling and disabling wireless devices; sometimes my bluetooth controller will tell me there is no default controller found or whatever error it decides to spit out. `rfkill` can sometimes help with those issues. I will need to read up on the diff between soft and hard blocks.
