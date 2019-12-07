@@ -3,11 +3,11 @@ title: 'Arch: Getting Started'
 layout: post
 ---
 
-# Before
+## Before
 
-Validate the install ISO! I think I do this half-way so my install might have some Chinese malware maybe? I downloaded from a server that purported to be in Arizona.
+Validate the install ISO! I think I did this half-way so my install might have some Chinese malware maybe? I downloaded from a server that purported to be in Arizona.
 
-# After
+## After
 
 Having installed Arch a few times and never having as simple/joyful a time as I would like I made this. 
 
