@@ -14,3 +14,4 @@ layout: post
 - Better understanding of [GnuPG](https://gnupg.org/faq/gnupg-faq.html) is probably a prerequisite for any programmer approaching the five year mark.
 - Read up on [Varnish](https://varnish-cache.org/docs/6.3/index.html) 
 - `rfkill` - tool for enabling and disabling wireless devices; sometimes my bluetooth controller will tell me there is no default controller found or whatever error it decides to spit out. `rfkill` can sometimes help with those issues. I will need to read up on the diff between soft and hard blocks.
+- `setlocal` in `.vimrc`: [stackexchange answer](https://vi.stackexchange.com/questions/14605/differences-between-local-global)
