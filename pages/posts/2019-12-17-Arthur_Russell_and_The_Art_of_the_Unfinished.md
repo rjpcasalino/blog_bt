@@ -9,7 +9,7 @@ I find myself continually stumbling into the unfinished: unfinished blog posts, 
 
 ### https://man.sr.ht/installation.md
 
-I'm a big fan of [source hut](https://git.sr.ht/) and support it's goals.[2] That being said, I thought it high to time actually use it locally before starting to hack on it. Last night I started the process of installing the man.sr.ht package on Arch.
+I'm a big fan of [source hut](https://git.sr.ht/) and support it's goals.[2] That being said, I thought it high time to actually use it locally before starting to hack on it. Last night I started the process of installing the man.sr.ht package on Arch.
 
 #### things you might need...
 - [srht-keygen](https://git.sr.ht/~sircmpwn/core.sr.ht/blob/master/srht-keygen)
