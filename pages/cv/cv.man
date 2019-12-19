@@ -9,23 +9,7 @@ ryan@boringtranquility.io
 .B P:
 +1917.282.7506
 .SH SYNOPSIS
-I'm a programmer based in Seattle, WA. I'm largely self-taught with an unorthodox educational background. Coupled with a respect for the humanities I am strong believer in the electron and the switch. I love to learn and I am looking for opportunities that will foster my professional growth. I'm excited to learn new technologies and strive to keep abreast of trends and best practices. I have much experience writing web APIs in 
-.B Go,
-.B Ruby, 
-and
-.B Python. 
-I've worked with a large number of frameworks including but not limited to
-.B Rails,
-.B Flask,
-and
-.B Hapi\[char46] 
-I dive into
-.B Secure Shells
-daily and I host my website on a server in my home using 
-.B nginx
-and
-.B NixOS\[char46]
-I've worked with a wide range of individuals from various backgrounds.
+I'm a programmer based in Seattle, WA. I'm largely self-taught with an unorthodox educational background. I'm had experience building server-side web applications such as Rails and Django. I've also had a hand in building RESTful API backend message systems expressed in JSON. Lastly, I've written dynamic web sites using JavaScript. I have a passion for learning and I am looking for opportunities that will foster my professional growth.
 .SH TECHNICAL SKILLS
 Programming languages I know:
 .IP \[bu] 2
@@ -43,22 +27,30 @@ Programming languages I know:
 \# glossary-style list 
 .SS Tools Experience:
 .PP
+Databases (
 .IR MySQL, 
 .IR PostgreSQL, 
-.IR AWS 
-(EC2, S3, SNS, et al),
-.IR Heroku,
-.IR Bash,
-.IR Unix, 
+.IR MongoDB,
+)
+Cloud Providers (
+.IR AWS, 
+.IR Heroku
+),
+Operating Systems (
 .IR Linux,
+.IR macOS,
+.IR Windows
+),
+Virtualization (
 .IR Docker,
+.IR minikube,
+.IR VirtualBox
+),
+web servers (
 .IR nginx,
-and
 \# char46 is a dot
-.IR Apache\[char46]
-This CV was produced using
-.IR groff\[char46]
-.PP
+.IR Apache
+)\[char46]
 My daily editor is
 .IR vim,
 my go-to OS is
@@ -76,7 +68,7 @@ Employment History
 =
 Company:Role:Duration 
 _
-React Mobile:Software Programmer:Jan 2019 - Current
+React Mobile:Software Programmer:Jan 2019 - Nov 2019 (Contract)
 _
 GawkBox:Software Programmer:Aug 2017 - Jan 2019
 _
@@ -84,41 +76,10 @@ Merchant-e Solutions:Software Developer:Nov 2016 - Jul 2017
 _
 Liaison Technologies:Software Developer:Oct 2015 - Nov 2016
 _
-Crescent City Schools:Operations and Technology Coordinator:Oct 2013 - Jul 2015
-_
-Kickboard For Teachers:Customer Success Associate:May 2013 - Oct 2013
+Crescent City Schools:Operations & Technology Coordinator:Oct 2013 - Jul 2015
 _
 American Apparel:IT Coordinator:Aug 2011 - May 2013
-_
-NBC News:Broadcast Intern:Summer 2010
 .TE
-.SH DUTIES AND RESPONSIBILITIES
-.SS Liaison Technologies
-.PP 
-Liaison Technologies provided information technology solutions; offering cloud computing, data management, security, and hybrid integration services to manufacturing, energy and chemicals, insurance, and communication sectors. 
-.IP \[bu] 2
-Collaborated with various parties on data visualization web applications written using Angular and NoSQL. Engaged in code reviews and deployment processes.
-.SS Merchant-E Solutions
-.PP 
-Merchant e-Solutions helps merchants accept payments anywhere and easily manage all on one platform.
-.IP \[bu] 2
-Worked with various teammates in an effort to replace an older Java based application with a Node based web application. 
-.IP \[bu]
-Wrote unit tests and worked with QA team to better manage their resources. 
-.SS GawkBox
-.PP
-GawkBox helped online streamers monetize their channels on a variety of platforms. 
-.IP \[bu] 2
-Wrote (using Go) and maintained a back end RESTful API. 
-.IP \[bu]
-Wrote a Single Page Application using Vue.js. Performed critical maintenance on a variety of micro services.
-.SS React Mobile
-.PP
-React Mobile provides panic button solutions for the hospitality industry. 
-.IP \[bu] 2
-Maintained a legacy Rails application and wrote micro services using Go and a variety of AWS tools. 
-.IP \[bu]
-Maintained an Electron app written using jQuery.
 .SH LINKS
 .IP \[bu] 2
 sourcehut (https://git.sr.ht/~rjpcasalino/)
