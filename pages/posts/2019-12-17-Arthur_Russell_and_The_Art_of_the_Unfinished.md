@@ -66,7 +66,7 @@ Further down the line you'd want to configure the rest of the services and secur
 
 ### The Shockwave Rider
 
-I felt compelled to quickly write down my thoughts on John Brunner's *The Shochwave Rider* after having just completed it. I am looking to do a very Kerouac session which Truman Capote called "typing". <span>&mdash;</span> and look here I just had to go and verify all that information in the sentence prior. Three weeks on and off has to mean it was hard to revisit? But why? Maybe it has more reverence for the wrong reasons. Think back now, where did you read about it initially? <span>&mdash;</span>: The Unix Historical Society mailing list (how many flies on the wall there?) i.e., a bunch of old *white* man. ...but, god damn, *hippes* too. I dread saying it but "Thank God" for the hippies. At least, sometimes. 
+I felt compelled to quickly write down my thoughts on John Brunner's *The Shochwave Rider* after having just completed it. I am looking to do a very Kerouac session which Truman Capote called "typing". <span>&mdash;</span> and look here I just had to go and verify all that information in the sentence prior. Three weeks on and off has to mean it was hard to revisit? But why? Maybe it has more reverence for the wrong reasons. Think back now, where did you read about it initially? <span>&mdash;</span>: The Unix Historical Society mailing list (how many flies on the wall there?) i.e., a bunch of old *white* men. ...but, god damn, *hippes* too. I dread saying it but "Thank God" for the hippies. At least, sometimes. 
 
 What a wonderful tapestry this novel weaves! Here they all are gathered together for a common good, for what is Precipice CA if not this future of the USA? The town is Brunner's utopia. 
 
