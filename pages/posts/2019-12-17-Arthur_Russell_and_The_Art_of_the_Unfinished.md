@@ -72,9 +72,6 @@ What a wonderful tapestry this novel weaves! Here they all are gathered together
 
 Some master "hacker" can unite all the aging intellectuals (dope smokers, no doubt...) of the world in this fantasy sci-fi. Nick, our hero, has been tortured and interrogated his entire life by his government facilitators at Tarnover. Brunner's fervent fantasies are scattered before us albeit with different names and phrases: `data-net` in 1975 (ARPANET came to us six years prior) is the Web now in 2019, tapeworms are the browser extensions of 2019, veephones <span>&mdash;</span> guess. This romp has all the cockamamie terms and phrases hazers will love. The capstone of thing is the Federal Government is now run my the mafia. RICO Act be damned! Are not gangsters and morons operating at the highest echelons of power now? Is it as in Hackers (1995) when someone said something like, "they are controlling the flow of information; they are corrupting data". All before us was created by the U.S. Department of Defense. Do warmongers still seek to sicken the airwaves? War never changes. 
 
-It is as if on a wire trip reading *The Shockwave Rider*. A wire trip: some nostalgia infused ride with a predetermined tryst. We always end up at the same place regardless of hard we shallow the "pills of joy". O, pills of joy! release me from the grip of insanity and longing. When will the next chapter begin? I hate the question mark("?") <span>&mdash;</span> it's truly a horrid little thing; ugly in the extreme.
-
-
 <hr>
 <ul>
 <li id="fn:1">[1] https://en.wikipedia.org/wiki/Arthur_Russell_(musician)</li>
