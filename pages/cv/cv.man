@@ -9,7 +9,7 @@ ryan@boringtranquility.io
 .B P:
 +1917.282.7506
 .SH SYNOPSIS
-I'm a programmer based in Seattle, WA. I'm largely self-taught with an unorthodox educational background. I'm had experience building server-side web applications such as Rails and Django. I've also had a hand in building RESTful API backend message systems expressed in JSON. Lastly, I've written dynamic web sites using JavaScript. I have a passion for learning and I am looking for opportunities that will foster my professional growth.
+I'm a programmer based in Seattle, WA. I'm largely self-taught with an unorthodox educational background. I've had experience building server-side web applications such as Rails and Django. I've also had a hand in building RESTful API backend message systems expressed in JSON. And I've written dynamic web sites using JavaScript. I have a passion for learning and I am looking for opportunities that will foster my professional growth.
 .SH TECHNICAL SKILLS
 Programming languages I know:
 .IP \[bu] 2
@@ -37,6 +37,7 @@ Cloud Providers (
 .IR Heroku
 ),
 Operating Systems (
+.IR FreeBSD,
 .IR Linux,
 .IR macOS,
 .IR Windows
