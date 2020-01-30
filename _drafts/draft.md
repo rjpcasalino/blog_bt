@@ -1,9 +1,7 @@
 ---
-title: 'C Things'
+title: 'C Things Part II'
 layout: post
 ---
-
-Yes, I worked very hard thinking of the title to this post.
 
 I'd like to quote K&R today (as we are taking a step back from SI204):
 
@@ -25,7 +23,7 @@ int power(int base, int n)
 }
 ```
 
-I have added the brackets because I come from JavaScript (forgive me!) and for me, `{}` offer reabaility.
+I have added the brackets because I come from JavaScript (forgive me!) and for me `{}` offers readability.
 
 Whatever is done to n inside power has no effect on the argument power was called with! Very nice. 
 
@@ -63,7 +61,7 @@ int main() {
 ```
 This does not work the same for arrays, however. When an array is used as an argument to a function, the value passed is the location or address if the beginning of said array.
 
-Outline for proragm to print longest text line:
+Outline for program to print longest text line:
 
 ```
 while (*there's another line*)
