@@ -3,7 +3,7 @@ title: 'Dark Age Ahead'
 layout: post
 ---
 
-I haven't seen the sun is many days. How is it that people live and are happy in the Pacific Northwest? It is true that once the sky does show itself and the sun is present you are able to make out the ring of the Cascades. That is a wonderful sight. 
+I haven't seen the sun in many days. How is it that people live and are happy in the Pacific Northwest? It is true that once the sky does show itself and the sun is present you are able to make out the ring of the Cascades. That is a wonderful sight. 
 
 I've been reading "Dark Age Ahead" by Jane Jacobs. She is famous for having written "The Death and Life of Great American Cities" which I read in my youth. "
 
