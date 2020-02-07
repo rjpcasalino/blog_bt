@@ -3,11 +3,11 @@ title: 'Dark Age Ahead'
 layout: post
 ---
 
-I haven't seen the sun in many days. How is it that people live and are happy in the Pacific Northwest? It is true that once the sky does show itself and the sun is present you are able to make out the ring of the Cascades. That is a wonderful sight. 
+I haven't seen the sun in many days. How is it that people live and are happy in the Pacific Northwest? When will the Cascades surrender to sight? 
 
-I've been reading "Dark Age Ahead" by Jane Jacobs. She is famous for having written "The Death and Life of Great American Cities" which I read in my youth. "
+I've been reading "Dark Age Ahead" by Jane Jacobs. She is famous for "The Death and Life of Great American Cities".
 
-Perhaps not the best book to be reading during this wonderful winter of discontent. The President was acquitted of the charges of abuse of power and obstruction of Congress. The virus continues its relentless spread. And here I am thinking of the useless. Here's a reminder that `rsync` should get involved at some junction point wherein it is needed? 
+Perhaps not the best book to be reading during this woeful winter of discontent. The President was acquitted of the charges of abuse of power and obstruction of Congress. The virus continues its relentless spread. And here I am thinking of the useless. 
 
 ```
 Study the teachings of the pine tree, the bamboo, and the plum blossom. The pine is evergreen, firmly rooted, and venerable. The bamboo is strong, resilient, unbreakable. The plum blossom is hardy, fragrant, and elegant.
@@ -39,9 +39,9 @@ Here's a bit that jumped out at me. The routes of current policy hark back to th
 
 > repeated rejection, with its burden of shame and failure.
 
-We've become, as a nation, so obsessed with staving off mass unemployment. We've collectively, according to Jacobs, decided that we must never again experience the likes of another Great Depression and that we will all do what we must to ensure our current victory. 
+We've become, as a nation, so obsessed with staving off mass unemployment. We've collectively, according to Jacobs, decided that we must never again experience another Great Depression and that we will all do what we must to ensure the current victory. 
 
-Although I can turn the pages I lack compulsion to underline or take any "real" note of some passage. They flow, they are forgotten. Yes, I am typing out passages that grab me now but even those are bland. Tasteless with a pitch of salt. There's that Jacobs kick in there but it's lacking in forward motion. 
+Although I can turn the pages I lack compulsion to underline or take any "notes in the margins". The pages flow and are forgotten. Yes, I am typing out passages that grab me NOW but even those are bland. Tasteless with a pitch of salt. There's that Jacobs kick but it's lacking in forward motion. 
 
 It's a scant book that is easy to digest and recover from. 
 
