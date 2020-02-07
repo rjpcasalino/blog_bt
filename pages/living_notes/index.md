@@ -15,3 +15,5 @@ layout: post
 - Read up on [Varnish](https://varnish-cache.org/docs/6.3/index.html) 
 - `rfkill` - tool for enabling and disabling wireless devices; sometimes my bluetooth controller will tell me there is no default controller found or whatever error it decides to spit out. `rfkill` can sometimes help with those issues. I will need to read up on the diff between soft and hard blocks.
 - `setlocal` in `.vimrc`: [stackexchange answer](https://vi.stackexchange.com/questions/14605/differences-between-local-global)
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is pretty amazing.
+	- [grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) seem particularly fun.
