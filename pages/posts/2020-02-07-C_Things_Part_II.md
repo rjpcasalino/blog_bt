@@ -60,10 +60,9 @@ int main() {
 }
 ```
 
-This does not work the same for arrays, however. When an array is used as an argument to a function, the value passed is the location or address if the beginning of said array.
+This does not work the same for arrays, however. When an array is used as an argument to a function, the value passed is the location or address of the beginning of said array.
 
-Outline for program to print longest text line:
-
+Disect a problem into parts:
 
 ```
 while (*there's another line*)
@@ -98,9 +97,6 @@ An aside here to further clarify K&R. K&R is a style. It is also known as C78, f
      GNU C as a system compiler, but those addition in GNU C should not be
      considered as standard features.
 
-Anyway, that answers my question on C99 and FreeBSD
-
-SI204 has veered into discussion on `pointers` and `dereferancing`.
 
 Here is an interlude from Master Ueshiba:
 
@@ -113,6 +109,8 @@ Here is an interlude from Master Ueshiba:
 > You will never understand
 
 > The Art of Peace.
+
+Mix style here:
 
 ```
 #include <stdio.h>
@@ -174,3 +172,5 @@ void copy(char to[], char from[]) {
 	}
 }
 ```
+
+I think one of the many elegances of C resides in its treatment of characters. Reading the `copy` function highlights that. 
