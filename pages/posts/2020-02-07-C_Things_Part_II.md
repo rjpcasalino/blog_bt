@@ -62,7 +62,7 @@ int main() {
 
 This does not work the same for arrays, however. When an array is used as an argument to a function, the value passed is the location or address of the beginning of said array.
 
-Disect a problem into parts:
+Dissect a problem into parts:
 
 ```
 while (*there's another line*)
