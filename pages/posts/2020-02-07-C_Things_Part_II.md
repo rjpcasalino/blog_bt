@@ -10,7 +10,7 @@ I'd like to quote K&R today (as we are taking a step back from SI204):
 Here's an example (from K&R):
 
 ```
-/* power: rause base to n-th power; n>=0; version 2 */
+/* power: raise base to n-th power; n>=0; version 2 */
 
 int power(int base, int n)
 {
@@ -113,3 +113,64 @@ Here is an interlude from Master Ueshiba:
 > You will never understand
 
 > The Art of Peace.
+
+```
+#include <stdio.h>
+
+#define MAXLINE  1000 	/* maximum input line size */
+
+int grabline(char line[], int maxline);
+void copy(char to[], char from[]);
+
+/* print the longest line */
+// what should main do if line is bigger than limit?
+int main() {
+	int len;
+	int max;
+	char line[MAXLINE];
+	char longest[MAXLINE];
+
+	max = 0;
+	// grab line returns an int 
+	while((len = grabline(line, MAXLINE)) > 0) {
+		if (len > max) {
+			if (len > 80)
+				printf("more than 80: %s\n", line);
+			max = len;
+			copy(longest, line);
+		}
+	}
+	/* there was a line */
+	if (max > 0) {
+		printf("Max: %i\n", max);
+		printf("This is longest: %s\n", longest);
+	}
+	return 0;
+}
+
+int grabline(char s[], int lim) {
+	int c, i;
+
+	for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i) {
+		s[i] = c;
+	}
+	/* newline new char */
+	if (c == '\n') {
+		s[i] = c;
+		++i;
+	}
+	/* denote the end of the array */
+	s[i] = '\0';
+	return i;
+}
+
+void copy(char to[], char from[]) {
+	int i;
+
+	i = 0;
+	/* recall: end of the array in C is always `'\0'` */
+	while ((to[i] = from[i]) != '\0') {
+		++i;
+	}
+}
+```
