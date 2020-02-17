@@ -97,7 +97,7 @@ Wrote extensive documentation for both external and internal tools and applicati
 .B "Atlanta, GA"
 .br
 .I
-Software Engineer: Nov 2016 - Aug 2017
+Software Engineer: Jan 2017 - Aug 2017
 .R
 .RS
 .IP -
@@ -112,7 +112,7 @@ Mentored and assisted developers writing an Angular front-end for internal data 
 .B "Atlanta, GA"
 .br
 .I
-Web Developer: Nov 2016 - Aug 2017
+Web Developer: Nov 2016 - Jan 2017
 .R
 .RS
 .IP -
