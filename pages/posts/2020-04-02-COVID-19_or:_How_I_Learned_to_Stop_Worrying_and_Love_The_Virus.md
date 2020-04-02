@@ -42,9 +42,33 @@ df.descfribe()
 
 >>> number_of_cases_by_state = df[["state", "cases"]]
 
-# get the goods:
+# maybe this?
 
 >>> number_of_cases_by_state.query('state == "Washington"').groupby("state").max()
+
+# aha!
+>>> number_of_cases_by_state.query('state == "Washington"').groupby("state").max().to_json()
+'{"cases":{"Washington":5588}}'
+
+# go deeper now...
+
+pip install urllib3
+
+>>> import urllib3
+
+>>> http = urllib3.PoolManager()
+
+>>> r = http.request('GET', 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+
+>>> r.status
+200
+
+>>> df = read_csv(str(r.data))
+
+>>> df.cases.max()
+
+### as of 4/1 @ 9PST
+83889
 ```
 
 
