@@ -27,9 +27,8 @@ df.cases.max()
 
 df.deaths.max()
 
-df.descfribe()
+df.describe()
 
-# ... bunch of stuff...
 # make it nice:
 
 >>> print(f"{df.describe().__doc__}")
@@ -44,10 +43,10 @@ df.descfribe()
 
 # maybe this?
 
->>> number_of_cases_by_state.query('state == "Washington"').groupby("state").max()
+>>> number_of_cases_by_state.query("state == 'Washington'").groupby("state").max()
 
 # aha!
->>> number_of_cases_by_state.query('state == "Washington"').groupby("state").max().to_json()
+>>> number_of_cases_by_state.query("state == 'Washington'").groupby("state").max().to_json()
 '{"cases":{"Washington":5588}}'
 
 # go deeper now...
@@ -58,16 +57,17 @@ pip install urllib3
 
 >>> http = urllib3.PoolManager()
 
->>> r = http.request('GET', 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+>>> r = http.request("GET", "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 
 >>> r.status
+
 200
 
 >>> df = read_csv(str(r.data))
 
 >>> df.cases.max()
 
-### as of 4/1 @ 9PST
+### as of 4/1 @ 9AMPST
 83889
 ```
 
