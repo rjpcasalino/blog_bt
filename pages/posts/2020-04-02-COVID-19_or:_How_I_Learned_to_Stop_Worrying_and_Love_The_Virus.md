@@ -72,13 +72,15 @@ pip install urllib3
 83889
 ```
 
+### wget, sed, awk
+
 It appears the Times doesn't update the csv with the current day's stats until the next day. That is somewhat annoying. Anyway, I wrote a small bash script to query the csv by date (rudimentary):
 
 ```
 #!/usr/bin/env bash
 
 if [ -z "$1" ]; then
-        printf "Please supply a date range!\n (e.g., 2 days ago");
+        printf "Please supply a date range!\n (e.g., 2 days ago)";
         exit 1;
 fi;
 
@@ -88,16 +90,18 @@ awk -v time=$frame -F, '$1 == time { deaths[$2] += $5 }
 END      { for (name in deaths) print name, deaths[name] }'
 ```
 
-`awk` is quite the powerful little tool. Combine this with `sed` and you can get the results rather painlessly. `-v` allows for environment vars and `-F,` the separator is a comma. Otherwise `awk` defaults to blank spaces or tabs, I can't recall. Maybe both? 
+`awk` is quite the powerful little tool. Combine this with `sed` and you can get the results rather painlessly. `-v` allows for environment vars and `-F,` denotes that the separator is a comma. Otherwise `awk` defaults to blank spaces.
 
 I wonder if there is a better way to get `sed` to "know" how many lines are within a given file. In any case, I just did this:
 
 ```
-sed `lc < us-states.csv`q
+sed `wc -l < us-states.csv`q
 ```
-the `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. 
+aside: psst, I had forgotten that I wrapped `wc -l $*` into a cmd named `lc` and that was confusing for a bit.
 
-Let's tie in wget and cron and we can really get going:
+the `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. The reason for the `<` is to disregard the file name in the output. Why that works, I don't really know but I think I'd better wise up.
+
+Moving on, let's tie in wget, awk, and cron. Then we can really get going:
 
 ```
 #!/usr/bin/env bash
@@ -109,9 +113,13 @@ $ Teaxs
 	cases: 8115
 	deaths: 160
 ...
+
+crontab -e
+
+*/30 * * * * bash /home/you/fetch-nytimes-covid-19-csv.sh
  
 ```
 
 `-q` do it quietly and save it (`-O`) to a file named `data.csv` or whatever works best for you.
 
-this will dump to stdout. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? Need to source more "real-time" data. 
+this will dump to stdout. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? The world is my oyster. 
