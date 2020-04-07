@@ -1,5 +1,5 @@
 ---
-title: 'Using Pandas to Parse COVID-19 Data or: How I Learned to Stop Worrying and Love the Virus'
+title: 'Using Pandas or wget, sed, and awk to Parse COVID-19 Data or: How I Learned to Stop Worrying and Love the Virus'
 layout: post
 ---
 
@@ -67,7 +67,8 @@ pip install urllib3
 
 >>> df.cases.max()
 
-### as of 4/1 @ 9AMPST
+### as of 4/1 @ 9AM PST
+
 83889
 ```
 
@@ -87,7 +88,7 @@ awk -v time=$frame -F, '$1 == time { deaths[$2] += $5 }
 END      { for (name in deaths) print name, deaths[name] }'
 ```
 
-`awk` is quite the powerful little tool. Combine this with `sed` and you can get the results rather painlessly. `-v` allows for env_vars and `-F,` the separator is a comma. Otherwise `awk` defaults to blank spaces or tabs, I can't recall. Maybe both? 
+`awk` is quite the powerful little tool. Combine this with `sed` and you can get the results rather painlessly. `-v` allows for environment vars and `-F,` the separator is a comma. Otherwise `awk` defaults to blank spaces or tabs, I can't recall. Maybe both? 
 
 I wonder if there is a better way to get `sed` to "know" how many lines are within a given file. In any case, I just did this:
 
@@ -95,3 +96,22 @@ I wonder if there is a better way to get `sed` to "know" how many lines are with
 sed `lc < us-states.csv`q
 ```
 the `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. 
+
+Let's tie in wget and cron and we can really get going:
+
+```
+#!/usr/bin/env bash
+wget -q -O data.csv "http://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
+
+sed `wc -l < data.csv`q data.csv | awk -v date=$(date --date="yesterday" +%F), -F, '$1 == date { printf("%s\n\t cases: %d\n\t deaths: %d\n", $2, $4, %5) }' > /dev/tty1
+
+$ Teaxs
+	cases: 8115
+	deaths: 160
+...
+ 
+```
+
+`-q` do it quietly and save it (`-O`) to a file named `data.csv` or whatever works best for you.
+
+this will dump to stdout. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? Need to source more "real-time" data. 
