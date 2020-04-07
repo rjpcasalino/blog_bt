@@ -71,4 +71,27 @@ pip install urllib3
 83889
 ```
 
+It appears the Times doesn't update the csv with the current days stats until the next day. I wrote a small bash script to query the csv by date (rudimentary):
 
+```
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+        printf "Please supply a date!\n";
+        exit 1;
+fi;
+
+frame=`date --date="$1" +%F`
+
+awk -v time=$frame -F, '$1 == time { deaths[$2] += $5 }
+END      { for (name in deaths) print name, deaths[name]}'
+```
+
+`awk` is quite the powerful little tool. Combine this with `sed` and you can get the results rather painlessly.
+
+I wonder if there is a better way to get `sed` to "know" how many lines are within a given file. In any case, I just did this:
+
+```
+sed `lc < us-states.csv`q
+```
+the `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. 
