@@ -123,7 +123,7 @@ $ crontab -e
  
 ```
 
-`-q` flag means do this quietly, please and save it (`-O`) to a file named `data.csv`.
+`-q` flag means do this quietly, please and then save it (`-O`) to a file named `data.csv`.
 
 This will dump to STDOUT. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? The world is my oyster. 
 
