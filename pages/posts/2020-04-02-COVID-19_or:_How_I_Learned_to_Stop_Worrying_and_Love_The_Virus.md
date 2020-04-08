@@ -137,3 +137,13 @@ $ dpkg-reconfigure tzdata
 
 Pick "other" and UTC will be listed amongst the numerous options before your eyes.
 
+
+Now comes the fun part:
+
+```
+#!/usr/bin/env bash
+wget -q -O data.csv "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$(date --date="yesterday" +%m-%d-%Y).csv"
+
+sed `wc -l < data.csv`q data.csv |LC_ALL=en_US.UTF-8 awk -v updated='2020-04-07 23:00:00' -F, '$5 > updated { deaths[$3] += $9; confirmed[$3] += $8 } 
+END { for (name in deaths) printf("%s\n Cases: %'"'"'d\n Deaths: %'"'"'d\n", name, confirmed[name], deaths[name]) }' > output
+```
