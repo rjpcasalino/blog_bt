@@ -72,7 +72,7 @@ pip install urllib3
 83889
 ```
 
-### wget, sed, awk (Into the Belly of the Beast)
+#### wget, sed, awk (Into the Belly of the Beast)
 
 It appears the Times doesn't update the csv with the current day's stats until the next day. That is somewhat annoying. Anyway, I wrote a small bash script to query the csv by date (rudimentary):
 
@@ -122,7 +122,7 @@ $ Texas
 
 `-q` flag means do this quietly, please and then save it (`-O`) to a file named `data.csv`.
 
-### But I Don't Want to Ride the Elevator!
+#### But I Don't Want to Ride the Elevator!
 
 John Hopkins Whiting School of Engineering actually offers a more "robust" csv which can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). The great thing about this data is it's updated on a regularly scheduled basis. That means we can run our cron job at an actual time that makes sense rather than every 30 minutes. The data files are updated once a day at 23:59 UTC.
 
