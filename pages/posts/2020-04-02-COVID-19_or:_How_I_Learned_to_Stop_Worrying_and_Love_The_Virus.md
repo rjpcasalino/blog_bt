@@ -72,7 +72,7 @@ pip install urllib3
 83889
 ```
 
-### wget, sed, awk
+### wget, sed, awk (Into the Belly of the Beast)
 
 It appears the Times doesn't update the csv with the current day's stats until the next day. That is somewhat annoying. Anyway, I wrote a small bash script to query the csv by date (rudimentary):
 
@@ -99,7 +99,7 @@ sed `wc -l < us-states.csv`q
 ```
 aside: psst, I had forgotten that I wrapped `wc -l $*` into a cmd named `lc` and that was confusing for a bit.
 
-the `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. The reason for the `<` is to disregard the file name in the output. Why that works, I don't really know but I think I'd better wise up.
+The `q` here stands for quit. So, print all these lines and then quit. Stream editors are cool like that. The code above is rather ugly so please forgive me. The reason for the `<` is to disregard the file name in the output. Why that works, I don't really know but I think I'd better wise up.
 
 Moving on, let's tie in wget, awk, and cron. Then we can really get going:
 
@@ -116,18 +116,24 @@ $ Texas
 	cases: 1675
 	deaths: 13
 ...
-
-$ crontab -e
-
-*/30 * * * * bash /home/you/fetch-nytimes-covid-19-csv.sh
- 
 ```
+
+`*/30 * * * * bash /home/you/fetch-nytimes-covid-19-csv.sh`
 
 `-q` flag means do this quietly, please and then save it (`-O`) to a file named `data.csv`.
 
-<hr>
+### But I Don't Want to Ride the Elevator!
 
 John Hopkins Whiting School of Engineering actually offers a more "robust" csv which can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). The great thing about this data is it's updated on a regularly scheduled basis. That means we can run our cron job at an actual time that makes sense rather than every 30 minutes. The data files are updated once a day at 23:59 UTC.
 
 First, make sure your server is set to UTC time.
+
+On Debian this can be accomplished a number of ways. I'll use the `dpkg-reconfigure` command. 
+```
+# make sure it's installed and if not...
+$ apt-get install debconf
+$ dpkg-reconfigure tzdata
+```
+
+Pick "other" and UTC will be listed amongst the numerous options before your eyes.
 
