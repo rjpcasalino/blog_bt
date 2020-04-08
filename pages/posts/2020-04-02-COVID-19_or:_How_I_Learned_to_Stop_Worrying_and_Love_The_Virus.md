@@ -109,17 +109,25 @@ wget -q -O data.csv "http://raw.githubusercontent.com/nytimes/covid-19-data/mast
 
 sed `wc -l < data.csv`q data.csv | awk -v date=$(date --date="yesterday" +%F), -F, '$1 == date { printf("%s\n\t cases: %d\n\t deaths: %d\n", $2, $4, %5) }' > /dev/tty1
 
-$ Teaxs
+$ Texas
 	cases: 8115
 	deaths: 160
+  Utah 
+	cases: 1675
+	deaths: 13
 ...
 
-crontab -e
+$ crontab -e
 
 */30 * * * * bash /home/you/fetch-nytimes-covid-19-csv.sh
  
 ```
 
-`-q` do it quietly and save it (`-O`) to a file named `data.csv` or whatever works best for you.
+`-q` flag means do this quietly, please and save it (`-O`) to a file named `data.csv`.
 
-this will dump to stdout. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? The world is my oyster. 
+This will dump to STDOUT. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? The world is my oyster. 
+
+John Hopkins Whiting School of Engineering actually offers a more "robust" csv which can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). The great thing about this data is it's updated on a regular scheduled basis. That means we can run our cron job at an actual time that makes sense rather than every 30 minutes. The data files are updated once a day at 23:59 UTC.
+
+First, make sure your server is set to UTC time.
+
