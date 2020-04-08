@@ -125,9 +125,9 @@ $ crontab -e
 
 `-q` flag means do this quietly, please and then save it (`-O`) to a file named `data.csv`.
 
-This will dump to STDOUT. We can do better perhaps? What could we do with this? Feed it along the wire to some other service? The world is my oyster. 
+<hr>
 
-John Hopkins Whiting School of Engineering actually offers a more "robust" csv which can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). The great thing about this data is it's updated on a regular scheduled basis. That means we can run our cron job at an actual time that makes sense rather than every 30 minutes. The data files are updated once a day at 23:59 UTC.
+John Hopkins Whiting School of Engineering actually offers a more "robust" csv which can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). The great thing about this data is it's updated on a regularly scheduled basis. That means we can run our cron job at an actual time that makes sense rather than every 30 minutes. The data files are updated once a day at 23:59 UTC.
 
 First, make sure your server is set to UTC time.
 
