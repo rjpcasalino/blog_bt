@@ -11,7 +11,9 @@ That data can be found [here](https://github.com/nytimes/covid-19-data).
 
 Install pandas:
 
-`pip install pandas`
+```bash
+$ pip install pandas`
+```
 
 ```python
 from pandas import read_csv
@@ -45,9 +47,9 @@ play around some:
 # pull in urllib now...
 
 ```
-
-`pip install urllib3`
-
+```bash
+$pip install urllib3
+```
 
 ```python
 >>> import urllib3
@@ -73,7 +75,7 @@ play around some:
 
 It appears the Times doesn't update the CSV with the current day's stats until the next day. That is somewhat annoying. Anyway, I wrote a small bash script to query the CSV by date (rudimentary):
 
-```
+```bash
 #!/usr/bin/env bash
 
 if [ -z "$1" ]; then
@@ -91,7 +93,7 @@ END      { for (name in deaths) print name, deaths[name] }'
 
 I wonder if there is a better way to get `sed` to "know" how many lines are within a given file. In any case, I just did this:
 
-```
+```bash
 sed `wc -l < us-states.csv`q
 ```
 
@@ -125,7 +127,8 @@ John Hopkins Whiting School of Engineering actually offers a more "robust" CSV w
 First, make sure your server is set to UTC time.
 
 On Debian this can be accomplished a number of ways. I'll use the `dpkg-reconfigure` command. 
-```
+
+```bash
 # make sure it's installed and if not...
 $ apt-get install debconf
 $ dpkg-reconfigure tzdata
@@ -153,7 +156,17 @@ If you would like to know more:
 
 Ditching `sed` we're getting closer to an actual usable program:
 
-<script src="https://gist.github.com/rjpcasalino/014e57103339f8f60f6218e21ee75b93.js"></script>
+```bash
+#!/usr/bin/env bash
+wget -q -O data.csv "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$(date --date="yesterday" +%m-%d-%Y).csv"
+
+LC_ALL=en_US.UTF-8 awk -v updated="$(date --date="yesterday" +%y-%m-%d) 23:00:00" -F, 'FNR==NR && $5 > updated { deaths[$3] += $9; confirmed[$3] += $8; next } 
+{ for (state in deaths)
+        if (state == $5 && deaths[state] > 0)
+                printf("%s\n Population: %'"'"'d\n Deaths: %'"'"'d\n Confirmed: %'"'"'d\n '%' Dead: %'"'"'f\n '%' Confirmed: %f\n", state, $16, deaths[state], confirmed[state], deaths[state] / $16 * 100, confirmed[state] / $16 * 100)
+}' $1 $2 > output
+```
+
 
 <hr>
 

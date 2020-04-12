@@ -11,7 +11,7 @@ In any case, I stumbled over a U.S. Naval Academy offering related to data struc
 
 Here is the first example:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -41,13 +41,13 @@ int main() {
 ```
 Right off the bat I could tell the syntax was a bit different than what I was used to with reading basic C. For example,
 
-```
+```c
 #include "lib.h"
 ```
 
 diff 
 
-```
+```c
 #include <stdio.h>:
 
 ```
@@ -56,7 +56,7 @@ The small SI204 library wraps some of the "annoying things" one sometimes has to
 
 Example 2:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -71,7 +71,7 @@ Basic declaration and assignment. And lots of writing to `stdout` (i.e., one's t
 
 Here's a look at the SI204 library:
 
-```
+```c
 /* Simple C typedefs and helper functions for strings and I/O
  * SI204, Spring 2017
  * Dr. Roche
@@ -181,7 +181,7 @@ Jumping somewhat ahead...
 
 Here's example 5:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -203,7 +203,7 @@ And there's `stdin` and all that fun jazz. Recall: `cstring`, `readstring`, `rea
 
 I am going to interject with an "aside of code":
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -247,7 +247,7 @@ Note, dear reader, I am using FreeBSD and trying to stay as close to Unix as an 
 
 To get up to speed quickly:
 
-```
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -278,7 +278,7 @@ Read up on `putchar` function.
 
 Since we're messing with tables we can jump back to SI204 with a Hankel Matrix:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -306,7 +306,7 @@ int main() {
 
 Here's the result:
 
-```
+```bash
 Please enter n:  10  
  1  2  3  4  5  6  7  8  9 10 
  2  3  4  5  6  7  8  9 10 11 
@@ -324,7 +324,7 @@ Time for some basic algorithms, kids!
 
 We will start with the Euclidean algorithm:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -346,7 +346,7 @@ fputs(" is the GCD.\n", stdout);
 Besides performing division, what other uses make sense? (hint: I don't know)
 Or better yet, let us cry slow tears and review the Caesar-shift as it is presented in SI204:
 
-```
+```c
 /************************************
  Ceasar-Shift Encryption on 4-Letter Messages
 
@@ -431,7 +431,7 @@ I might be moving a bit too fast, but these are high pressure days!
 
 Let's step back and slow down with:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -450,7 +450,7 @@ fputs("\n", stdout);
 ```
 and some K&R for some good (slow) measure:
 
-```
+```c
 #include <stdio.h>
 
 /* print Fahrenheit-Celsius table
@@ -489,7 +489,7 @@ Just a minor note if you're using `<math.h>`; compile with `-lm` which is to say
 
 Onward and upward with MORE EXAMPLES OF C:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -511,7 +511,7 @@ Just to remind one how easy it is to layout output.
 
 C does much more when files get in on the mix. According to SI204:
 
-```
+```c
 #include "si204.h"
 
 int main() {
@@ -545,7 +545,7 @@ but what is `stderr` anyway? Well, dear reader, it is part of the "standard stre
 
 if you want to see `stderr` on the terminal just direct it that way via:
 
-```
+```bash
 2>&1
 ```
 
@@ -575,7 +575,7 @@ Wheel it back into SI204 since we got off track there:
 
 Is this right? O, constant reader<span>&mdash;</span>are you still there?
 
-```
+```c
 #include <stdio.h>
 
 #define IN 1
