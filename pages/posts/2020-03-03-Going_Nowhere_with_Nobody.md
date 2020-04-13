@@ -5,7 +5,7 @@ layout: post
 
 I wanted to find good examples of linked lists in Python on the net. Nothing really stood out to me so I just wrote a more complete example based of some others:
 
-```
+```python
 import logging
 from logging.config import fileConfig
 

@@ -9,7 +9,7 @@ I'd like to quote K&R today (as we are taking a step back from SI204):
 
 Here's an example (from K&R):
 
-```
+```c
 /* power: raise base to n-th power; n>=0; version 2 */
 
 int power(int base, int n)
@@ -29,7 +29,7 @@ Whatever is done to n inside power has no effect on the argument power was calle
 
 Here is version 1:
 
-```
+```c
 #include <stdio.h>
 
 /* K&R says functions can appear in any order? 
@@ -64,7 +64,7 @@ This does not work the same for arrays, however. When an array is used as an arg
 
 Dissect a problem into parts:
 
-```
+```c
 while (*there's another line*)
 	if (*it's longer than the previous longest*)
 		*save it*
@@ -112,7 +112,7 @@ Here is an interlude from Master Ueshiba:
 
 Mix style here:
 
-```
+```c
 #include <stdio.h>
 
 #define MAXLINE  1000 	/* maximum input line size */

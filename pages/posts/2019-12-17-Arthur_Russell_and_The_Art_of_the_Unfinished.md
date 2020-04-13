@@ -24,7 +24,7 @@ I'm a big fan of [source hut](https://git.sr.ht/) and support it's goals.[[2]](#
 
 Okay, next you will add:
 
-```
+```bash
 [sr.ht]
 Server = https://mirror.sr.ht/archlinux/sr.ht
 ```
@@ -32,7 +32,7 @@ to your `/etc/pacman.conf` file.
 
 Ah, wonderful. Continuing onward with:
 
-```
+```bash
 $ pacman-key --recv-keys <signing key>
 $ pacman-key --lsign-key <signing key>
 ```  
