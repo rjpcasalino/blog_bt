@@ -3,16 +3,14 @@ title: 'Using Pandas or wget and awk to Parse COVID-19 Data or: How I Learned to
 layout: post
 ---
 
-Hi there! I've been updating this post regularly since I haven't much to do.
+There are various places one can obtain COVID-19 data. This posts uses data taken from the New York Times and John Hopkins University.
 
-The New York Times (in their illustrious wisdom) have begun to share data files with cumulative counts of the virus in the United States of America. 
-
-That data can be found [here](https://github.com/nytimes/covid-19-data).
+NYT data [here](https://github.com/nytimes/covid-19-data) / JHU data [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports).
 
 Install pandas:
 
 ```bash
-$ pip install pandas`
+$ pip install pandas
 ```
 
 ```python
@@ -166,8 +164,6 @@ LC_ALL=en_US.UTF-8 awk -v updated="$(date --date="yesterday" +%y-%m-%d) 23:00:00
                 printf("%s\n Population: %'"'"'d\n Deaths: %'"'"'d\n Confirmed: %'"'"'d\n '%' Dead: %'"'"'f\n '%' Confirmed: %f\n", state, $16, deaths[state], confirmed[state], deaths[state] / $16 * 100, confirmed[state] / $16 * 100)
 }' $1 $2 > output
 ```
-
-
 <hr>
 
 [1]https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html
