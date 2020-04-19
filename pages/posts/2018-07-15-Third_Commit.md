@@ -6,7 +6,7 @@ title: "Lead, Kindly Light"
 *Lead, Kindly Light* 
 by John Henry Newman
 
-```
+```bash
 Lead, Kindly Light, amidst th'encircling gloom,
 Lead Thou me on!
 The night is dark, and I am far from home,

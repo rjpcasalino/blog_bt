@@ -6,7 +6,7 @@ title: "Horse Latitudes"
 *Horse Latitudes*
 by Jim Morrison
 
-```
+```bash
 The barn is burning
 The race-track is over
 Farmers run out w/
