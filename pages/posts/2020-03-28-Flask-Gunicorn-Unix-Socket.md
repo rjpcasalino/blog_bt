@@ -15,7 +15,7 @@ $ how to update nix channels and etc etc
 
 Next, remind yourself of the various nginx options via their own [docs](url here) and also how to properly represent those options using the appropriate nix syntax. Nix nginx options can be found [here](url here).
 
-```
+```bash
 $ example of basic nixos nginx config
 ```
 
