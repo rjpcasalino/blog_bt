@@ -3,9 +3,9 @@ title: 'Using Pandas or wget and awk to Parse COVID-19 Data or: How I Learned to
 layout: post
 ---
 
-There are various places one can obtain COVID-19 data. This posts uses data taken from the New York Times and John Hopkins University.
+There are various places one can obtain COVID-19 data. This post uses data taken from The New York Times and John Hopkins University.
 
-NYT data [here](https://github.com/nytimes/covid-19-data) / JHU data [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports).
+New York Times data can be got [here](https://github.com/nytimes/covid-19-data) and Hopkins data [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports).
 
 Install pandas:
 
