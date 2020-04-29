@@ -103,7 +103,8 @@ Moving on, let's tie in wget, awk, and cron. Then we can really get going:
 #!/usr/bin/env bash
 wget -q -O data.csv "http://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
 
-sed `wc -l < data.csv`q data.csv | awk -v date=$(date --date="yesterday" +%F), -F, '$1 == date { printf("%s\n\t cases: %d\n\t deaths: %d\n", $2, $4, %5) }' > /dev/tty1
+sed `wc -l < data.csv`q data.csv | awk -v date=$(date --date="yesterday" +%F), -F, \
+'$1 == date { printf("%s\n\t cases: %d\n\t deaths: %d\n", $2, $4, %5) }' > /dev/tty1
 
 $ Texas
 	cases: 8115
@@ -140,8 +141,10 @@ Here's a close to final draft:
 #!/usr/bin/env bash
 wget -q -O data.csv "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$(date --date="yesterday" +%m-%d-%Y).csv"
 
-sed `wc -l < data.csv`q data.csv | LC_ALL=en_US.UTF-8 awk -v updated='2020-04-07 23:00:00' -F, '$5 > updated { deaths[$3] += $9; confirmed[$3] += $8 } 
-END { for (name in deaths) printf("%s\n Cases: %'"'"'d\n Deaths: %'"'"'d\n", name, confirmed[name], deaths[name]) }' > output
+sed `wc -l < data.csv`q data.csv | LC_ALL=en_US.UTF-8 awk -v updated='2020-04-07 23:00:00' -F, \
+'$5 > updated { deaths[$3] += $9; confirmed[$3] += $8 } \ 
+END { for (name in deaths) 
+printf("%s\n Cases: %'"'"'d\n Deaths: %'"'"'d\n", name, confirmed[name], deaths[name]) }' > output
 ```
 
 The `$(date --date="yesterday")` will become superfluous once we've set up our updated cron job.
@@ -156,13 +159,20 @@ Ditching `sed` we're getting closer to an actual usable program:
 
 ```bash
 #!/usr/bin/env bash
-wget -q -O data.csv "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$(date --date="yesterday" +%m-%d-%Y).csv"
+wget -q -O data.csv \
+"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$(date --date="yesterday" +%m-%d-%Y).csv"
 
-LC_ALL=en_US.UTF-8 awk -v updated="$(date --date="yesterday" +%y-%m-%d) 23:00:00" -F, 'FNR==NR && $5 > updated { deaths[$3] += $9; confirmed[$3] += $8; next } 
-{ for (state in deaths)
+LC_ALL=en_US.UTF-8 awk -v updated="$(date --date="yesterday" +%y-%m-%d) 23:00:00" -F, \
+'FNR==NR && $5 > updated { deaths[$3] += $9; confirmed[$3] += $8; next }
+{
+        for (state in deaths)
         if (state == $5 && deaths[state] > 0)
-                printf("%s\n Population: %'"'"'d\n Deaths: %'"'"'d\n Confirmed: %'"'"'d\n '%' Dead: %'"'"'f\n '%' Confirmed: %f\n", state, $16, deaths[state], confirmed[state], deaths[state] / $16 * 100, confirmed[state] / $16 * 100)
-}' $1 $2 > output
+                printf("%s\n Population: %'"'"'d\n Deaths: %'"'"'d\n Confirmed: %'"'"'d\n '%' Dead: \n\t%f\n '%' Confirmed: \n\t%f\n", 
+                state, $16, deaths[state], 
+                confirmed[state], 
+                deaths[state] / $16 * 100, 
+                confirmed[state] / $16 * 100)
+}' $1 $2 > /dev/stdout
 ```
 <hr>
 
