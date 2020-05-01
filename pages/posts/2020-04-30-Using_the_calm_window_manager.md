@@ -5,18 +5,18 @@ layout: post
 
 The Calm Window Manager (cwm) is a "lightweight and efficient window manager for X11" written mostly by [Marius Eriksen](https://monkey.org/~marius/). It preports to "maintain the simplest and most pleasant aesthetic." Having used it for nearly two weeks it's hard to disagree. 
 
-The control keys are fairly simple:
+The control keys are fairly simple (ctrl, meta, shift):
 
 ```bash
-           CCMM--RReettuurrnn       Spawn a new terminal.
-           CCMM--DDeelleettee       Lock the screen.
-           MM--RReettuurrnn        Hide current window.
-           MM--DDoowwnn          Lower current window.
-           MM--UUpp            Raise current window.
+           CM-Return	Spawn a new terminal.
+           CM-Delete    Lock the screen.
+           M-Return     Hide current window.
+           M-Down       Lower current window.
+           M-Up		Raise current window.
 	   ...
-           MM--qquueessttiioonn      Spawn “exec program” dialog.
-           MM--ppeerriioodd        Spawn “ssh to” dialog.  This parses _$_H_O_M_E_/_._s_s_h_/_k_n_o_w_n___h_o_s_t_s to provide host auto-completion.  ssh(1) will be executed via the configured terminal emulator.
-           CCMMSS--rr           Restart.
+           M-question	Spawn “exec program” dialog.
+           M-period	Spawn “ssh to” dialog.
+           CMS-r        Restart.
 ```
 
 35 odd-ish commands. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via C-arrow keys. 
