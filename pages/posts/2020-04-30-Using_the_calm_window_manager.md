@@ -17,7 +17,7 @@ The control keys are fairly simple (ctrl, meta, shift):
 ```
 and so on...
 
-There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via C-arrow keys. 
+There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys. 
 
 Moving windows utilizes vim keys(i.e., hjkl).
 
@@ -41,9 +41,9 @@ bind-key XF86MonBrightnessDown	"light -U 10"
 
 Here's some links that are helpful if you're interested in cwm:
 
-[cwmrc(1)](https://man.openbsd.org/cwmrc.1)
-[cwmrc(5)](https://man.openbsd.org/cwmrc.5)
-[Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
+* [cwmrc(1)](https://man.openbsd.org/cwm.1)
+* [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
+* [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
 
 
 
