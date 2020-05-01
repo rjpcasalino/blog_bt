@@ -9,19 +9,17 @@ The control keys are fairly simple (ctrl, meta, shift):
 
 ```bash
            CM-Return	Spawn a new terminal.
-           CM-Delete    Lock the screen.
+	   ...
            M-Return     Hide current window.
-           M-Down       Lower current window.
-           M-Up		Raise current window.
 	   ...
            M-question		Spawn “exec program” dialog.
            M-period		Spawn “ssh to” dialog.
-           CMS-r		Restart.
 ```
+and so on...
 
-35 odd-ish commands. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via C-arrow keys. 
+There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via C-arrow keys. 
 
-Moving windows utilizes vim keys(i.e., HJKL).
+Moving windows utilizes vim keys(i.e., hjkl).
 
 Configuration is pleasant and straightforward (.cwmrc):
 
@@ -30,7 +28,7 @@ command firefox  firefox
 command shot	 scrot
 command pad 	 "xterm -e ed /home/rjpcasalino/yellowpad.md"
 
-borderwidth 2
+borderwidth 1
 sticky yes
 
 gap 24 0 0 0
@@ -41,5 +39,14 @@ bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
 ```
 
-As always, man cwm(1) and man cwmrc(5).
+Here's some links that are helpful if you're interested in cwm:
+
+[cwmrc(1)](https://man.openbsd.org/cwmrc.1)
+[cwmrc(5)](https://man.openbsd.org/cwmrc.5)
+[Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
+
+
+
+
+
 
