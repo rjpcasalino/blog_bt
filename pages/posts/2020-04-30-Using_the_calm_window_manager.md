@@ -12,14 +12,13 @@ The control keys are fairly simple (ctrl, meta, shift):
 	   ...
            M-Return     Hide current window.
 	   ...
-           M-question		Spawn “exec program” dialog.
+           M-question	Spawn “exec program” dialog.
            M-period		Spawn “ssh to” dialog.
 ```
-and so on...
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys. 
 
-Moving windows utilizes vim keys(i.e., hjkl).
+Moving windows utilizes key bindings one would find in vim (i.e., hjkl).
 
 Configuration is pleasant and straightforward (.cwmrc):
 
