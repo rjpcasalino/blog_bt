@@ -37,6 +37,9 @@ gap 24 0 0 0
 ignore showip 
 ignore showtime
 
+# miss i3? Snapping made easy:
+bind-key CM-Right		window-snap-up-right
+...
 bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
 ```
