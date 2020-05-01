@@ -18,7 +18,7 @@ M-period	Spawn “ssh to” dialog.
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys. 
 
-Moving windows utilizes key bindings one would find in vim (i.e., hjkl).
+One can move windows about with key bindings one would find in vim (i.e., hjkl).
 
 Configuration is pleasant and straightforward (.cwmrc):
 
@@ -41,9 +41,11 @@ bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
 ```
 
+<hr>
+
 Here's some links that are helpful if you're interested in cwm:
 
-* [cwmrc(1)](https://man.openbsd.org/cwm.1)
+* [cwm(1)](https://man.openbsd.org/cwm.1)
 * [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
 
