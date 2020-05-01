@@ -44,6 +44,10 @@ bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
 ```
 
+If you're into tiling window managers such as i3 I really recommend you try the key-binding for window snapping. 
+
+cwm offers real tranquility for your desktop. It's pretty boring too which means it really fits the bill for me :D
+
 <hr>
 
 Here's some links that are helpful if you're interested in cwm:
