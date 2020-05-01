@@ -28,10 +28,13 @@ command shot	 scrot
 command pad 	 "xterm -e ed /home/rjpcasalino/yellowpad.md"
 
 borderwidth 1
+# Inherit groups 
 sticky yes
 
+# Define a “gap” in pixels at the edge of the screen. Maximized windows will not overlap gap area.
 gap 24 0 0 0
-ignore showip
+# Ignore programs by name, not drawing borders around them.
+ignore showip 
 ignore showtime
 
 bind-key XF86MonBrightnessUp	"light -A 10"
