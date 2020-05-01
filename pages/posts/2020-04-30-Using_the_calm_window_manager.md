@@ -8,12 +8,12 @@ The calm window manager (cwm) is a "lightweight and efficient window manager for
 The control keys are fairly simple (ctrl, meta, shift):
 
 ```bash
-           CM-Return	Spawn a new terminal.
-	   ...
-           M-Return     Hide current window.
-	   ...
-           M-question	Spawn “exec program” dialog.
-           M-period		Spawn “ssh to” dialog.
+CM-Return	Spawn a new terminal.
+...
+M-Return	Hide current window
+...
+M-question	Spawn “exec program” dialog.
+M-period	Spawn “ssh to” dialog.
 ```
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys. 
