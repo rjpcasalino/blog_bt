@@ -2,7 +2,7 @@
 
  <body>
    <h1>Boring Tranquility</h1>
-    <img src="/static/bored.jpg" alt="bored masthead">
+    <img id="masthead" src="/static/bored.jpg" alt="boring tranquility masthead">
     <p><a href="https://en.wikipedia.org/wiki/West_with_the_Night"><span>&OpenCurlyDoubleQuote;</span>Boredom, like hookworm, is endemic.<span>&CloseCurlyDoubleQuote;</span></a></p>
     <p><a href="https://en.wikipedia.org/wiki/Daniel_Webster"><span>&OpenCurlyDoubleQuote;</span>Liberty and Union, now and forever, one and inseparable!<span>&CloseCurlyDoubleQuote;</span></a></p>
     <hr>
@@ -10,7 +10,7 @@
 	    <small>posts</small>
 	    <ol>
 	    {% for t, l in posts.items()|sort(reverse=True) %}
-    		<li><a href="/posts/{{l}}">{{t|replace("-", " ")|replace("_", " ")}}</a></li>
+    		<li><a href="/posts/{{l}}">{{t[11:].replace("_", " ")}}</a></li>
     	    {% endfor %}
 	    </ol>
     </div>
