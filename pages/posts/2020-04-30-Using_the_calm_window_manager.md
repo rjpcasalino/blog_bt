@@ -48,6 +48,10 @@ If you're into tiling window managers such as i3 I really recommend you try the 
 
 cwm offers real tranquility for your desktop. It's pretty boring too which means it really fits the bill for me :D
 
+Obligatory screenshot:
+
+![cwm screenshot](https://wiki.boringtranquility.io/assets/imgs/cwm_grab.png)
+
 <hr>
 
 Here's some links that are helpful if you're interested in cwm:
