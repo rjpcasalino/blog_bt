@@ -22,8 +22,6 @@ One can move windows about with key bindings one would find in vim (i.e., hjkl).
 
 Configuration is pleasant and straightforward (*.cwmrc*):
 
-Commands can be called with C-question and allow one to open applications quickly. Likewise, M-period opens an ssh session which reads your .ssh/config. Very nice.
-
 ```bash
 command firefox  firefox
 command shot	 scrot
@@ -45,10 +43,9 @@ bind-key CM-Right		window-snap-up-right
 bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
 ```
+Commands can be called with C-question and allow one to open applications quickly. Likewise, M-period opens an ssh session which reads your .ssh/config. 
 
-If you're into tiling window managers such as i3 I really recommend you try the key-binding for window snapping. 
-
-cwm offers real tranquility for your desktop. It's pretty boring too which means it really fits the bill for me :D
+Ersatz tiling can be achieved with key-bindings for window snapping. 
 
 Obligatory screenshot:
 
@@ -61,9 +58,3 @@ Here's some links that are helpful if you're interested in cwm:
 * [cwm(1)](https://man.openbsd.org/cwm.1)
 * [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
-
-
-
-
-
-
