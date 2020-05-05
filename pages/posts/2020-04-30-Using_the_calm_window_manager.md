@@ -20,7 +20,9 @@ There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept ma
 
 One can move windows about with key bindings one would find in vim (i.e., hjkl).
 
-Configuration is pleasant and straightforward (.cwmrc):
+Configuration is pleasant and straightforward (*.cwmrc*):
+
+Commands can be called with C-question and allow one to open applications quickly. Likewise, M-period opens an ssh session which reads your .ssh/config. Very nice.
 
 ```bash
 command firefox  firefox
