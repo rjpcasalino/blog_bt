@@ -34,11 +34,11 @@ sticky yes
 # Define a “gap” in pixels at the edge of the screen. Maximized windows will not overlap gap area.
 gap 24 0 0 0
 # Ignore programs by name, not drawing borders around them.
-ignore showip 
-ignore showtime
+ignore sbar_ip
+ignore sbar_time
 
 # miss i3? Snapping made easy:
-bind-key CM-Right		window-snap-up-right
+bind-key CM-Right		window-snap-right
 ...
 bind-key XF86MonBrightnessUp	"light -A 10"
 bind-key XF86MonBrightnessDown	"light -U 10"
@@ -49,7 +49,7 @@ Ersatz tiling can be achieved with key-bindings for window snapping.
 
 ### Using cwm with NixOS
 
-[Using X without a Display Manager](https://nixos.wiki/wiki/Using_X_without_a_Display_Manager) on NixOS isn't intuitive but easy to do.
+[Using X without a Display Manager](https://nixos.wiki/wiki/Using_X_without_a_Display_Manager) on NixOS isn't intuitive but easy to do nevertheless.
 
 Here's my configuration XServer block:
 
