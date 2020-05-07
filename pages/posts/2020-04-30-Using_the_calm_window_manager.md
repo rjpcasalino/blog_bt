@@ -47,6 +47,43 @@ Commands can be called with C-question and allow one to open applications quickl
 
 Ersatz tiling can be achieved with key-bindings for window snapping. 
 
+### Using cwm with NixOS
+
+[Using X without a Display Manager](https://nixos.wiki/wiki/Using_X_without_a_Display_Manager) on NixOS isn't intuitive but easy to do.
+
+Here's my configuration XServer block:
+
+```bash
+  # Xserver 
+   services.xserver = {
+    enable = true;
+    # We don't want to autorun X; we want startx 
+    autorun = false;
+    # Whether to symlink the X server configuration under /etc/X11/xorg.conf. 
+    exportConfiguration = true;
+    displayManager.startx.enable = true;
+    windowManager.cwm.enable = true;
+  };
+```
+
+Ryan Chan has a nice [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that was helpful.
+
+The contents of `.xinitrc`:
+
+```bash
+#!/usr/bin/env sh
+
+xrdb -load $HOME/.Xresources
+
+xterm -cr "#fff" -g 13x1+30+0   -hold -e sbar_ip &
+xterm -cr "#fff" -g 17x1-0+0    -hold -e sbar_time &
+xterm -cr "#fff" -g 4x1+0+0     -hold -e sbar_bat &
+
+$HOME/.fehbg &
+
+exec cwm 
+```
+
 Obligatory screenshot:
 
 ![cwm screenshot](https://wiki.boringtranquility.io/assets/imgs/cwm_grab.png)
