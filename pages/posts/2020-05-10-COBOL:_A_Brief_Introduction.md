@@ -282,10 +282,11 @@ $ cobc -x presidents.cob
 
 Quick note:
 
-```
+```bash
 -x     build an executable program
 -m     build a dynamically loadable module (default)
-````
+```
+
 Run the newly compiled program and if all goes well you should see a PresidentReport file. Make sure the file exists before running the program.
 
 In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming. Thanks for reading!
