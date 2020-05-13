@@ -26,7 +26,7 @@ src="https://wiki.boringtranquility.io/assets/audio/Fanfare.mp3">
     <code>audio</code> element.
 </audio>
 
-COBOL was born in the crucible of the Cold War. As Nixon engaged in the [Kitchen Debate](https://en.wikipedia.org/wiki/Kitchen_Debate) with Khrushchev memories of the International Geophysical Year were fading fast. Rival satellites had been propelled toward the heavens, spun their course into atmospheric vapor, and now rest forever in collective memory. The Cold War was in full swing.
+COBOL was born in the crucible of the Cold War. As Nixon engaged in the [Kitchen Debate](https://en.wikipedia.org/wiki/Kitchen_Debate) with Khrushchev memories of the [International Geophysical Year](https://en.wikipedia.org/wiki/International_Geophysical_Year) seemed to be fading fast. Rival satellites which were propelled toward the heavens had spun their course into atmospheric vapor to become a collective memory. The Cold War was in full swing.
 
 A marriage of national security and industry resulted in plans. And meetings. Business met government and one steering committee turned into another. Eggheads meeting overdecorated military brass meeting political actors and back and forth and so on in that fashion until an executive committee was formed and more meetings took place. A "Conference on Data Systems Languages" was gathered. Grace Hooper was there, yes. Lending her superb mind and talents in an advisory capacity. More meetings and talk; so drunk with talk these American minds gathered. In the end<span>&mdash;</span>after all that talk<span>&mdash;</span>[COBOL 60](https://en.wikipedia.org/wiki/COBOL#COBOL_60).
 
