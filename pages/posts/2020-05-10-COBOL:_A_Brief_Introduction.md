@@ -253,6 +253,25 @@ STOP RUN.
 ```
 Lots going on here. The most important aspect of this code is the SET EOF TO TRUE after we close all our files. There are many ways to do this in COBOL, but I found this appears the most readable to me.
 
+```COBOL
+*** BEGIN PARAGRAPH FUNCTIONS
+PRINT-PAGE-HEADING.
+   WRITE PRINT-LINE FROM PAGEHEADING AFTER ADVANCING Page
+   WRITE PRINT-LINE FROM HEADERS AFTER ADVANCING 2 LINES
+   MOVE 3 TO LINECOUNT.
+
+PRINT-REPORT-BODY.
+* Increment  
+   ADD 1 TO PRESIDENCY.
+* note the period above!
+   MOVE PRESIDENCY TO PRNPRESIDENCY
+   MOVE FIRSTNAME TO PRNFIRSTNAME 
+   MOVE LASTNAME TO PRNLASTNAME 
+   WRITE PRINTLINE FROM PRESIDENT-DETAIL-LINE AFTER
+   ADVANCING 1 LINE
+   ADD 1 TO LINECOUNT.
+```
+
 Compile the code with:
 
 ```bash
