@@ -28,7 +28,7 @@ A marriage of national security and industry resulted in plans. And meetings. Bu
 
 COBOL's adoption rate slowly grew and by the early 1970s it was the most widely used programming language in the United States. Busy were many a programmer bringing seemingly endless ideas to fruition. Some ideas ripened into useful programs and some were merely forgotten. But, though programs appear to die they still manage to rise up.
 
-COBOL continues to power portions of the Individual Master File, the IRS system used to process tax returns. [According to the Government Accountability Office](https://www.gao.gov/assets/680/677454.p) myriad other government agencies continue to write and maintain COBOL code. Efforts are underway to "modernize" some of these aging systems, but it is more than likely that COBOL will continue to power critical governmental and non-governmental systems alike for the foreseeable future.
+COBOL continues to power portions of the Individual Master File, the IRS system used to process tax returns. [According to the Government Accountability Office](https://www.gao.gov/assets/680/677454.pdf) myriad other government agencies continue to write and maintain COBOL code. Efforts are underway to "modernize" some of these aging systems, but it is more than likely that COBOL will continue to power critical governmental and non-governmental systems alike for the foreseeable future.
 <hr>
 ### Getting Started
 
@@ -59,7 +59,7 @@ COBOL source programs are grouped into the following four divisions:
 *    Data division
 *    Procedure division
 
-Our program is simple. We're taking data from one file and generating a report that will count and add the presidency number from a sorted listed in our data file. The Presidents aren't out of order and Grover Cleveland's nonconsecutive terms are marked.
+Our program is simple. We're taking data from one file and generating a report that will count and add the presidency number from a sorted listed in our data file. The Presidents aren't out of order and Grover Cleveland's nonconsecutive terms are marked. The point is to get familiar with COBOL syntax and how simple tasks are handled. Find the data file [here](https://gist.github.com/rjpcasalino/de3176eb95cf4083ff0487bc1cdbea41).
 
 The Identification division contains some program meta data:
 
