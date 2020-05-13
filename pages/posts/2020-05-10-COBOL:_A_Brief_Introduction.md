@@ -279,9 +279,17 @@ Compile the code with:
 ```bash
 $ cobc -x presidents.cob
 ```
-Run it and see that the PresidentReport file should be populated with some useful information. Make sure the file exists before running the program.
 
-In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming.
+Quick note:
+
+```
+-x     build an executable program
+-m     build a dynamically loadable module (default)
+````
+Run the newly compiled program and if all goes well you should see a PresidentReport file. Make sure the file exists before running the program.
+
+In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming. Thanks for reading!
+
 <hr>
 <sup id="sup1">[1]</sup>http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html
 
