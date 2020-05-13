@@ -8,7 +8,8 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-#sub2 {
+.sups {
+display: block;
 overflow-x: hidden;
 }
 </style>
@@ -295,6 +296,8 @@ Run the newly compiled program and if all goes well you should see a PresidentRe
 In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming. Thanks for reading!
 
 <hr>
+<div class="sups">
 <sup id="sup1">[1]</sup>http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html
 
 <sup id="sup2">[2]</sup>https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.htm
+</div>
