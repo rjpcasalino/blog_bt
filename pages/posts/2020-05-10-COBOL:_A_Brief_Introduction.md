@@ -48,7 +48,7 @@ src="https://wiki.boringtranquility.io/assets/audio/Saku.mp3">
 </audio>
 
 
-_This document assumes a bit of programming knowledge and familiarity with GNU tools_.
+_This document assumes a bit of programming knowledge and familiarity with GNU tools. I won't be going into minute detail so I suggest you refer to the manual when you want clarity._
 
 Luckily for us, getting started with COBOL is relatively painless. GnuCOBOL is a free implementation of the language which one is welcome to study, share, and modify. GnuCOBOL offers latitude regarding use of syntax but we'll be following (as best we can, at least) conventions found in IBM documentation. 
 
@@ -150,9 +150,9 @@ Let's go over a few things before moving on. You might have noticed COBOL levels
 
 > These levels tell the COBOL compiler how to associate, or group, fields in the record.  Level 01 is a special case, and is reserved for the record level;  the 01 level is the name of the record. Levels from 02 to 49 are all "equal" (level 2 is no more significant than level 3), but there is a hierarchy to the structure.  Any field listed in a lower level (higher number) is subordinate to a field or group in a higher level (lower number).<sup><a href="#sup1">[1]</a></sup>
 
-Sometimes you'll see levels incremented by 3 or 5. It's programmer preference. I hear some organizations have standards regarding such matters.Seems like a good idea.
+Sometimes you'll see levels incremented by 3 or 5. It's programmer preference. I hear some organizations have standards regarding such matters.
 
-The figure below illustrates levels:
+The figure below illustrates:
 
 <img id="levels" src="https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/images/igyl1015.gif"/>
 
