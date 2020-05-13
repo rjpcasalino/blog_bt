@@ -253,6 +253,8 @@ STOP RUN.
 ```
 Lots going on here. The most important aspect of this code is the SET EOF TO TRUE after we close all our files. There are many ways to do this in COBOL, but I found this appears the most readable to me.
 
+Below are the "functions". Note that STOP RUN does not have to be placed at the end of the program.
+
 ```COBOL
 *** BEGIN PARAGRAPH FUNCTIONS
 PRINT-PAGE-HEADING.
@@ -264,9 +266,9 @@ PRINT-REPORT-BODY.
 * Increment  
    ADD 1 TO PRESIDENCY.
 * note the period above!
-   MOVE PRESIDENCY TO PRNPRESIDENCY
-   MOVE FIRSTNAME TO PRNFIRSTNAME 
-   MOVE LASTNAME TO PRNLASTNAME 
+   MOVE PRESIDENCY TO PRINT-PRESIDENCY
+   MOVE FIRSTNAME TO PRINT-FIRSTNAME 
+   MOVE LASTNAME TO PRINT-LASTNAME 
    WRITE PRINTLINE FROM PRESIDENT-DETAIL-LINE AFTER
    ADVANCING 1 LINE
    ADD 1 TO LINECOUNT.
