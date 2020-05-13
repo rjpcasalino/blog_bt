@@ -2,6 +2,13 @@
 title: 'COBOL: A Brief Introduction'
 layout: post
 ---
+<style>
+#levels {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
 
 ## Common Business-Oriented Language. 
 _Suggested listening_
@@ -25,8 +32,6 @@ COBOL continues to power portions of the Individual Master File, the IRS system 
 <hr>
 ### Getting Started
 
-_This document assumes a bit of programming knowledge and familiarity with GNU tools_.
-
 _Suggested listening_
 <br>
 [_Saku_](https://en.wikipedia.org/wiki/Susumu_Yokota)
@@ -37,6 +42,9 @@ src="https://wiki.boringtranquility.io/assets/audio/Saku.mp3">
     Your browser does not support the
     <code>audio</code> element.
 </audio>
+
+
+_This document assumes a bit of programming knowledge and familiarity with GNU tools_.
 
 Luckily for us, getting started with COBOL is relatively painless. GnuCOBOL is a free implementation of the language which one is welcome to study, share, and modify. GnuCOBOL offers latitude regarding use of syntax but we'll be following (as best we can, at least) conventions found in IBM documentation. 
 
@@ -51,8 +59,8 @@ COBOL source programs are grouped into the following four divisions:
 *    Data division
 *    Procedure division
 
-Our program is simple. We're taking data from one file and generating a report that will count and add the presidency number to our already sorted list.
- 
+Our program is simple. We're taking data from one file and generating a report that will count and add the presidency number from a sorted listed in our data file. The Presidents aren't out of order and Grover Cleveland's nonconsecutive terms are marked.
+
 The Identification division contains some program meta data:
 
 ```COBOL
@@ -115,9 +123,9 @@ FD PRESIDENT-REPORT.
 * PICTURE or PIC specifies general characteristics 
 * and editing requirements of a data item i.e., variable 
 *
-*PIX X - Alphanumeric or any character, (including binary).
-*PIC 9 - Numeric; numbers 0-9, but no letters.
-*PIC A - Alpha (A-Z, a-z, and space only).
+* PIX X - Alphanumeric or any character, (including binary).
+* PIC 9 - Numeric; numbers 0-9, but no letters.
+* PIC A - Alpha (A-Z, a-z, and space only).
 
 * COBOL uses a hierarchical structure.
 * Structure of presidents.dat file
@@ -142,7 +150,7 @@ Sometimes you'll see levels incremented by 3 or 5. It's programmer preference. I
 
 The figure below illustrates levels:
 
-![COBOL levels](https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/images/igyl1015.gif)
+<img id="levels" src="https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/images/igyl1015.gif"/>
 
 66, 77, 88 are special level values:
 
@@ -186,7 +194,7 @@ OPEN OUTPUT PRESIDENTS-REPORT
 ```
 Let's read a bit about the OPEN statement:
 
-> The phrases INPUT, OUTPUT, I-O...specify the mode to be used for opening [a] file. At least one of the phrases INPUT, OUTPUT, I-O, must be specified with the OPEN keyword. The INPUT, OUTPUT, I-O phrases can appear in any order. <sup><a href="#sup2"></a></sup>
+> The phrases INPUT, OUTPUT, I-O...specify the mode to be used for opening [a] file. At least one of the phrases INPUT, OUTPUT, I-O, must be specified with the OPEN keyword. The INPUT, OUTPUT, I-O phrases can appear in any order. <sup><a href="#sup2">[2]</a></sup>
 
 The true bulk of our program reads:
 
@@ -226,7 +234,6 @@ Looks much like a function body, no? In any case, PERFORM calls the above "funct
 PERFORM UNTIL EOF
 READ PRESIDENTS
 ```
-
 Recall our EOF check from earlier. We're saying we want to PERFORM this action until we've set EOF to true.
 
 ```COBOL
@@ -245,6 +252,7 @@ NOT AT END
 END-PERFORM
 STOP RUN.
 ```
+Lots going on here. The most important aspect of this code is the SET EOF TO TRUE after we close all our files. There are many ways to do this in COBOL, but I found this appears the most readable to me.
 
 Compile the code with:
 
@@ -253,7 +261,8 @@ $ cobc -x presidents.cob
 ```
 Run it and see that the PresidentReport file should be populated with some useful information. Make sure the file exists before running the program.
 
-In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming using COBOL.
+In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming.
 <hr>
 <sup id="sup1">[1]</sup>http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html
+
 <sup id="sup2">[2]</sup>https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.htm
