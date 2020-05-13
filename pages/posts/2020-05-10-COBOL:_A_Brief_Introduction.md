@@ -8,6 +8,9 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+#sub2 {
+overflow-x: hidden;
+}
 </style>
 
 ## Common Business-Oriented Language. 
