@@ -295,6 +295,102 @@ Run the newly compiled program and if all goes well you should see a PresidentRe
 
 In the next post we'll go over COBOL arrays which are known as tables. We'll also play around with some interactivity and jump into network programming. Thanks for reading!
 
+Here's the complete code:
+
+```COBOL
+      * Boring and dull stuff about our program.
+       PROGRAM-ID. Presidents.
+       AUTHOR. rjpc.
+       DATE-WRITTEN. May 6th, 2050.
+      * *** PRE-FLIGHT
+      * *********************
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+      * *********************
+      * Load flight plan
+       FILE-CONTROL. 
+      * Writing to: 
+        SELECT PRESIDENTS-REPORT ASSIGN TO "PresidentReport"
+      * How should file should be read
+                ORGANIZATION IS LINE SEQUENTIAL.
+      * Reading from:
+        SELECT PRESIDENTS ASSIGN TO 'presidents.dat'
+                ORGANIZATION IS LINE SEQUENTIAL.
+       DATA DIVISION.
+       FILE SECTION.
+      * PRESIDENT-REPORT Structure 
+       FD PRESIDENTS-REPORT.
+      * File Description 
+       01 PRINTLINE PIC X(44).
+      * presidents.dat Structure
+       FD PRESIDENTS.
+       01 PRESIDENT.
+           05 FIRSTNAME PIC X(25) VALUE SPACES.
+      * Middle names; "FILLER" is optional
+           05 FILLER PIC X(15) VALUE SPACES.
+           05 LASTNAME PIC X(25) VALUE SPACES.
+       88 EOF VALUE "N".
+       
+       WORKING-STORAGE SECTION.
+      * Local variables or "data items"
+       01 PAGEHEADING.
+               05 FILLER PIC X(25) VALUE "Presidents of U.S.".
+       01 PAGEFOOTING.
+               05 FILLER PIC X(15) VALUE SPACE.
+               05 FILLER PIC X(6) VALUE  "Page: ".
+       01 HEADERS PIC X(36) VALUE "#     FIRST  LAST".
+       01 PRESIDENCY PIC 9(2).
+       01 PRESIDENT-DETAIL-LINE.
+               05 PRNPRESIDENCY PIC 9(2).
+               05 FILLER PIC X(4) VALUE SPACES.
+               05 PRNFIRSTNAME PIC X(25).
+               05 FILLER PIC XXX VALUE SPACES.
+               05 PRNLASTNAME PIC X(25).
+       01 REPORTFOOTING PIC X(13) VALUE "END OF REPORT".
+       01 LINECOUNT PIC 99 VALUE ZERO.
+      * *** END PRE-FLIGHT
+      *
+      * Let's rock! TAKE OFF!
+       PROCEDURE DIVISION.
+      * READ
+           OPEN INPUT PRESIDENTS
+      * WRITE
+           OPEN OUTPUT PRESIDENTS-REPORT
+           PERFORM PRINTPAGEHEADING
+           PERFORM UNTIL EOF
+           READ PRESIDENTS
+                   AT END 
+                           WRITE PRINTLINE FROM REPORTFOOTING 
+                           AFTER ADVANCING 2 LINES
+                           CLOSE PRESIDENTS
+                           CLOSE PRESIDENTS-REPORT
+                           SET EOF TO TRUE
+                   NOT AT END 
+                        PERFORM PRINTREPORTBODY
+           END-READ
+           END-PERFORM
+           STOP RUN.
+
+      *** BEGIN PARAGRAPH FUNCTIONS
+       PRINTPAGEHEADING.
+           WRITE PRINTLINE FROM PAGEHEADING AFTER ADVANCING Page
+           WRITE PRINTLINE FROM HEADERS AFTER ADVANCING 2 LINES
+           MOVE 3 TO LINECOUNT.
+
+
+       PRINTREPORTBODY.
+      * Increment  
+           ADD 1 TO PRESIDENCY.
+      * note the period above!
+           MOVE PRESIDENCY TO PRNPRESIDENCY
+           MOVE FIRSTNAME TO PRNFIRSTNAME 
+           MOVE LASTNAME TO PRNLASTNAME 
+           WRITE PRINTLINE FROM PRESIDENT-DETAIL-LINE AFTER
+           ADVANCING 1 LINE
+           ADD 1 TO LINECOUNT.
+      *** END OF FUNCTIONS 
+```
+
 <hr>
 <div class="sups">
 <ul style="list-style:none;">
