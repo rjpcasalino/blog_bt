@@ -298,6 +298,7 @@ In the next post we'll go over COBOL arrays which are known as tables. We'll als
 Here's the complete code:
 
 ```COBOL
+       IDENTIFICATION DIVISION.
       * Boring and dull stuff about our program.
        PROGRAM-ID. Presidents.
        AUTHOR. rjpc.
