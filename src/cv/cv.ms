@@ -53,12 +53,12 @@ Software Programmer: Nov 2019 - Current
 .R
 .RS
 .KE
-.IP -
-I help my clients solve their problems with the tools they tell me to use.
+.IP
+Have assisted small vendors with deployment and maintenance of web applications built with HTML, CSS, and JavaScript. Write "glue" for third party API integration and have worked with a plethora of data sets and formats (JSON, XML, binary). Script with a wide variety of scripting languages such as Perl, Bash, and Python. Work with Go and Ruby on back end. I have a good understanding of TCP/UDP and applications based on those protocols. I believe in the Unix philosophy that a program should do one thing and one thing well.
 .RE
 .KS
 .IP \[bu]
-.B "React Mobile (startup)" 
+.B "React Mobile" 
 .B "Seattle, WA"
 .br
 .I
@@ -69,8 +69,8 @@ Software Engineer: Jan 2019 - Nov 2019
 Provided bug fixes and new development for safety platform application.
 .KE
 .IP -
-Developed location search functionality for platform: JavaScript (Electron and jQuery) front end,
-Ruby on Rails backend. Provided Operation managers with admin portal to allow for search and add upon multiple vectors.
+Developed location search functionality for platform: JavaScript (Electron & jQuery) frontend,
+Ruby on Rails backend. Provided Operation Managers with admin portal written with Rails and React.
 .IP -
 Developed
 .I "Microsoft Outlook"
@@ -86,7 +86,7 @@ application.
 .RE
 .KS
 .IP \[bu]
-.B "GawkBox (startup)"
+.B "GawkBox"
 .B "Seattle, WA"
 .br
 .I
@@ -94,12 +94,12 @@ Software Engineer: Aug 2017 - Jan 2019
 .R
 .RS
 .IP -
-Shipped entire front-end SPA with 
+Shipped entire front end Single Page Application with 
 .I Vue
-and back-end written in Go.
+and backend RESTful API written in Go.
 .KE
 .IP -
-Created docker containers for back-end and front-end applications and assisted in deployments using Kubernetes. 
+Created docker containers for back end and front end applications and assisted in deployments using Kubernetes. 
 .IP -
 Wrote extensive documentation for both external and internal tools and applications. 
 .RE
