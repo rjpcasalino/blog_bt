@@ -17,6 +17,9 @@
     [% END %]
 
     [% FOREACH c = collections.posts.sort.reverse %]
+	[% FOREACH k collections %]
+		<p>[% k %]</p>
+	[% END %]
 	<p><a href="posts/[% c %]">[% c.replace('(-|_|.html|[0-9])', ' ') %]</a></p>
     [% END %]
     </div>

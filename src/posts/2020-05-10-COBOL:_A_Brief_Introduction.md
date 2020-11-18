@@ -141,7 +141,7 @@ COBOL can handle JSON and XML nowadays too, by the way. But that's a topic for a
 
 Let's go over a few things before moving on. You might have noticed COBOL levels: <mark>01</mark> or <mark>05</mark>.
 
-> These levels tell the COBOL compiler how to associate, or group, fields in the record.  Level 01 is a special case, and is reserved for the record level;  the 01 level is the name of the record. Levels from 02 to 49 are all "equal" (level 2 is no more significant than level 3), but there is a hierarchy to the structure.  Any field listed in a lower level (higher number) is subordinate to a field or group in a higher level (lower number).<sup><a href="#sup1">[1]</a></sup>
+> These levels tell the COBOL compiler how to associate, or group, fields in the record.  Level 01 is a special case, and is reserved for the record level;  the 01 level is the name of the record. Levels from 02 to 49 are all "equal" (level 2 is no more significant than level 3), but there is a hierarchy to the structure.  Any field listed in a lower level (higher number) is subordinate to a field or group in a higher level (lower number).<sup id="fnref:1"><a href="#sup1">[1]</a></sup>
 
 Sometimes you'll see levels incremented by 3 or 5. It's programmer preference. I hear some organizations have standards regarding such matters.
 
@@ -187,7 +187,7 @@ PRE-FLIGHT checks done, cabin doors closed, whiskey safely in hand. Take a sip. 
 
 Let's read a bit about the OPEN statement:
 
-> The phrases INPUT, OUTPUT, I-O...specify the mode to be used for opening [a] file. At least one of the phrases INPUT, OUTPUT, I-O, must be specified with the OPEN keyword. The INPUT, OUTPUT, I-O phrases can appear in any order. <sup><a href="#sup2">[2]</a></sup>
+> The phrases INPUT, OUTPUT, I-O...specify the mode to be used for opening [a] file. At least one of the phrases INPUT, OUTPUT, I-O, must be specified with the OPEN keyword. The INPUT, OUTPUT, I-O phrases can appear in any order. <sup id="fnref:2"><a href="#sup2">[2]</a></sup>
 
 The true bulk of our program reads:
 
@@ -369,9 +369,7 @@ Here's the complete code:
 	      *** END OF FUNCTIONS 
 - - - 
 
-<div class="sups">
-<ul style="list-style:none;">
-<li><sup id="sup1">[1]</sup><a href="http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html">http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html</a></li>
-<li><sup id="sup2">[2]</sup><a href="https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.html">https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.html</a></li>
-</ul>
+<div class="footnotes">
+<li><sup id="sup1"><a href="#fnref:1">[1]</a></sup><a href="http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html">http://3480-3590-data-conversion.com/article-reading-cobol-layouts-1.html</a></li>
+<li><sup id="sup2"><a href="#fnref:2">[2]</a></sup><a href="https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.html">https://www.ibm.com/support/knowledgecenter/SS6SG3_4.2.0/com.ibm.entcobol.doc_4.2/PGandLR/ref/rlpsopen.html</a></li>
 </div>

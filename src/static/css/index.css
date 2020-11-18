@@ -1,77 +1,92 @@
 body {
-  margin-left: auto;
-  margin-right: auto;
-  width: calc(100% - 40px);
-  max-width: 600px;
-  font-family: sans-serif;
-  line-height: 1.5;
-  overflow-x: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(100% - 40px);
+	max-width: 600px;
+	font-family: sans-serif;
+	line-height: 1.5;
+	overflow-x: hidden;
 }
 
 aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
+	width: 40%;
+	padding-left: .5rem;
+    	margin-left: .5rem;
+	float: right;
+	box-shadow: inset 5px 0 5px -5px #29627e;
+	font-style: italic;
+	color: #29627e;
 }
 
  /* horizontal rule 
   */
 hr {
-  overflow: visible; /* For IE */
-  padding: 0;
-  border: none;
-  border-top: medium double #333;
-  color: #333;
-  text-align: center;
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
 }
 
 hr:after {
-  content: "\00A7";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: white;
+	content: "\00A7";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
 }
 
 a {
-  color: black;
-  text-decoration: underline;
+	color: black;
+	text-decoration: underline;
 }
 
 a:visited {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 a:hover {
-  color: black;
-  text-decoration: underline;
+	color: black;
+	text-decoration: underline;
 }
 
 ol {
- list-style: japanese-formal;
- margin: 15px;
- line-height: 1.5;
+	list-style: japanese-formal;
+	margin: 15px;
+	line-height: 1.5;
 }
 
 pre {
-   background-color: #d3d3d3;
-   white-space: pre-wrap;
+	background-color: #d3d3d3;
+	white-space: pre-wrap;
 }
 
 img {
-  max-width: 100%; 
-  height: auto;
+	max-width: 100%; 
+	height: auto;
 }
+
+figcaption {
+	font-size: .84em;
+	text-align: center;
+}
+
+.footnotes {
+	font-size: .84em;
+	text-align: left;
+	line-height: 1;
+	list-style: none;
+	line-break: anywhere;
+}
+
 .masthead-wrap {
  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
+
 #masthead {
   max-width: 50vw;
   clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
