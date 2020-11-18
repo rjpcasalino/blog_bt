@@ -3,7 +3,7 @@ title: Alpine on ARM, Perl Scripts, Pis, and LCDs
 layout: post
 ---
 
-> **TL;DR** I wanted to resurrent my old LCDs and use Perl for producing output. I wanted to try out Alpine on ARM but switched over to Raspberry Pi OS since ease of use for interacting with the LCD was easier. Generl thoughts and example code follow...
+> **TL;DR** I wanted to resurrect my old LCDs and use Perl for producing output. I wanted to try out Alpine on ARM but switched over to Raspberry Pi OS since ease of use for interacting with the LCD was more pleasant.
 
 <figure>
 ![Pi with LCD and breadboard](/static/imgs/Pi_LCD.jpg)
@@ -230,4 +230,4 @@ Some code:
 
 This implements a basic echo server that displays its output on an LCD device using the common PCF8574 based backpacks. More here:
 
-> http://hipi.znix.com/module/interface/lcdbackpackpcf8574.html
+> [http://hipi.znix.com/module/interface/lcdbackpackpcf8574.html](http://hipi.znix.com/module/interface/lcdbackpackpcf8574.html)
