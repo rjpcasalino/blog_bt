@@ -3,7 +3,7 @@ title: Alpine on ARM, Perl Scripts, Pis, and LCDs
 layout: post
 ---
 
-> **TL;DR** I wanted to resurrect my old LCDs and use Perl for producing output. I wanted to try out Alpine on ARM but switched over to Raspberry Pi OS since ease of use for interacting with the LCD was more pleasant.
+> **TL;DR** I wanted to resurrect my old LCDs and use Perl for producing output. I wanted to try out Alpine on ARM but switched over to Raspberry Pi OS since it offered better ease of use for interacting with the LCD.
 
 <figure>
 ![Pi with LCD and breadboard](/static/imgs/Pi_LCD.jpg)

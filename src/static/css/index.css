@@ -1,8 +1,7 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	width: calc(100% - 40px);
-	max-width: 600px;
+	max-width: 800px;
 	font-family: sans-serif;
 	line-height: 1.5;
 	overflow-x: hidden;
@@ -41,7 +40,7 @@ hr:after {
 
 a {
 	color: black;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:visited {
@@ -55,7 +54,6 @@ a:hover {
 }
 
 ol {
-	list-style: japanese-formal;
 	margin: 15px;
 	line-height: 1.5;
 }
