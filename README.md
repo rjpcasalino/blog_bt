@@ -1,5 +1,4 @@
 ### blog @ bt dot io
 
-More soon... :)
-
+Made with bss
 

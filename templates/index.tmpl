@@ -1,0 +1,26 @@
+[% header = "partials/header.tmpl" %]
+[% footer = "partials/footer.tmpl" %]
+[% INCLUDE $header %]
+<h1> [% title %]</h1>
+<div class="masthead-wrap">
+	<img id="masthead" src="static/imgs/bored.jpg" alt="boring tranquility masthead">
+</div>
+	<p><a href="https://en.wikipedia.org/wiki/West_with_the_Night"><span>&OpenCurlyDoubleQuote;</span>Boredom, like hookworm, is endemic.<span>&CloseCurlyDoubleQuote;</span></a>
+	</p>
+	<p><a href="https://en.wikipedia.org/wiki/Daniel_Webster"><span>&OpenCurlyDoubleQuote;</span>Liberty and Union, now and forever, one and inseparable!<span>&CloseCurlyDoubleQuote;</span></a>
+	</p>
+	<hr>
+	<div>
+	    [% FOREACH part IN body %]
+		[% part %]
+	    [% END %]
+
+	    [% FOREACH c = collections.posts.sort.reverse %]
+		[% FOREACH k collections %]
+			<p>[% k %]</p>
+		[% END %]
+		<p><a href="posts/[% c %]">[% c.replace('(-|_|.html|[0-9])', ' ') %]</a></p>
+	    [% END %]
+    	</div>
+
+[% INCLUDE $footer %]
