@@ -5,7 +5,7 @@ title: 'Nemo in the Network Dreams of Computers'
 
 <hr>
 
-I often wonder if my machines are happy being resurrected as they were. They've gone through myriad configurations, so many that I can't recall. They've slumbered for long periods in between. With a heave and a ho, their  names have been moved about and shuffled around while their innards remain the same.
+I often wonder if my machines are happy being resurrected as they were. They've gone through myriad configurations, so many that I can't recall. They've slumbered for long periods in between. With a heave and a ho, their  names have been moved and shuffled about while their innards remain the same.
 
 Why resurrect old Sun machines? I think it's because I wanted to feel closer to the past. It's rescinding very quickly now, with memories stretched so thin they appear as gossamer. I wanted to feel close to Bill, also. What a joy that would be, uh?
 
@@ -20,12 +20,12 @@ Manual documents you'll want to have handy for reference &mdash;
      netintro(4)
      diskless(8)
      pxeboot(8)
+     cu(4) 
      dhcpd(8)
      arp(4)
      arp(8)
      rarpd(8)
      eeprom(8)
-     cu(4) - maybe
 
 All of which can be found at [https://man.openbsd.org/](https://man.openbsd.org/)
 
@@ -46,13 +46,13 @@ A short search on eBay will present you with many choices concerning Ultras. I s
 
 You'll likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the supply is easy to slide out of the way for easy access to the chip.
 
-<sub>Below is an example of a likely error message you'll encounter. Debugging can be disabled</sub>
+<sub>Below is an example of a likely error message you'll encounter. Debugging can be disabled.</sub>
 ![IDPROM contents invalid](/static/imgs/IDPROM_contents_invalid.jpg)
 
 ![replacement ultra 10 nvram](/static/imgs/nvram_ultra10.jpg)
-<sub>Replacement M48T58Y-70PC1 Timekepper placed in an Ultra 10; upper left</sub>
+<sub>Replacement M48T58Y-70PC1 Timekepper placed in an Ultra 10 can be seen in the upper left.</sub>
 
-Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console (you'll need a Null modem which can be found on DigiKey or Amazon; you might want to have a gender changer handy as well), and once connected you'll have the opportunity to program in the machine's ethernet address:
+Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console (you'll need a null modem which can be found on DigiKey or Amazon; you might want to have a gender changer handy as well), and once connected you'll have the opportunity to program in the machine's ethernet address:
 
     ok set-defaults
     1 0 mkp
@@ -76,7 +76,7 @@ where "XX:YY:ZZ" are the last 3 bytes of the media access control &mdash; MAC ad
 
 We `set-defaults` just to be sure. You can print the environment out via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP + A` which sends a break and will drop you in at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0 <baud rate> <other stuff>`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>.
+You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP + A` which sends a break and will drop you in at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0 <baud rate> <other stuff>`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. Yet another way is to use `cu` and "call up" the UNIX system of your choice. Once you've connected you can see what key sequence is needed to send the break by using the tilde as the escape character to issue commands such as `~?` which will present a list of other commands.
 
 ![NVRAM Ultra 30](/static/imgs/NVRAM_ULTRA30.jpg)
 <sub>NVRAM in cradle within an Ultra 30 amidst the dust</sub>
