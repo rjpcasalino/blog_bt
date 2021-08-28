@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Nemo in the Network Dreams of Computers'
+title: 'Nemo in Network Dreamland'
 ---
 
 <hr>
@@ -15,7 +15,7 @@ In any case, as they say, here we go:
 
 This document will guide you through netbooting into either OpenBSD (on a SPARC V9 or an AMD64 box) or NixOS  or anything that netboot.xyz offers (on an AMD64 box). We'll also cover a bit more of netboot.xyz later as well as  iPXE (an open-source implementation of the  Preboot eXecution Environment), Open Firmware (also known as Open Boot; the terms "OBP", "OpenBoot PROM" and "PROM" (programmable read-only memory) are often used interchangeably in this context), and a tiny amount of Forth programming.
 
-Manual documents you'll want to have handy for reference &mdash;
+Manual documents you'll want to have handy for reference — 
 
      netintro(4)
      diskless(8)
@@ -29,7 +29,7 @@ Manual documents you'll want to have handy for reference &mdash;
 
 All of which can be found at [https://man.openbsd.org/](https://man.openbsd.org/)
 
-Files you'll encounter &mdash;
+Files you'll encounter — 
 
      /etc/bootparams     Client root and swap pathnames.
      /etc/dhcpd.conf     DHCP daemon configuration file.
@@ -49,8 +49,8 @@ You'll likely encounter a message about IDPROM contents being invalid during the
 <sub>Below is an example of a likely error message you'll encounter. Debugging can be disabled.</sub>
 ![IDPROM contents invalid](/static/imgs/IDPROM_contents_invalid.jpg)
 
-![replacement ultra 10 nvram](/static/imgs/nvram_ultra10.jpg)
-<sub>Replacement M48T58Y-70PC1 Timekepper placed in an Ultra 10 can be seen in the upper left.</sub>
+![replacement ultra 10 nvram](/static/imgs/NVRAM_ULTRA10.jpg)
+<sub>Replacement M48T58Y-70PC1 Timekeeper placed in an Ultra 10 can be seen in the upper left.</sub>
 
 Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console (you'll need a null modem which can be found on DigiKey or Amazon; you might want to have a gender changer handy as well), and once connected you'll have the opportunity to program in the machine's ethernet address:
 
@@ -72,16 +72,16 @@ Once you've replaced the chip and booted the machine, you should connect either 
     ZZ e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-where "XX:YY:ZZ" are the last 3 bytes of the media access control &mdash; MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits (as in the image below). That's about all the Forth programming you're gonna have to do.
+where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits (as in the image below). That's about all the Forth programming you're gonna have to do.
 
 We `set-defaults` just to be sure. You can print the environment out via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP + A` which sends a break and will drop you in at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0 <baud rate> <other stuff>`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. Yet another way is to use `cu` and "call up" the UNIX system of your choice. Once you've connected you can see what key sequence is needed to send the break by using the tilde as the escape character to issue commands such as `~?` which will present a list of other commands.
+You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP + A` which sends a break and will drop you in at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`; keep in mind options such as baud rate, although defaults tend to work) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. Yet another way is to use `cu` and "call up" the UNIX system of your choice. Once you've connected, you can ascertain what key sequence is needed to send a break by issuing commands such as `~?` which prints a list of other commands.
 
 ![NVRAM Ultra 30](/static/imgs/NVRAM_ULTRA30.jpg)
 <sub>NVRAM in cradle within an Ultra 30 amidst the dust</sub>
 
-OpenBoot provides a programmable user interface that gives you access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new.
+OpenBoot provides a programmable user interface that gives you access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new:
 
 > `help` without any specifier, displays instructions on how to use the help system and lists the available help categories. Because of the large number of commands, help is available only for commands that are used frequently.
 
@@ -89,6 +89,14 @@ Since you're hoping to netboot, it might be wise to test the network connection 
 
 ![watch-net test](/static/imgs/watch-net_test.jpg)
 <sub>you can test _devices_ and issue commands<sub>
+
+If you're receiving good packets, this means the client is ready. You'll have to have OpenBSD installed on another machine. In my case, the Ultra 10 began it's new life as my boot server. Luckily, the Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install OpenBSD after burning the 69ISO to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
+
+First things first. Let's see what our client is hoping to see once you've issued the `boot net` at the `ok` prompt. You can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
+
+Setting up RARP server 
+
+![rarp client error](/static/imgs/)
 
 #### References
 
