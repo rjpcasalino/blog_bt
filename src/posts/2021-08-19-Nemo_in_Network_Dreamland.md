@@ -17,15 +17,18 @@ This document will guide you through netbooting into either OpenBSD (on a SPARC 
 
 Manual documents you'll want to have handy for reference — 
 
-     netintro(4)
-     diskless(8)
-     pxeboot(8)
-     cu(4) 
-     dhcpd(8)
      arp(4)
      arp(8)
-     rarpd(8)
+     cu(4) 
+     dhcpd(8)
+     diskless(8)
      eeprom(8)
+     ethers(5)
+     hosts(5)
+     netintro(4)
+     pxeboot(8)
+     rarpd(8)
+     tftpd(8)
 
 All of which can be found at [https://man.openbsd.org/](https://man.openbsd.org/)
 
@@ -46,13 +49,13 @@ A short search on eBay will present you with many choices concerning Ultras. I s
 
 You'll likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the supply is easy to slide out of the way for easy access to the chip.
 
-<sub>Below is an example of a likely error message you'll encounter. Debugging can be disabled.</sub>
+<sub>Below is an example of an error message you'll likely encounter. Debugging can be disabled.</sub>
 ![IDPROM contents invalid](/static/imgs/IDPROM_contents_invalid.jpg)
 
 ![replacement ultra 10 nvram](/static/imgs/NVRAM_ULTRA10.jpg)
 <sub>Replacement M48T58Y-70PC1 Timekeeper placed in an Ultra 10 can be seen in the upper left.</sub>
 
-Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console (you'll need a null modem which can be found on DigiKey or Amazon; you might want to have a gender changer handy as well), and once connected you'll have the opportunity to program in the machine's ethernet address:
+Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well. Once connected you'll have the opportunity to program in the machine's ethernet address:
 
     ok set-defaults
     1 0 mkp
@@ -72,9 +75,9 @@ Once you've replaced the chip and booted the machine, you should connect either 
     ZZ e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits (as in the image below). That's about all the Forth programming you're gonna have to do.
+where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits (as in the image below). Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up weather the ethernet address stuck.
 
-We `set-defaults` just to be sure. You can print the environment out via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
+We `set-defaults` just to be sure. You can print the environment to get a sense of what's what via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
 
 You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP + A` which sends a break and will drop you in at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`; keep in mind options such as baud rate, although defaults tend to work) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. Yet another way is to use `cu` and "call up" the UNIX system of your choice. Once you've connected, you can ascertain what key sequence is needed to send a break by issuing commands such as `~?` which prints a list of other commands.
 
@@ -90,16 +93,26 @@ Since you're hoping to netboot, it might be wise to test the network connection 
 ![watch-net test](/static/imgs/watch-net_test.jpg)
 <sub>you can test _devices_ and issue commands<sub>
 
-If you're receiving good packets, this means the client is ready. You'll have to have OpenBSD installed on another machine. In my case, the Ultra 10 began it's new life as my boot server. Luckily, the Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install OpenBSD after burning the 69ISO to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
+If you're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some what is to be discussed further below depends on what architecture you are trying to netboot. Unless otherwise noted, you can assume the client is a SPARC64 box.
 
-First things first. Let's see what our client is hoping to see once you've issued the `boot net` at the `ok` prompt. You can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
+Luckily, the Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install OpenBSD after burning the 69ISO to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
 
-Setting up RARP server 
+First things first. Let's see what our client is hoping to see once you've issued the `boot net` command at the `ok` prompt. By the way, you can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
 
-![rarp client error](/static/imgs/)
+Okay! So let's go ahead and boot from the network...
+
+![rarp client error](/static/imgs/rarp_error.jpg)
+<sub>Retrying...Check TFTP server and network setup</sub>
+
+Thankfully, the client offers advice as to  what to do next.
+
+Setting up a reverse ARP server is dead simple with `rarpd`. By default this process forks and runs in the background (it's a daemon after all) but if one were to run it in the foreground and pass it the `-d` flag they'd see the action as it were and be able to better debug any issues. A bit more on `rarpd`:
+
+> Upon receiving a request, rarpd maps the target hardware address to an IP address via its name, which must be present in both the ethers(5) and hosts(5) databases.
 
 #### References
 
 * https://www.openbsd.org/papers/bsdcan2019_netboot.pdf
 * http://cholla.mmto.org/computers/sun/ultra/nvram.html
 * https://docs.oracle.com/cd/E19683-01/816-1177-10/overview.html#pgfId-1007990
+* http://www.cs.columbia.edu/~sedwards/presentations/2019-vcf-netboot.pdf (wonderfully helpful!)
