@@ -2,25 +2,27 @@
 layout: post
 title: 'Nemo in Network Dreamland'
 ---
+This document will guide you through netbooting into either OpenBSD (on a SPARC V9 or AMD64 box) or NixOS  or anything that netboot.xyz offers (AMD64 (x86-64) box only). We'll also cover a bit more of netboot.xyz as well as iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Little_Nemo_1906-02-11.jpg"/>
 
-This document will guide you through netbooting into either OpenBSD (on a SPARC V9 or an AMD64 box) or NixOS  or anything that netboot.xyz offers (on an AMD64 box). We'll also cover a bit more of netboot.xyz later as well as  iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
 <aside>
 <small>
 the terms "OBP", "OpenBoot PROM" and "PROM" (programmable read-only memory) are often used interchangeably in this (and other) context.
 </small>
 </aside>
 
-Manual documents you'll want to have handy for reference — 
+Manuals you'll want to have handy for reference — 
 
      arp(4)
      arp(8)
      boot_sparc64(8)
      biosboot(8) — amd64-specific first-stage system bootstrap
+     boot_sparc64(8) 
      cu(4) 
      dhcpd(8)
      dhcpd.conf(5)
+     dhcpd-options(5)
      diskless(8)
      eeprom(8)
      ethers(5)
@@ -57,11 +59,11 @@ You'll likely encounter a message about IDPROM contents being invalid during the
 <sub>Below is an example of an error message you'll likely encounter. Debugging can be disabled.</sub>
 ![IDPROM contents invalid](/static/imgs/IDPROM_contents_invalid.jpg)
 
-Once you've replaced the chip and booted the machine, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well.
+Once the chip has been replaced and the machine booted, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well.
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A` which sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. Yet another way is to use `cu` and "call up" the UNIX system of your choice. Once you've connected, you can ascertain what key sequence is needed to send a break by issuing commands such as `~?` which prints a list of other commands.
+You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
 
-Once you've gotten yourself to the PROM, it's time to program in the machine's ethernet address:
+When you've gotten yourself to the PROM, it's time to program in the machine's ethernet address:
 
     ok set-defaults
     1 0 mkp
@@ -101,7 +103,7 @@ If you're receiving good packets, this means the client is ready. The boot serve
 
 Luckily, the Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install OpenBSD after burning the ISO (International Organization for Standardization) to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
 
-Let's take a look at what our client is hoping to see once we've issued the `boot net` command at the `ok` prompt. By the way, you can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
+Let's take a look at what our client is hoping to see once the `boot net` command has been issued at the `ok` prompt. By the way, you can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
 
 Okay, let's go ahead and boot from the network...
 
@@ -109,6 +111,8 @@ Okay, let's go ahead and boot from the network...
 <sub>Retrying...Check TFTP server and network setup</sub>
 
 Thankfully, the client offers advice as to what to do next.
+
+<small>(The steps taken hereafter  are in no way dogmatic. Please note certain things won't happen unless certain other things have been done).</small>
 
 Setting up a reverse ARP server is dead simple with `rarpd`. By default this process forks and runs in the background (it's a daemon after all) but if one were to run it in the foreground and pass it the `-d` flag they'd be better equipped to debug issues. A bit more on `rarpd` from its manual page:
 
@@ -122,9 +126,14 @@ According to the kind editors of Wikipedia:
 
 > MAC addresses are primarily assigned by device manufacturers, and are therefore often referred to as the burned-in address, or as an Ethernet hardware address, hardware address, or physical address.
 
-Keep the above in mind as you try to make sense of why we have so how many names for the one _thing_.
+Keep the above in mind as you try to make sense of why we have so many names for seemingly one _thing_.
 
 #### but, I don't want to worry about the link layer...
+
+> _The world is a jungle in general, and the networking game
+contributes many animals.  At nearly every layer of a network
+architecture there are several potential protocols that could be
+used._ <sub>from RFC 826</sub>
 
 Address resolution provides dynamic mapping between two different forms of addresses: 32-bit IP addresses and whatever type of address the network interface uses. This network interface's hardware address (often an 48-bit ethernet address) is what the device driver software will need to know in order to route the incoming IP datagram. The device driver never looks at the destination IP address of an incoming IP datagram. Again, the function of ARP is to map two addresses (the _logical_ IP address and the _physical_ hardware address).
 
@@ -142,18 +151,61 @@ A diskless system would read its unique hardware or physical address from the in
     rarpd: 08:00:20:00:02:CD # client ether
     rarpd: reply sent
 
-Once the diskless has its IP said system should then probe the newly received address with ARP.
+Once the diskless system has its IP said system should then probe the newly received address with ARP.
 
 ![Little Nemo 3](https://upload.wikimedia.org/wikipedia/commons/0/0b/Little_Nemo_1906-10-21.jpg)
 
+#### a trivial matter: TFTP
+
+TFTP is a "simple" protocol designed to fit in read-only memory and be used only during the bootstrap of a diskless system. Back in the before times, computer manufactures did not have a standard way to bootstrap systems and thus all had a different way of accomplishing the same thing. TFTP was created to standardize the process and provide some uniformity.
+
+> The fact that TFTP is a rather slow protocol is not a serious concern, due to the fact that it need be used only for the primary bootstrap. A secondary bootstrap could use a faster protocol.
+<sub>_from RFC 906_</sub>
+
+Concerning security and TFTP ... there isn't any: no provisions for a username or password exist. Furthermore, TFTP is using the unreliable protocol, UDP. These factors help keep TFTP simple and small. 
+
+> Due to the lack of authentication information, `tftpd` will allow only publicly readable files to be accessed.
+
+OpenBSD provides the `tftp` program which can be used to issued commands. Coupled with the daemon above, you can test via `tftp` to see if your bootserver is properly running `tftpd`.
+
+<aside>
+Many TFTP clients will not transfer files over 16744448 octets (32767 blocks).
+</aside>
+
+Bootloaders reside in a chroot environment within `/tftpboot` on the bootserver.
+
+<center> - </center>
+Since we're netbooting different architectures we have to satisfy each needs in that we must present the file the client is asking for.
+
+> If the client's PROM fails to fetch the expected file, tcpdump(8) can be used to discover which filename the client is trying to read.
+
+In the case of the Sun machines, the boot program is accessible as a file named after the client's IP address in hex. For example:
+
+(recall that the OpenBSD bootstrap program is named "ofwboot" (open firmware)). Here, as elsewhere, NetBSD and OpenBSD share similarities. If you wanted, you could instead netboot into NetBSD following the same method. In either case,
+
+    cd /tftpboot
+    ln -s ofwboot.net C0C5600C
+
+You can use `awk` to convert the IP into hex like so:
+
+    echo 192.197.96.12 | awk -F . \
+     '{ printf "%02X%02X%02X%02X\n", $1, $2, $3, $4 }'
+
+When the client asks, our bootserver will reply and load the first stage bootloader.
+
+> The UltraSPARC Open Firmware will normally look for a bootloader on the device specified by the boot-device variable. The OpenBSD bootloader will then look for a kernel named bsd by default, unless the boot-file variable is set, or a different filename has been specified in the boot command.
+
+see if above is try ... might need to look into boot.conf.
+
 #### dhcpd setup
+
 <small>
 <aside>
 > DHCP is built directly on UDP and IP which are as yet inherently insecure. Furthermore, DHCP is generally intended to make maintenance of remote and/or diskless hosts easier. While perhaps not impossible, configuring such hosts with passwords or keys may be difficult and inconvenient. Therefore, DHCP in its current form is quite insecure.
 </aside>
 </small>
 
-The manual can be cryptic and nothing works better than an example to clear things up:
+The manual can be cryptic and nothing clears things up better than an example:
    
     option  domain-name "my.domain";
     option  domain-name-servers 192.168.1.3, 192.168.1.5;
@@ -171,30 +223,70 @@ The manual can be cryptic and nothing works better than an example to clear thin
         host pxe-client {
                 hardware ethernet 02:03:04:05:06:07;
                 filename "pxeboot";
-                option-34 1; # see below
                 next-server 192.168.1.1;
         }
      }
 
 (you'd find this in <samp>/etc/examples/dhcpd.conf</samp>).
 
-It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132).
+It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132). I say that with a grain of salt. Does anyone recall what that expression means again? Anyway, you've always known you'd one day find yourself wading through RFCs. It was only a matter of time. Endless reams of paper saved but just festooned to the screen instead.
 
 I found myself tumbling around in `dhcpd.conf` some days annoying my poor wife when her many machines (some even strapped to her wrist, if you can believe that!) were calling and demanding their IPs but receiving none.
 
-If you make changes to `/etc/dhcpd.conf` (as you surely will) be sure to have those changes reflected in reality by restarting the daemon with `rcctl restart dhcpd`. Bare in mind that `dhcpd` can be run with the `-n` flag which will only test the configuration, but will not run `dhcpd`.
+If you make changes to `/etc/dhcpd.conf` (as you surely will) be sure to have those changes reflected in reality by restarting the daemon with `rcctl restart dhcpd`.
+
+I mentioned RFC 2132 because the myriad options you'll encounter (if you're using OpenBSD) are lifted direct:
 
 > The documentation for the various options mentioned [in the actual documentation] is taken from the IETF draft document on DHCP options, RFC 2132. Options which are not listed by name may be defined by the name option-_nnn_, where _nnn_ is the decimal number of the option code. These options may be followed either by a string, enclosed in quotes, or by a series of octets, expressed as two-digit hexadecimal numbers separated by colons.
 
-#### bootparamd or rpc.bootparamd
-
-An example: 
-
-> When the client named "mockingbird" requests the pathname for its logical "root" it will be given the server name "server" and the pathname `/export/mockingbird` as the response to its RPC request.
-
 #### creating a root filesystem
 
-You can create a root filesystem with base70.tgz and `tar`. You can add extra sets if you so desire, but base is the bare minimum needed.
+Working in `/export/mockingbird` on the boot server, it's time to create our root filesystem using the OpenBSD/_[arch]_/_[version]_ base binary distribution as one must install this distribution set for it contains the base utilities necessary for minimal system functionality.
+
+Using `ftp`, `signify`, and `tar` this is a simple task:
+
+
+      ftp bosise 
+      signify -C -p /etc/signify/openbsd-70-base.pub -x SHA256.sig bsd.rd # or base70.tgz
+
+<aside>
+<small>
+> MAKEDEV - create system and device special files.
+> See intro(4) for a more complete discussion of special files.
+</small>
+</aside>
+
+
+      mkdir -p /export/mockingbird
+      tar xzphf *.tgz -C /export/mockingbird # check your version of tar, as this might not work
+      cd /export/mockingbird/var/sysmerge/
+      tar xzphf etc.tgz -C /export/mockingbird/
+      tar xzphf xetc.tgz -C /export/mockingbird/ # if you added the xsets
+      # in /export/mockingbird/dev
+      ./MAKEDEV all
+
+      echo "mockingbird" > /export/mockingbird/etc/myname
+      echo "inet 192.168.1.2" > /export/mockingbird/etc/hostname.hme0
+      # note that the Sun Happy Meal (hme) Ethernet device is specific to these Ultras
+      # your interface might differ
+
+#### bootparamd or rpc.bootparamd
+
+Be sure to review portmap(8) and rpcinfo(8), and rpc(5). Cursory glances (perhaps many) here and there will do, and trial and error will be employed.
+
+> Some routines that compare hostnames use case-sensitive string comparisons; some do not. If an incoming request fails, verify that the case of the hostname in the file to be parsed matches the case of the hostname called for, and attempt the request again
+
+When the client named "mockingbird" requests the pathname for its logical "root" it will be given the server name "server" and the pathname `/export/mockingbird` as the response to its RPC request.
+
+<hr>
+
+#### pxe in general
+
+> as PXE is based on DHCP, methods being devised to protect DHCP should generally apply to PXE.
+
+#### enter netboot.xyz
+
+> If you experiencing issues with the regular netboot.xyz.kpxe bootloader, you can try and use the netboot.xyz-undionly.kpxe bootloader. The regular bootloader includes common NIC drivers in the iPXE image, while the undionly loader will piggyback off the NIC boot firmware.
 
 #### References
 
@@ -202,7 +294,11 @@ You can create a root filesystem with base70.tgz and `tar`. You can add extra se
 * http://cholla.mmto.org/computers/sun/ultra/nvram.html
 * https://docs.oracle.com/cd/E19683-01/816-1177-10/overview.html#pgfId-1007990
 * http://www.cs.columbia.edu/~sedwards/presentations/2019-vcf-netboot.pdf (wonderfully helpful!)
+* https://datatracker.ietf.org/doc/html/rfc826 (an internet standard!)
+* https://datatracker.ietf.org/doc/html/rfc5227
+* https://datatracker.ietf.org/doc/html/draft-henry-remote-boot-protocol-00
+* https://www.rfc-editor.org/rfc/rfc6842.txt
+* http://sightly.net/peter/openbsd/netboot-sparc.html
 
 <hr>
 ![Littel Nemo in Slumberland 2](https://upload.wikimedia.org/wikipedia/commons/c/ce/Little_Nemo_1908-09-20.jpg)
-
