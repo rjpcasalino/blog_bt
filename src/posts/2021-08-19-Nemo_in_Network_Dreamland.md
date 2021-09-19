@@ -2,9 +2,7 @@
 layout: post
 title: 'Nemo in Network Dreamland'
 ---
-This document will guide you through netbooting into either OpenBSD (on a SPARC V9 or AMD64 box) or NixOS  or anything that netboot.xyz offers (AMD64 (x86-64) box only). We'll also cover a bit more of netboot.xyz as well as iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Little_Nemo_1906-02-11.jpg"/>
+This document will guide you through netbooting into either OpenBSD (on a SPARC V9 or AMD64 box) or NixOS  or anything that netboot.xyz offers (on an AMD64 box only). We'll also cover a bit more of netboot.xyz as well as iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
 
 <aside>
 <small>
@@ -52,16 +50,15 @@ Files you'll encounter —
      /bsd                Default system kernel
      /bsd.rd             Standalone installation kernel, suitable for disaster recovery
 
-A short search on eBay will present you with many choices concerning Ultras. I snagged an Ultra 5, 10, and 30 for less than $500.
+A short search on eBay will present you with many choices concerning Sun Ultra Workstations. I snagged an Ultra 5, 10, and 30 for less than $500.
 
 You'll likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the PSU is easy to slide out of the way for easy access to the chip.
 
-<sub>Below is an example of an error message you'll likely encounter. Debugging can be disabled.</sub>
-![IDPROM contents invalid](/static/imgs/IDPROM_contents_invalid.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Little_Nemo_1906-02-11.jpg"/>
 
 Once the chip has been replaced and the machine booted, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well.
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) then sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
+You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
 
 When you've gotten yourself to the PROM, it's time to program in the machine's ethernet address:
 
@@ -87,9 +84,6 @@ where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC addres
 
 We `set-defaults` just to be sure. You can print the environment to get a sense of what's what via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
 
-![NVRAM Ultra 30](/static/imgs/NVRAM_ULTRA30.jpg)
-<sub>NVRAM in cradle within an Ultra 30 amidst the dust</sub>
-
 OpenBoot provides a programmable user interface that gives you access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new:
 
 > `help` without any specifier, displays instructions on how to use the help system and lists the available help categories. Because of the large number of commands, help is available only for commands that are used frequently.
@@ -101,7 +95,7 @@ Since you're hoping to netboot, it might be wise to test the network connection 
 
 If you're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some what is to be discussed further below depends on what architecture you are trying to netboot. Unless otherwise noted, you can assume the client is a SPARC64 box.
 
-Luckily, the Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install OpenBSD after burning the ISO (International Organization for Standardization) to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
+Luckily, my Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install the OpenBSD 6.9 ISO (International Organization for Standardization) to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
 
 Let's take a look at what our client is hoping to see once the `boot net` command has been issued at the `ok` prompt. By the way, you can adjust the boot order by setting the `boot-device` environment variable via `setenv`. 
 
@@ -153,7 +147,7 @@ A diskless system would read its unique hardware or physical address from the in
 
 Once the diskless system has its IP said system should then probe the newly received address with ARP.
 
-![Little Nemo 3](https://upload.wikimedia.org/wikipedia/commons/0/0b/Little_Nemo_1906-10-21.jpg)
+![Little Nemo 3](https://upload.wikimedia.org/wikipedia/commons/1/1b/Little_Nemo_1909-01-03.jpg)
 
 #### a trivial matter: TFTP
 
@@ -166,10 +160,12 @@ Concerning security and TFTP ... there isn't any: no provisions for a username o
 
 > Due to the lack of authentication information, `tftpd` will allow only publicly readable files to be accessed.
 
-OpenBSD provides the `tftp` program which can be used to issued commands. Coupled with the daemon above, you can test via `tftp` to see if your bootserver is properly running `tftpd`.
+OpenBSD provides the `tftp` program which can be used to issue commands. Coupled with the daemon above, you can test via `tftp` to see if your bootserver is properly running `tftpd`.
 
 <aside>
+<small>
 Many TFTP clients will not transfer files over 16744448 octets (32767 blocks).
+</small>
 </aside>
 
 Bootloaders reside in a chroot environment within `/tftpboot` on the bootserver.
@@ -179,23 +175,21 @@ Since we're netbooting different architectures we have to satisfy each needs in 
 
 > If the client's PROM fails to fetch the expected file, tcpdump(8) can be used to discover which filename the client is trying to read.
 
-In the case of the Sun machines, the boot program is accessible as a file named after the client's IP address in hex. For example:
+In the case of the Sun machines, the boot program is accessible as a file named using the client's IP address in hex. For example, using `awk` the result of the following:
 
-(recall that the OpenBSD bootstrap program is named "ofwboot" (open firmware)). Here, as elsewhere, NetBSD and OpenBSD share similarities. If you wanted, you could instead netboot into NetBSD following the same method. In either case,
+    echo 192.197.96.12 | awk -F . \
+      '{ printf "%02X%02X%02X%02X\n", $1, $2, $3, $4 }'
+
+would be C0C5600C.
+
+Recall that the OpenBSD bootstrap program is named "ofwboot" (open firmware). Here, as elsewhere, NetBSD and OpenBSD share similarities. If you wanted, you could instead netboot into NetBSD following the same method. In either case,
 
     cd /tftpboot
     ln -s ofwboot.net C0C5600C
 
-You can use `awk` to convert the IP into hex like so:
-
-    echo 192.197.96.12 | awk -F . \
-     '{ printf "%02X%02X%02X%02X\n", $1, $2, $3, $4 }'
-
-When the client asks, our bootserver will reply and load the first stage bootloader.
+When the client asks, our bootserver will reply and load the first stage bootloader. Some Sun clients request the file name with an "arch" suffix (e.g., C05600C.SUN4).
 
 > The UltraSPARC Open Firmware will normally look for a bootloader on the device specified by the boot-device variable. The OpenBSD bootloader will then look for a kernel named bsd by default, unless the boot-file variable is set, or a different filename has been specified in the boot command.
-
-see if above is try ... might need to look into boot.conf.
 
 #### dhcpd setup
 
@@ -231,6 +225,8 @@ The manual can be cryptic and nothing clears things up better than an example:
 
 It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132). I say that with a grain of salt. Does anyone recall what that expression means again? Anyway, you've always known you'd one day find yourself wading through RFCs. It was only a matter of time. Endless reams of paper saved but just festooned to the screen instead.
 
+![Littel Nemo in Slumberland 2](https://upload.wikimedia.org/wikipedia/commons/a/a6/Little_Nemo_1906-07-08.jpg)
+
 I found myself tumbling around in `dhcpd.conf` some days annoying my poor wife when her many machines (some even strapped to her wrist, if you can believe that!) were calling and demanding their IPs but receiving none.
 
 If you make changes to `/etc/dhcpd.conf` (as you surely will) be sure to have those changes reflected in reality by restarting the daemon with `rcctl restart dhcpd`.
@@ -241,12 +237,10 @@ I mentioned RFC 2132 because the myriad options you'll encounter (if you're usin
 
 #### creating a root filesystem
 
-Working in `/export/mockingbird` on the boot server, it's time to create our root filesystem using the OpenBSD/_[arch]_/_[version]_ base binary distribution as one must install this distribution set for it contains the base utilities necessary for minimal system functionality.
+Working in `/export/mockingbird` on the boot server, it's time to create our root filesystem using the OpenBSD/_[arch]_/_[version]_ base binary distribution. One must install this distribution set for it contains the base utilities necessary for minimal system functionality.
 
-Using `ftp`, `signify`, and `tar` this is a simple task:
+After you've downloaded the sets, use `signify` to verify: 
 
-
-      ftp bosise 
       signify -C -p /etc/signify/openbsd-70-base.pub -x SHA256.sig bsd.rd # or base70.tgz
 
 <aside>
@@ -256,17 +250,19 @@ Using `ftp`, `signify`, and `tar` this is a simple task:
 </small>
 </aside>
 
+Next, populate the filesystem:
 
       mkdir -p /export/mockingbird
-      tar xzphf *.tgz -C /export/mockingbird # check your version of tar, as this might not work
+      tar xzphf *.tgz -C /export/mockingbird
       cd /export/mockingbird/var/sysmerge/
       tar xzphf etc.tgz -C /export/mockingbird/
       tar xzphf xetc.tgz -C /export/mockingbird/ # if you added the xsets
+
       # in /export/mockingbird/dev
       ./MAKEDEV all
 
       echo "mockingbird" > /export/mockingbird/etc/myname
-      echo "inet 192.168.1.2" > /export/mockingbird/etc/hostname.hme0
+      echo "inet 192.168.0.2" > /export/mockingbird/etc/hostname.hme0
       # note that the Sun Happy Meal (hme) Ethernet device is specific to these Ultras
       # your interface might differ
 
@@ -274,19 +270,39 @@ Using `ftp`, `signify`, and `tar` this is a simple task:
 
 Be sure to review portmap(8) and rpcinfo(8), and rpc(5). Cursory glances (perhaps many) here and there will do, and trial and error will be employed.
 
-> Some routines that compare hostnames use case-sensitive string comparisons; some do not. If an incoming request fails, verify that the case of the hostname in the file to be parsed matches the case of the hostname called for, and attempt the request again
+> Some routines that compare hostnames use case-sensitive string comparisons; some do not. If an incoming request fails, verify that the case of the hostname in the file to be parsed matches the case of the hostname called for, and attempt the request again.
+
+For example:
+
+      mockingbird  root=server:/export/mockingbird/root \
+      swap=server:/export/mockingbird/swap \
 
 When the client named "mockingbird" requests the pathname for its logical "root" it will be given the server name "server" and the pathname `/export/mockingbird` as the response to its RPC request.
 
-<hr>
+Once you've setup the filesystem and exported it properly, now's the time to try to netboot again.
 
-#### pxe in general
+![Little Nemo 1906-10-21](https://upload.wikimedia.org/wikipedia/commons/0/0b/Little_Nemo_1906-10-21.jpg)
 
-> as PXE is based on DHCP, methods being devised to protect DHCP should generally apply to PXE.
+#### PXE in brief
+The PXE protocol operates as follows: 
+
+> The client initiates the protocol by broadcasting a DHCPDISCOVER containing an extension that identifies the request as coming from a client that implements the PXE protocol. Assuming that a DHCP server or a Proxy DHCP server implementing this extended protocol is available, after several intermediate steps, the server sends the client a list of appropriate Boot Servers. The client then discovers a Boot Server of the type selected and receives the name of an executable file on the chosen Boot Server. The client uses TFTP to download the executable from the Boot Server. Finally, the client initiates execution of the downloaded image.
+
+PXE can be used for newer clients to netboot OpenBSD. Accordingly, `pxeboot(8)`:
+
+> The pxeboot boot program will look for an /etc/boot.conf configuration file on the TFTP server. If it finds one, it processes the commands within it. boot.conf processing can be skipped by holding down either Control key as pxeboot starts.
+
+see: https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-pxe
 
 #### enter netboot.xyz
 
-> If you experiencing issues with the regular netboot.xyz.kpxe bootloader, you can try and use the netboot.xyz-undionly.kpxe bootloader. The regular bootloader includes common NIC drivers in the iPXE image, while the undionly loader will piggyback off the NIC boot firmware.
+netboot.xyz is a tool that uses iPXE and allows users to boot into various Operating Systems or Live CDs. The bootloader calls to a webserver that hosts the iPXE source files. More or less, this means a public boot server.
+
+> If you are experiencing issues with the regular netboot.xyz.kpxe bootloader, you can try and use the netboot.xyz-undionly.kpxe bootloader. The regular bootloader includes common NIC drivers in the iPXE image, while the undionly loader will piggyback off the NIC (Network interface controller) boot firmware.
+
+#### shotrcomings / TODOs
+
+Ideally, X11 would work on these diskless workstations. Sadly, I keep getting the No Screen Found error. Clearly, it's just an issue with how the settings are exported on the bootserver.
 
 #### References
 
@@ -299,6 +315,4 @@ When the client named "mockingbird" requests the pathname for its logical "root"
 * https://datatracker.ietf.org/doc/html/draft-henry-remote-boot-protocol-00
 * https://www.rfc-editor.org/rfc/rfc6842.txt
 * http://sightly.net/peter/openbsd/netboot-sparc.html
-
-<hr>
-![Littel Nemo in Slumberland 2](https://upload.wikimedia.org/wikipedia/commons/c/ce/Little_Nemo_1908-09-20.jpg)
+* https://netboot.xyz/docs/faq#what-operating-systems-are-currently-available-on-netbootxyz
