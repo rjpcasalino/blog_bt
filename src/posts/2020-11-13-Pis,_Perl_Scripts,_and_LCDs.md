@@ -1,5 +1,5 @@
 ---
-title: Alpine on ARM, Perl Scripts, Pis, and LCDs
+title: 'Pis, Perl Scripts, and LCDs'
 layout: post
 ---
 
