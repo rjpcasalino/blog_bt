@@ -77,9 +77,7 @@ The contents of `.xinitrc`:
 
 	exec cwm 
 
-Obligatory screenshot:
-
-![cwm screenshot](https://wiki.boringtranquility.io/assets/imgs/cwm_grab.png)
+<!-- ![cwm screenshot](https://wiki.boringtranquility.io/assets/imgs/cwm_grab.png) -->
 
 - - -
 
@@ -88,3 +86,4 @@ Here's some links that are helpful if you're interested in cwm:
 * [cwm(1)](https://man.openbsd.org/cwm.1)
 * [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
+* [Netbooting OpenBSD](/posts/2021-08-19-Netbooting-OpenBSD.html)
