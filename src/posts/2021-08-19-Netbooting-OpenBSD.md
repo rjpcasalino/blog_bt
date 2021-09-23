@@ -81,7 +81,7 @@ When you've gotten yourself to the PROM, it's time to program in the machine's e
     ZZ e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits (as in the image below). Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the ethernet address stuck.
+where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits. Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the ethernet address stuck.
 
 We `set-defaults` just to be sure. You can print the environment to get a sense of what's what via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
 
