@@ -16,14 +16,6 @@ After wiring my breadboard I grabbed HiPi:
 
 > http://hipi.znix.com/install.html
 
-What followed was a few hours of trying to get `cpan -i HiPi` to work...
-
-I think my "failure" here was more or less a lack of understanding regarding Alpine's limitations (namely space) based on installation method. And the whole @INC Perl stuff just didn't worth the effort/time. 
-- - - 
-The next morning I pondered a bit on some of the troubles I was having the night previous. Whereas I am glad I took the time to try something new via Alpine, the big immediate take away was that Alpine isn't meant for doing anything GPIO related with _ease_. I would have loved to spend more time installing gcc and make and others tasks of that ilk but what I really wanted to do was play around with my LCD after years of disuse. Accordingly, I switched to Raspberry Pi OS (formerly Raspbian).
-
-The foregoing mentioned HiPi:
-
 > The HiPi Modules provide access to the Raspberry Pi for your Perl scripts.
 
 > The distribution contains modules that allow you to access the Raspberry Pi GPIO pins directly and modules that wrap access to the kernel device drivers for the GPIO, SPI, I2C and 1 Wire devices.
