@@ -94,7 +94,7 @@ Since you're hoping to netboot, it might be wise to test the network connection 
 ![watch-net test](/static/imgs/watch-net_test.jpg)
 <sub>you can test _devices_ and issue commands<sub>
 
-If you're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some what is to be discussed further below depends on what architecture you are trying to netboot. Unless otherwise noted, you can assume the client is a SPARC64 box.
+If you're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some of what is to be discussed further below depends on what architecture you are trying to netboot. Unless otherwise noted, you can assume the client is a SPARC64 box.
 
 Luckily, my Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install the OpenBSD 6.9 ISO (International Organization for Standardization) to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
 
