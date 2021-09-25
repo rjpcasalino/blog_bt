@@ -266,10 +266,17 @@ Next, populate the filesystem:
       echo "inet 192.168.0.2" > /export/mockingbird/etc/hostname.hme0
       # note that the Sun Happy Meal (hme) Ethernet device is specific to these Ultras
       # your interface might differ
+      # set mount points in exported fstab
+      # i.e., working in /export/mockingbird
+      # add swap if you want
+      # cat > etc/fstab <<-EOF
+         192.168.0.1:/export/client /    nfs rw        0 0
+         192.168.0.1:/usr           /usr nfs ro        0 0
+        EOF
 
 #### bootparamd or rpc.bootparamd
 
-Be sure to review portmap(8) and rpcinfo(8), and rpc(5). Cursory glances (perhaps many) here and there will do, and trial and error will be employed.
+Be sure to review `portmap(8)` and `rpcinfo(8)`, and `rpc(5)`. Cursory glances (perhaps many) here and there will do, and trial and error will be employed.
 
 > Some routines that compare hostnames use case-sensitive string comparisons; some do not. If an incoming request fails, verify that the case of the hostname in the file to be parsed matches the case of the hostname called for, and attempt the request again.
 
@@ -281,6 +288,8 @@ For example:
 When the client named "mockingbird" requests the pathname for its logical "root" it will be given the server name "server" and the pathname `/export/mockingbird` as the response to its RPC request.
 
 Once you've setup the filesystem and exported it properly, now's the time to try to netboot again.
+
+The PROM loads the boot program which in turn loads the kernel which does NFS mounts for root and swap.
 
 ![Little Nemo 1906-10-21](https://upload.wikimedia.org/wikipedia/commons/0/0b/Little_Nemo_1906-10-21.jpg)
 
