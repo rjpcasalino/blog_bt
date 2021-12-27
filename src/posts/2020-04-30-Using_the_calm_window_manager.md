@@ -5,24 +5,24 @@ layout: post
 
 The calm window manager (cwm) is a "lightweight and efficient window manager for X11" written mostly by [Marius Eriksen](https://monkey.org/~marius/). It purports to "maintain the simplest and most pleasant aesthetic."
 
-The control keys are fairly simple (ctrl, meta, shift):
+The control keys are fairly simple (CTRL META, SHIFT):
 
 	CM-Return	Spawn a new terminal.
 	...
 	M-Return	Hide current window
 	...
-	M-question	Spawn “exec program” dialog.
-	M-period	Spawn “ssh to” dialog.
+	M-Question (?)	Spawn "exec program" dialog.
+	M-Period (.)	Spawn "ssh to" dialog.
 
-There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys. 
+There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys.
 
-One can move windows about with key bindings one would find in vim (i.e., hjkl).
+One can move windows about with key bindings one would find if one were familiar with vim (i.e., h j k l).
 
 Configuration is pleasant and straightforward (*.cwmrc*):
 
 	command firefox  firefox
 	command shot	 scrot
-	command pad 	 "xterm -e ed /home/rjpcasalino/yellowpad.md"
+	command pad 	 "xterm -e ed /home/joe-user/yellowpad.md"
 
 	borderwidth 1
 	# Inherit groups 
@@ -40,9 +40,9 @@ Configuration is pleasant and straightforward (*.cwmrc*):
 	bind-key XF86MonBrightnessUp	"light -A 10"
 	bind-key XF86MonBrightnessDown	"light -U 10"
 
-Commands can be called with C-question and allow one to open applications quickly. Likewise, M-period opens an ssh session which reads your .ssh/config. 
+Applications listed in the config such as firefox can be selected with C-Question and allow one to open them quickly. As already mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question if the command isn't listed in your config. Recall that this opens the "exec program" dialog.
 
-Ersatz tiling can be achieved with key-bindings for window snapping. 
+Ersatz tiling can be achieved with key-bindings for window snapping (see above).
 
 ### Using cwm with NixOS
 
@@ -61,29 +61,33 @@ Here's my configuration XServer block:
 	    windowManager.cwm.enable = true;
 	  };
 
-Ryan Chan has a nice [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that was helpful.
+Ryan Chan has an excellent [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that invaluable. Many thanks!
 
 The contents of `.xinitrc`:
 
 	#!/usr/bin/env sh
 
 	xrdb -load $HOME/.Xresources
+        
+	# status bars shape and location should be updated
+	# and sbar stuff placed on PATH if missing
+	# otherwise, ignore this
 
-	xterm -cr "#fff" -g 13x1+30+0   -hold -e sbar_ip &
-	xterm -cr "#fff" -g 17x1-0+0    -hold -e sbar_time &
-	xterm -cr "#fff" -g 4x1+0+0     -hold -e sbar_bat &
+	xterm -cr white -g 13x1+30+0   -hold -e sbar_ip &
+	xterm -cr white -g 17x1-0+0    -hold -e sbar_time &
+	xterm -cr white -g 4x1+0+0     -hold -e sbar_bat &
 
-	$HOME/.fehbg &
+	$HOME/.fehbg & # wallpaper
 
-	exec cwm 
+	exec cwm
 
 <!-- ![cwm screenshot](https://wiki.boringtranquility.io/assets/imgs/cwm_grab.png) -->
 
 - - -
 
-Here's some links that are helpful if you're interested in cwm:
+Here are helpful links for those interested in cwm and more:
 
 * [cwm(1)](https://man.openbsd.org/cwm.1)
 * [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
-* [Netbooting OpenBSD](/posts/2021-08-19-Netbooting-OpenBSD.html)
+* [Netbooting OpenBSD](/posts/2021-08-19-Netbooting-OpenBSD.html) - cwm is an official window manager for OpenBSD and works well there too. Reading this one will learn more than one cares to regarding OpenBSD and net booting basics. Getting the cwm running with X forwarding is not covered as yet.
