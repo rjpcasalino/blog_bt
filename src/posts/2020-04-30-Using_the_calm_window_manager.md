@@ -5,7 +5,7 @@ layout: post
 
 The calm window manager (cwm) is a "lightweight and efficient window manager for X11" written mostly by [Marius Eriksen](https://monkey.org/~marius/). It purports to "maintain the simplest and most pleasant aesthetic."
 
-The control keys are fairly simple (CTRL META, SHIFT):
+The control keys are fairly simple (CTRL, META, and SHIFT):
 
 	CM-Return	Spawn a new terminal.
 	...
@@ -37,6 +37,7 @@ Configuration is pleasant and straightforward (*.cwmrc*):
 	# miss i3? Snapping made easy:
 	bind-key CM-Right		window-snap-right
 	...
+        # brightness keys on an X280 ThinkPad
 	bind-key XF86MonBrightnessUp	"light -A 10"
 	bind-key XF86MonBrightnessDown	"light -U 10"
 
@@ -61,7 +62,7 @@ Here's my configuration XServer block:
 	    windowManager.cwm.enable = true;
 	  };
 
-Ryan Chan has an excellent [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that invaluable. Many thanks!
+Ryan Chan has written an excellent [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that was invaluable. Many thanks to him.
 
 The contents of `.xinitrc`:
 
