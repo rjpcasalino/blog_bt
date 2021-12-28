@@ -62,7 +62,7 @@ Here's my configuration XServer block:
 	    windowManager.cwm.enable = true;
 	  };
 
-Ryan Chan has written an excellent [blog post](https://rycwo.xyz/2019/02/07/nixos-series-configuring-xinit) that was invaluable. Many thanks to him.
+Ryan Chan has written an excellent [blog post](https://rycwo.dev/archive/nixos-series-004-configuring-xinit/) that was invaluable. Many thanks to him.
 
 The contents of `.xinitrc`:
 
