@@ -16,7 +16,7 @@ The control keys are fairly simple (CTRL, META, and SHIFT):
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys.
 
-One can move windows about with key bindings one would find if one were familiar with vim (i.e., h j k l).
+One can move windows about with key bindings one would use if one were familiar with vim (i.e., h j k l).
 
 Configuration is pleasant and straightforward (*.cwmrc*):
 
@@ -41,7 +41,7 @@ Configuration is pleasant and straightforward (*.cwmrc*):
 	bind-key XF86MonBrightnessUp	"light -A 10"
 	bind-key XF86MonBrightnessDown	"light -U 10"
 
-Applications listed in the config such as firefox can be selected with C-Question and allow one to open them quickly. As already mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question if the command isn't listed in your config. Recall that this opens the "exec program" dialog.
+Applications listed in the config such as firefox can be selected with C-Question, which allow one to open them quickly. As mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question if the command isn't listed in your config. Recall that this opens the "exec program" dialog.
 
 Ersatz tiling can be achieved with key-bindings for window snapping (see above).
 
