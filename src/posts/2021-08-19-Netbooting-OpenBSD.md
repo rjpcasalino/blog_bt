@@ -107,8 +107,6 @@ Okay, let's go ahead and boot from the network...
 
 Thankfully, the client offers advice as to what to do next.
 
-<small>(The steps taken hereafter  are in no way dogmatic. Please note certain things won't happen unless certain other things have been done).</small>
-
 Setting up a reverse ARP server is dead simple with `rarpd`. By default this process forks and runs in the background (it's a daemon after all) but if one were to run it in the foreground and pass it the `-d` flag they'd be better equipped to debug issues. A bit more on `rarpd` from its manual page:
 
 > Upon receiving a request, rarpd maps the target hardware address to an IP address via its name, which must be present in both the ethers(5) and hosts(5) databases.
