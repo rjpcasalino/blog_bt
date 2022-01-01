@@ -291,6 +291,8 @@ The PROM loads the boot program which in turn loads the kernel which does NFS mo
 
 ![Little Nemo 1906-10-21](https://upload.wikimedia.org/wikipedia/commons/0/0b/Little_Nemo_1906-10-21.jpg)
 
+<hr>
+
 #### PXE in brief
 The PXE protocol operates as follows: 
 
@@ -312,15 +314,15 @@ netboot.xyz is a tool that uses iPXE and allows users to boot into various Opera
 
 Ideally, X11 would work on these diskless workstations. Sadly, I keep getting the No Screen Found error. Clearly, it's just an issue with how the settings are exported on the bootserver.
 
-#### References
+#### References (Links)
 
-* https://www.openbsd.org/papers/bsdcan2019_netboot.pdf
-* http://cholla.mmto.org/computers/sun/ultra/nvram.html
-* https://docs.oracle.com/cd/E19683-01/816-1177-10/overview.html#pgfId-1007990
-* http://www.cs.columbia.edu/~sedwards/presentations/2019-vcf-netboot.pdf (wonderfully helpful!)
-* https://datatracker.ietf.org/doc/html/rfc826 (an internet standard!)
-* https://datatracker.ietf.org/doc/html/rfc5227
-* https://datatracker.ietf.org/doc/html/draft-henry-remote-boot-protocol-00
-* https://www.rfc-editor.org/rfc/rfc6842.txt
-* http://sightly.net/peter/openbsd/netboot-sparc.html
-* https://netboot.xyz/docs/faq#what-operating-systems-are-currently-available-on-netbootxyz
+* [https://www.openbsd.org/papers/bsdcan2019_netboot.pdf](https://www.openbsd.org/papers/bsdcan2019_netboot.pdf)
+* [http://cholla.mmto.org/computers/sun/ultra/nvram.html](http://cholla.mmto.org/computers/sun/ultra/nvram.html)
+* [https://docs.oracle.com/cd/E19683-01/816-1177-10/overview.html#pgfId-1007990](https://docs.oracle.com/cd/E19683-01/816-1177-10/overview.html#pgfId-1007990)
+* [http://www.cs.columbia.edu/~sedwards/presentations/2019-vcf-netboot.pdf](http://www.cs.columbia.edu/~sedwards/presentations/2019-vcf-netboot.pdf) - wonderfully helpful!
+* [https://datatracker.ietf.org/doc/html/rfc826](https://datatracker.ietf.org/doc/html/rfc826) - an internet standard!
+* [https://datatracker.ietf.org/doc/html/rfc5227](https://datatracker.ietf.org/doc/html/rfc5227)
+* [https://datatracker.ietf.org/doc/html/draft-henry-remote-boot-protocol-00](https://datatracker.ietf.org/doc/html/draft-henry-remote-boot-protocol-00)
+* [https://www.rfc-editor.org/rfc/rfc6842.txt](https://www.rfc-editor.org/rfc/rfc6842.txt)
+* [http://sightly.net/peter/openbsd/netboot-sparc.html](http://sightly.net/peter/openbsd/netboot-sparc.html)
+* [https://netboot.xyz/docs/faq#what-operating-systems-are-currently-available-on-netbootxyz](https://netboot.xyz/docs/faq#what-operating-systems-are-currently-available-on-netbootxyz)
