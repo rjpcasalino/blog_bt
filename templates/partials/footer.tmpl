@@ -1,3 +1,5 @@
+[% USE date %]
+
 <p>
     <a href="https://validator.w3.org/check/referer">
  <img style="border:0;width:88px;height:31px;" 
@@ -24,7 +26,7 @@
 <br>
 <small>site last modified: [% site_modified %]</small>    
 <br>
-<small>Ryan J.P. Casalino &copy; 2015 - 2021</small>
+<small>Ryan J.P. Casalino &copy; 2015 - [% date.format(date.now, '%Y') %]</small>
 <script data-goatcounter="https://boringtranquility-io.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>
