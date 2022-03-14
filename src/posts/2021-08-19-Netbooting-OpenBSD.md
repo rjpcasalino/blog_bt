@@ -222,7 +222,9 @@ The manual can be cryptic and nothing clears things up better than an example:
 
 (you'd find this in <samp>/etc/examples/dhcpd.conf</samp>).
 
-It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132). I say that with a grain of salt. Does anyone recall what that expression means again? Anyway, you've always known you'd one day find yourself wading through RFCs. It was only a matter of time. Endless reams of paper saved but just festooned to the screen instead.
+It's worth mentioning that  DHCP leases can be assigned almost any length from zero seconds to infinity. 7200 seconds equals two hours. Other common values one could use: 86400 (one day), 604800 (one week) and 2592000 (30 days).
+
+It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132). You've always known you'd one day find yourself wading through RFCs. It was only a matter of time. Endless reams of paper saved but just festooned to the screen instead.
 
 ![Littel Nemo in Slumberland 2](https://upload.wikimedia.org/wikipedia/commons/a/a6/Little_Nemo_1906-07-08.jpg)
 
