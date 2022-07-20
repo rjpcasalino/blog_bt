@@ -11,7 +11,7 @@ the terms "OBP", "OpenBoot PROM" and "PROM" (programmable read-only memory) are 
 </small>
 </aside>
 
-Manuals you'll want to have handy for reference — 
+Manuals one will want to have handy for reference — 
 
      arp(4)
      arp(8)
@@ -35,7 +35,7 @@ Manuals you'll want to have handy for reference —
 
 All of which can be found at [https://man.openbsd.org/](https://man.openbsd.org/)
 
-Files you'll encounter — 
+Files one will encounter — 
 
      /etc/bootparams     Client root and swap pathnames.
      /etc/dhcpd.conf     DHCP daemon configuration file.
@@ -51,22 +51,22 @@ Files you'll encounter —
      /bsd                Default system kernel
      /bsd.rd             Standalone installation kernel, suitable for disaster recovery
 
-A short search on eBay will present you with many choices concerning Sun Ultra Workstations. I snagged an Ultra 5, 10, and 30 for less than $500.
+A short search on eBay will present one with many choices concerning Sun Ultra Workstations. I purchased an Ultra 5, 10, and 30 for less than $500 all told.
 
-One can easily install OpenBSD on a 40-pin IDE drive but they'd give up the ghost sooner or later. I got a few cheap SSD drives from Amazon.com and also purchased a 40-pin IDE to SATA converter from Startech.com.
+One can easily install OpenBSD on a 40-pin IDE drive but they'd give up the ghost sooner or later. I also purchased a few cheap SSD drives from Amazon.com and a 40-pin IDE to SATA converter from Startech.com.
 
-You'll likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the PSU is easy to slide out of the way for easy access to the chip.
+One will likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the PSU is easy to slide out of the way for easy access to the chip.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Little_Nemo_1906-02-11.jpg"/>
 <small>_this post was originally titled 'Nemo in Network Dreamland'_</small>
 
-Once the chip has been replaced and the machine booted, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well.
+Once the chip has been replaced and the machine booted, one should connect either via VGA and keyboard or serial console. If connecting via the latter, one will need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a [gender changer](https://en.wikipedia.org/wiki/Gender_changer) handy as well.
 
 <hr>
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a [Sun Keyboard](https://deskthority.net/wiki/Sun_Type_5) - (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
+One will most likely find oneself having to stop the boot process and enter the PROM. This can be done with a [Sun Keyboard](https://deskthority.net/wiki/Sun_Type_5) - (Type 5 or 6, 8 PIN) by pressing the key combination: `STOP+A`. This combo sends a break and will drop one at the `ok` prompt. If one were using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If one decided rather to "call Unix" (or "call up") using the `cu` program then once one has connected one can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
 
-When you've gotten yourself to the PROM, it's time to program in the machine's ethernet address:
+When we've gotten to the PROM, it's time to program in the machine's Ethernet address:
 
     ok set-defaults
     1 0 mkp
@@ -86,22 +86,22 @@ When you've gotten yourself to the PROM, it's time to program in the machine's e
     ZZ e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-where "XX:YY:ZZ" are the last 3 bytes of the Media Access Control — MAC address — for the machine. If one were to examine the NVRAM chip from the machine, it would likely have a yellowish sticker labeled with a bar code wit six hex digits printed underneath. 
+Where "XX:YY:ZZ" are the last 3 bytes of the Media Access Control — MAC address — for the machine. If one were to examine the NVRAM chip from the machine it would likely have a yellowish sticker affixed with a labeled bar code with six hex digits printed underneath. 
 
-Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the Ethernet address stuck.
+Having carefully entered the above commands, one will have done about all the Forth programming one would have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the Ethernet address stuck.
 
-One could `set-defaults` if one likes. Good to have a fresh slate. You can print the environment to get a sense of what's what via `printenv` while `setenv` sets env vars (e.g., `setenv auto-boot? false`).
+One could `set-defaults` if one likes. It's always nice to have a fresh slate. One can print the environment to get a sense of what's what via `printenv` while `setenv` sets env vars (e.g., `setenv auto-boot? false`).
 
-OpenBoot provides a programmable user interface that gives you access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new:
+OpenBoot provides a programmable user interface that gives us access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new:
 
 > `help` without any specifier, displays instructions on how to use the help system and lists the available help categories. Because of the large number of commands, help is available only for commands that are used frequently.
 
-Since you're hoping to netboot, it might be wise to test the network connection &mdash;
+Since we're hoping to netboot, it might be wise to test the network connection &mdash;
 
 ![watch-net test](/static/imgs/watch-net_test.jpg)
-<sub>you can test _devices_ and issue commands<sub>
+<sub>one can test _devices_ and issue commands<sub>
 
-If you're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some of what is to be discussed further below depends on what architecture you are trying to netboot. Unless otherwise noted, you can assume the client is a SPARC64 box.
+If we're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some of what is to be discussed further below depends on what architecture one is trying to netboot. Unless otherwise noted, one can assume the client is a SPARC64 box.
 
 Luckily, my Ultra 10's CD-ROM drive is in decent shape and it was rather painless to download, verify, and install the OpenBSD 6.9 ISO (International Organization for Standardization) to a CD-R. Sadly, the 5 and 30's respective drives had given up the ghost. Replacement parts are easy to come by but it shouldn't matter since we plan to netboot them anyway!
 
@@ -166,7 +166,7 @@ Concerning security and TFTP ... there isn't any: no provisions for a username o
 
 > Due to the lack of authentication information, `tftpd` will allow only publicly readable files to be accessed.
 
-OpenBSD provides the `tftp` program which can be used to issue commands. Coupled with the daemon above, you can test via `tftp` to see if your bootserver is properly running `tftpd`.
+OpenBSD provides the `tftp` program which can be used to issue commands. Coupled with the daemon above, one can test via `tftp` to see if one's bootserver is properly running `tftpd`.
 
 <aside>
 <small>
@@ -188,7 +188,7 @@ In the case of the Sun machines, the boot program is accessible as a file named 
 
 would be C0C5600C.
 
-Recall that the OpenBSD bootstrap program is named "ofwboot" (open firmware). Here, as elsewhere, NetBSD and OpenBSD share similarities. If you wanted, you could instead netboot into NetBSD following the same method. In either case,
+Recall that the OpenBSD bootstrap program is named "ofwboot" (open firmware). Here, as elsewhere, NetBSD and OpenBSD share similarities. If one wanted, one could instead netboot into NetBSD following the same method. In either case,
 
     cd /tftpboot
     ln -s ofwboot.net C0C5600C
