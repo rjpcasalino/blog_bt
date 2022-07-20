@@ -62,7 +62,9 @@ You'll likely encounter a message about IDPROM contents being invalid during the
 
 Once the chip has been replaced and the machine booted, you should connect either via VGA and keyboard or serial console. If connecting via the latter, you'll need a null modem cable or adapter both of which can be found at DigiKey or Amazon. You might want to have a gender changer handy as well.
 
-You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a Sun Keyboard (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
+<hr>
+
+You'll most likely find yourself having to stop the boot process and enter the PROM. This can be done with a [Sun Keyboard](https://deskthority.net/wiki/Sun_Type_5) - (Type 5 or 6, 8 PIN) by pressing the key combo: `STOP+A`. That combo sends a break and will drop you at the `ok` prompt. If you are using `screen` to connect to the serial adapter (e.g., `screen /dev/ttyUSB0`) sending a break would consist of pressing the key combo: <samp>CTRL a b</samp>. If you decided rather to "call Unix" (or "call up") using the `cu` program then once you've connected you can ascertain what key sequence is needed to send a break by typing `~?`, a command that prints a list of other commands.
 
 When you've gotten yourself to the PROM, it's time to program in the machine's ethernet address:
 
@@ -84,9 +86,11 @@ When you've gotten yourself to the PROM, it's time to program in the machine's e
     ZZ e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-where "XX:YY:ZZ" are the last 3 bytes of the media access control — MAC address for the machine. If you examine the NVRAM chip from the machine, it should have a yellowish sticker with a bar code and six hex digits. Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the ethernet address stuck.
+where "XX:YY:ZZ" are the last 3 bytes of the Media Access Control — MAC address — for the machine. If one were to examine the NVRAM chip from the machine, it would likely have a yellowish sticker labeled with a bar code wit six hex digits printed underneath. 
 
-We `set-defaults` just to be sure. You can print the environment to get a sense of what's what via `printenv` while `setenv` does what one would guess (e.g., `setenv auto-boot? false`).
+Having carefully entered the above commands, you'll have done about all the Forth programming you'd have to do. Issue the `reset` command and check via `banner` after the machine comes back up whether the Ethernet address stuck.
+
+One could `set-defaults` if one likes. Good to have a fresh slate. You can print the environment to get a sense of what's what via `printenv` while `setenv` sets env vars (e.g., `setenv auto-boot? false`).
 
 OpenBoot provides a programmable user interface that gives you access to an extensive set of functions for hardware and software development, fault isolation, and debugging. Asking for `help` is always a good first step when learning something new:
 
