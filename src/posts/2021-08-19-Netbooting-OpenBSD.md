@@ -53,7 +53,7 @@ Files you'll encounter —
 
 A short search on eBay will present you with many choices concerning Sun Ultra Workstations. I snagged an Ultra 5, 10, and 30 for less than $500.
 
-One can easily install OpenBSD on a 40-pin IDE drive but they'd give up the ghost sooner to later. I got a few cheap SSD drives from Amazon.com and also purchased a 40-pin IDE to SATA converter from Startech.com.
+One can easily install OpenBSD on a 40-pin IDE drive but they'd give up the ghost sooner or later. I got a few cheap SSD drives from Amazon.com and also purchased a 40-pin IDE to SATA converter from Startech.com.
 
 You'll likely encounter a message about IDPROM contents being invalid during the power-on self-test (POST). Seeing as the unit's [NVRAM](https://en.wikipedia.org/wiki/Non-volatile_random-access_memory) chip probably died at some point in the last 20 odd years, this makes sense. At first, as I searched for ways to repair the chip, I only found posts from hardware hackers explaining how to retrofit (piggyback) a lithium coin battery onto it. I didn't have any time for that nonsense, so I snagged the [M48T58Y-70PC1](https://www.digikey.com/en/products/detail/stmicroelectronics/M48T58Y-70PC1/361258?s=N4IgTCBcDaILIBYAcAVArEgmgWgOwAYAFAYQEYACEAXQF8g) from DigiKey and swapped it out. The chip is easy to find on the Ultra 5 and 10. It'll be resting in a plastic cradle that is either black or green depending. The new chip doesn't have to be put into this cradle, but there's no harm. In the Ultra 30, the chip is hidden behind the power supply, but the PSU is easy to slide out of the way for easy access to the chip.
 
