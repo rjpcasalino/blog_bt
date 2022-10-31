@@ -16,9 +16,9 @@ I needed a bit of science with my Freud (the great fraud!) whom I can't put down
 
 Anyway,
 
-it's to Marsha for everything.
+It's to Marsha for everything.
 
-and mine is for vrfc.
+and mine is for _vrfc_.
 
 # Prologue: An Invitation
 
@@ -28,7 +28,7 @@ A great overview of what we're about to experience! Lots of what I wish were col
 
 Gravity. It's what keeps us grounded! Ha, dad joke? Really. Come now. This is me, not Knoll! Whoops. I'm scanning the pages here.
 
-Home is terra firma. What else is terra? _Terraform_ is a silly software tool that has a nice name that a big evil mega corp in James Cameron's older worlds would do to "Build Better Worlds". Or is it "Building"? There is also _Terra incognita_. It does not matter, back to Knoll!
+Home is terra firma. What else is terra? [_Terraform_](https://en.wikipedia.org/wiki/Terraform_\(software\)) is a silly software tool that has a nice name that a big evil mega corp in James Cameron's (and others!) older worlds would be doin' in order to be always ["Building Better Worlds"](https://alienanthology.fandom.com/wiki/Weyland-Yutani). Always be building better worlds! There is also _Terra incognita_. It does not matter, back to Knoll!
 
 [Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
 
@@ -64,7 +64,7 @@ The early stars were great foundries fusing elements in the tedium of time overs
 
 <hr>
 
-Later, about 93 million miles from the newly formed Sun (Sol). After all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back then 4.54 billion years ago the Earth was not hospitable to life. I think we know this from rocks. If light is telling us the story of the universe, as Knoll says, he also says that rocks tell the history of Earth. My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called "Wonderful Life" all about it. I haven't read it all but do plan to finish some day. :-) 
+Later, about 93 million miles from the newly formed Sun (Sol). After all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back then 4.54 billion years ago the Earth was not hospitable to life. I think we know this from rocks. If light is telling us the story of the universe, as Knoll says, he also says that rocks tell the history of Earth. My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called ["Wonderful Life"](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-) 
 
 Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life. Eiseley also discusses panspermia and seems more inclined on the idea but I think he calls it something else. He is far more poetic about it from what I recall. Knoll mentions some of this on page 72. Plus this doesn't really solve the origin of life problem just moves it elsewhere. This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science".
 
