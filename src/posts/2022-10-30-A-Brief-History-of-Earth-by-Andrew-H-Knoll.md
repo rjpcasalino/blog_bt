@@ -31,18 +31,17 @@ A great overview of what we're about to experience! Lots of what I wish were col
 
 Gravity. It's what keeps us grounded! Ha, dad joke? Really. Come now. This is me, not Knoll! Whoops. I'm scanning the pages here.
 
-Home is _terra firma_. What else is terra? [_Terraform_](https://en.wikipedia.org/wiki/Terraform_\(software\)) is a silly software tool that has a nice name that a big evil mega corp in James Cameron's (and others!) older worlds would be doin' in order to be always ["Building Better Worlds"](https://alienanthology.fandom.com/wiki/Weyland-Yutani). Always be building better worlds! There is also _Terra incognita_. It does not matter, back to Knoll!
+Home is _terra firma_. What else is terra? [_Terraform_](https://en.wikipedia.org/wiki/Terraform_\(software\)) is a silly software tool that has a nice name that a big evil mega corp in James Cameron's (and others!) older worlds would be doin' in order to be always ["Building Better Worlds"](https://alienanthology.fandom.com/wiki/Weyland-Yutani). Always be building better worlds! There is also _terra incognita_.
 
 [Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
 
 > In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas.
 
-
-The food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in rich with oxygen air. That's where we get all this energy to walk around and do stuff with.
+We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
 
 > Well, I was 18 and didn't have a care. But I was leaning, solid everywhere.
 
-Knoll goes on to ask a bunch of heavy questions about how to explain life on our rock (the third from the sun). What controls the composition of seawater and the atmosphere is a good example of one of these heavy types of questions. But the most important thing to ask, according to Knoll, is how human beings are altering life on Earth via our own actions. Everything comes from the Earth but no one seems to care all that much. He goes on to discuss Boston (of course!) blah blah...
+Knoll begins to ask a bunch of heavy questions early on here. For instance, how to explain life on our rock (the third from the sun). What controls the composition of seawater and the atmosphere is another good example. But the most important thing to ask, according to Knoll, is how human beings are altering life on Earth via our own actions. Everything comes from the Earth but no one seems to care all that much. He goes on to discuss Boston (of course!) blah blah...
 
 We read further down past a nice quote from a Senegalese forest ranger from 1968 about why we conserve what we love or some such and we then see why Knoll wrote this book: an attempt at understanding.
 
@@ -82,3 +81,12 @@ Much later, about 93 million miles from the newly formed Sun (Sol) and after all
 Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life (p. 72). Eiseley also discusses panspermia and seems more inclined on the idea but I think he calls it something else. He is far more poetic about it from what I recall. This doesn't really solve the origin of life problem, however. Just moves it elsewhere. This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science".
 
 <sub>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.  </sub>
+
+
+### TODO
+
+> God does not play dice
+
+> Small bit more on quantum mechanics and key players
+
+> Clearly more on Knoll since this post is suppose to be about his book but maybe it's come become more than that?
