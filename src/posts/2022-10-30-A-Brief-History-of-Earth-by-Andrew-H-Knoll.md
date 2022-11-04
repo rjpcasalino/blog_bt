@@ -50,7 +50,7 @@ We read further down past a nice quote from a Senegalese forest ranger from 1968
 
 > Stood there boldly sweatin' in the sun. Felt like a million. Felt like number one.
 
-13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.\* Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
+13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.<sup>\*</sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
 
 Quick, what's the speed of light?! 186,276 miles per second or 299,792,458 meters per second! - just as every schoolboy should know. Also, did you happen to know that when the sun goes out we won't know for around 8 minutes? 
 
