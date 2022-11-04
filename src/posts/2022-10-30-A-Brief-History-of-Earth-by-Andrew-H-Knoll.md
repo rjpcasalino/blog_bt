@@ -74,7 +74,7 @@ O, Bob! Hawking has me looking up John Archibald Wheeler but that's for another 
 Our sun has about enough fuel to keep burning and exploding for another five thousand million years or thereabouts. Think about time and its deep reach. How far back does it actually go? Knoll says this as "through the immensity of time". Time is big, Rex.
 The early stars were great foundries fusing elements in the tedium of time overseen by vast nothingness. Eons of seemingly endless fusion. And and and and anything more?
 
-<hr>
+<center>\*\*\*</center>
 
 Much later, about 93 million miles from the newly formed Sun (Sol) and after all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back 4.54 billion years ago the Earth was not hospitable to life. I think we know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth so says Knoll. My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called ["Wonderful Life"](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-) 
 
@@ -89,4 +89,4 @@ Soon we're talking about rocks from space and some even think that life came her
 
 > Small bit more on quantum mechanics and key players
 
-> Clearly more on Knoll since this post is suppose to be about his book but maybe it's come become more than that?
+> Clearly more on Knoll since this post is suppose to be about his book.
