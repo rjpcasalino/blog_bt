@@ -50,12 +50,15 @@ What's Einstein got to say?
 <center>
 <video
   controls
+  crossorigin=anonymous
+  preload=auto
   src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg" p
-  width="620">
-  Sorry, your browser doesn't support embedded videos, but don't worry, you can
-  <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
-  and watch it with your favorite video player!
+  width="300">
+  <p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv">link to the video</a> instead.
+  </p>
 </video>
 
 <a href="https://en.wikipedia.org/wiki/File:Apollo_15_feather_and_hammer_drop.ogv" title="Play media" role="button"><span>Link to video with closed captions</span></a>
