@@ -108,17 +108,31 @@ Light and gravity: an important duo.
 Our Sun has about enough fuel to keep burning and exploding for another five thousand million years or thereabouts. Think about time and its deep reach. How far back does it actually go? Knoll says this as "through the immensity of time". Time is big, Rex.
 The early stars were great foundries fusing elements in the tedium of time. Eons of endless fusion.
 
-About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back  about 4.54 billion years ago (wasn't that 4.6 billion just now?) the Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth quoting Knoll.
+About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth or so says Knoll.
 
 My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-)
+
+Anyhow,
+
+How do we know what this ancient Earth was made of? Different substances melt at different temperatures. For example, water will turn to ice at 0<span>&#8451;</span> (32 <span>&#8457;</span>). In much the same way, "minerals found in rocks crystallize from molten precursors at temperatures that range from hundreds to more than 1,000 <span>&#8451;</span>." (p. 17, Knoll)  Carbon dioxide formed later.
 
 [Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
 
 > In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas.
 
 We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
+> To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, fixing carbon to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
 
-Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life (p. 72). Eiseley also discusses panspermia and seems more inclined on the idea but I think he calls it something else. He is far more poetic about it from what I recall. This doesn't really solve the origin of life problem, however. Just moves it elsewhere. This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science". You can probably get all the Gould you'd ever need at Wikiquote: [https://en.wikiquote.org/wiki/Stephen_Jay_Gould](https://en.wikiquote.org/wiki/Stephen_Jay_Gould) but I might pepper him about now and then in what follows.
+
+<hr>
+
+Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life (p. 72). 
+
+Eiseley also discusses panspermia and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126 of _The Immense Journey_). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt.
+
+This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science". 
+
+You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wikiquote.org/wiki/Stephen_Jay_Gould) but I might pepper him about now and then in what follows.
 
 <sub><small>\* Knoll has read Hawking and I think I heard it first from that English git in what undoubtedly inspired Knoll's title: [_A Brief History of Time_](https://en.wikipedia.org/wiki/A_Brief_History_of_Time).</small></sub>
 
