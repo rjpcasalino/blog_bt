@@ -46,6 +46,7 @@ What's Einstein got to say?
 > ... 
 
 > Bodies which are moving under the sole influence of a gravitational field receive an acceleration, _which does not in the least depend either on the material or on the physical state of the body_.
+  src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
 
 <center>
 <video
@@ -53,10 +54,27 @@ What's Einstein got to say?
   crossorigin=anonymous
   preload=auto
   type="video/ogv"
-  playsinline
-  src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
-  poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg" p
-  width="300">
+  poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
+  width="300"
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="SD VP9 (480P)" data-shorttitle="VP9 480P" data-transcodekey="480p.vp9.webm" data-width="654" data-height="480" data-bandwidth="1225816" data-framerate="29.97" res="480" label="SD 480p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" data-title="Original Ogg file, 654 × 480 (9.21 Mbps)" data-shorttitle="Ogg source" data-width="654" data-height="480" data-bandwidth="9208016" data-framerate="29.97" res="99999" label="Ogg source">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.120p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Lowest bandwidth VP9 (120P)" data-shorttitle="VP9 120P" data-transcodekey="120p.vp9.webm" data-width="164" data-height="120" data-bandwidth="193728" data-framerate="29.97" res="120" label="Low 120p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.160p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="Low bandwidth WebM (160P)" data-shorttitle="WebM 160P" data-transcodekey="160p.webm" data-width="218" data-height="160" data-bandwidth="220224" data-framerate="29.97" res="160" label="Low 160p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.180p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Low bandwidth VP9 (180P)" data-shorttitle="VP9 180P" data-transcodekey="180p.vp9.webm" data-width="246" data-height="180" data-bandwidth="270312" data-framerate="29.97" res="180" label="Low 180p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.240p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="Small WebM (240P)" data-shorttitle="WebM 240P" data-transcodekey="240p.webm" data-width="328" data-height="240" data-bandwidth="330024" data-framerate="29.97" res="240" label="Low 240p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.240p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Small VP9 (240P)" data-shorttitle="VP9 240P" data-transcodekey="240p.vp9.webm" data-width="328" data-height="240" data-bandwidth="362824" data-framerate="29.97" res="240" label="Low 240p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="WebM (360P)" data-shorttitle="WebM 360P" data-transcodekey="360p.webm" data-width="490" data-height="360" data-bandwidth="586128" data-framerate="29.97" res="360" label="SD 360p">
+
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.360p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="VP9 (360P)" data-shorttitle="VP9 360P" data-transcodekey="360p.vp9.webm" data-width="490" data-height="360" data-bandwidth="625504" data-framerate="29.97" res="360" label="SD 360p">>
   <p>
     Your browser doesn't support HTML video. Here is a
     <a href="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv">link to the video</a> instead.
