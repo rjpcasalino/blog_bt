@@ -46,14 +46,11 @@ What's Einstein got to say?
 > ... 
 
 > Bodies which are moving under the sole influence of a gravitational field receive an acceleration, _which does not in the least depend either on the material or on the physical state of the body_.
-  src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
 
 <center>
 <video
   controls
-  crossorigin=anonymous
-  preload=auto
-  type="video/ogv"
+  preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   width="300"
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
@@ -74,7 +71,7 @@ What's Einstein got to say?
 
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="WebM (360P)" data-shorttitle="WebM 360P" data-transcodekey="360p.webm" data-width="490" data-height="360" data-bandwidth="586128" data-framerate="29.97" res="360" label="SD 360p">
 
-<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.360p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="VP9 (360P)" data-shorttitle="VP9 360P" data-transcodekey="360p.vp9.webm" data-width="490" data-height="360" data-bandwidth="625504" data-framerate="29.97" res="360" label="SD 360p">>
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.360p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="VP9 (360P)" data-shorttitle="VP9 360P" data-transcodekey="360p.vp9.webm" data-width="490" data-height="360" data-bandwidth="625504" data-framerate="29.97" res="360" label="SD 360p">
   <p>
     Your browser doesn't support HTML video. Here is a
     <a href="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv">link to the video</a> instead.
