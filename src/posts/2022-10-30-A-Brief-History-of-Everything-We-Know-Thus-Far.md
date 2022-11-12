@@ -52,6 +52,7 @@ What's Einstein got to say?
   controls
   crossorigin=anonymous
   preload=auto
+  type="video/ogv"
   src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg" p
   width="300">
