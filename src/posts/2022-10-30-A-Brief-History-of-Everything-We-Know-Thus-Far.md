@@ -122,9 +122,9 @@ Soon we're talking about rocks from space and some even think that life came her
 
 <sub><small>\* Knoll has read Hawking and I think I heard it first from that English git in what undoubtedly inspired Knoll's title: [_A Brief History of Time_](https://en.wikipedia.org/wiki/A_Brief_History_of_Time).</small></sub>
 
-<sub><small>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.<small></sub><
+<sub><small>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.</small></sub>
 
-
+<small>
 ### TODO
 
 > God does not play dice
@@ -132,3 +132,4 @@ Soon we're talking about rocks from space and some even think that life came her
 > Small bit more on quantum mechanics and key players
 
 > Clearly more on Knoll since this post is suppose to be about his book.
+</small>
