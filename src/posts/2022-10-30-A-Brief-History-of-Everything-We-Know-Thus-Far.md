@@ -82,15 +82,14 @@ Knoll calls gravity the "architect of the universe":
 
 > Gravity describes the attraction between different objects, with the strength of the attraction determined by the masses of the objects and the distance between them.
 
-Quick, what's the speed of light?! 186,276 miles per second or 299,792,458 meters per second! - just as every schoolboy should know. Also, did you happen to know that when the sun goes out we won't know for around 8 minutes?
+Quick, what's the speed of light?! 186,276 miles per second or 299,792,458 meters per second! - just as every schoolboy should know. Also, did you happen to know that when the sun goes out we won't know for around 8 minutes?<sup><small>\*</small></sup>
 
 When we look up at the sky we're looking into history because the light has taken so long to get here. Wild. Just wild. What's even more insane is what we don't see. Dark matter and dark energy make up 95% of all that exists! This dark matter doesn't interact with light. Why? No one is certain. We do know one of your namesakes lent a helping hand:
 
 > [Rubin's calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.](https://en.wikipedia.org/wiki/Vera_Rubin)
 
-Knoll has read Hawking and I think I heard it first from that English git in what undoubtedly inspired Knoll's title: [_A Brief History of Time_](https://en.wikipedia.org/wiki/A_Brief_History_of_Time).
 
-13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.<sup>\*</sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
+13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.<sup><small>\*</small></sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
 
 Light, light on the brain. What's Hawking have to say?
 
@@ -102,18 +101,6 @@ Light and gravity: an important duo.
 
 <hr>
 
-[Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
-
-> In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas.
-
-We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
-
-> Well, I was 18 and didn't have a care. But I was leaning, solid everywhere.
-
-Knoll begins to ask a bunch of heavy questions early on here. For instance, how to explain life on our rock (the third from the sun). What controls the composition of seawater and the atmosphere is another good example. But the most important thing to ask, according to Knoll, is how human beings are altering life on Earth via our own actions. Everything comes from the Earth but no one seems to care all that much. He goes on to discuss Boston (of course!) blah blah...
-
-We read further down past a nice quote from a Senegalese forest ranger from 1968 about why we conserve what we love or some such and we then see why Knoll wrote this book: an attempt at understanding.
-
 ## 1: Chemical Earth
 
 > Stood there boldly sweatin' in the sun. Felt like a million. Felt like number one.
@@ -121,11 +108,21 @@ We read further down past a nice quote from a Senegalese forest ranger from 1968
 Our Sun has about enough fuel to keep burning and exploding for another five thousand million years or thereabouts. Think about time and its deep reach. How far back does it actually go? Knoll says this as "through the immensity of time". Time is big, Rex.
 The early stars were great foundries fusing elements in the tedium of time. Eons of endless fusion.
 
-About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back  about 4.54 billion years ago (wasn't that 4.6 billion just now?) the Earth was not hospitable to life. I think we know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth so says Knoll. My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-)
+About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Way back  about 4.54 billion years ago (wasn't that 4.6 billion just now?) the Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth quoting Knoll.
+
+My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-)
+
+[Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
+
+> In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas.
+
+We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
 
 Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life (p. 72). Eiseley also discusses panspermia and seems more inclined on the idea but I think he calls it something else. He is far more poetic about it from what I recall. This doesn't really solve the origin of life problem, however. Just moves it elsewhere. This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science". You can probably get all the Gould you'd ever need at Wikiquote: [https://en.wikiquote.org/wiki/Stephen_Jay_Gould](https://en.wikiquote.org/wiki/Stephen_Jay_Gould) but I might pepper him about now and then in what follows.
 
-<sub><small>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.  </sub></small>
+<sub><small>\* Knoll has read Hawking and I think I heard it first from that English git in what undoubtedly inspired Knoll's title: [_A Brief History of Time_](https://en.wikipedia.org/wiki/A_Brief_History_of_Time).</small></sub>
+
+<sub><small>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.<small></sub><
 
 
 ### TODO
