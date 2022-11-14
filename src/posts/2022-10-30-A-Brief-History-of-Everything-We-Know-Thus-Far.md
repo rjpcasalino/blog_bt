@@ -3,7 +3,7 @@ title: 'A Brief History of Everything We Know Thus Far'
 layout: post
 ---
 
-> Sometimes late at night when I'm bathed in the firelight and the moon comes calling a ghostly white and I recall  — 
+> Sometimes late at night when I'm bathed in the firelight and the moon comes calling a ghostly white and I recall  —
 
 that I love Bod Seger and one of his songs needs new life outside a truck ad ... here we go!
 
@@ -84,14 +84,14 @@ Knoll calls gravity the "architect of the universe":
 
 Quick, what's the speed of light?! 186,276 miles per second or 299,792,458 meters per second! - just as every schoolboy should know. Also, did you happen to know that when the sun goes out we won't know for around 8 minutes?<sup><small>\*</small></sup>
 
-When we look up at the sky we're looking into history because the light has taken so long to get here. Wild. Just wild. What's even more insane is what we don't see. Dark matter and dark energy make up 95% of all that exists! This dark matter doesn't interact with light. Why? No one is certain. We do know one of your namesakes lent a helping hand:
+When we look up at the sky we're looking into history because the light has taken so long to get here. Wild. Just wild. What's even more insane is what we don't see. Dark matter and dark energy make up 95% of all that exists! This dark matter doesn't interact with light. Why? No one is certain. We do know one of your namesakes lent a helping hand in understanding that it's out there:
 
-> [Rubin's calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.](https://en.wikipedia.org/wiki/Vera_Rubin)
+> [[Vera] Rubin's calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.](https://en.wikipedia.org/wiki/Vera_Rubin)
 
 
 13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.<sup><small>\*</small></sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
 
-Light, light on the brain. What's Hawking have to say?
+Light, light on the brain. Here's what Hawking has to say:
 
 > By the wave/particle duality of quantum mechanics, light can be regarded as both a wave and particle.
 
