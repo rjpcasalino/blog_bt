@@ -136,7 +136,7 @@ You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wik
 
 <sub><small>\* Knoll has read Hawking and I think I heard it first from that English git in what undoubtedly inspired Knoll's title: [_A Brief History of Time_](https://en.wikipedia.org/wiki/A_Brief_History_of_Time).</small></sub>
 
-<sub><small>\* A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine.</small></sub>
+<sub><small>\* "A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine." (p. ??, BHT)</small></sub>
 
 <small>
 ### TODO

@@ -1,11 +1,11 @@
 [% USE date %]
 [% USE Markdown %]
-[% MACRO time_now PERL %]
+[% MACRO site_mod PERL %]
 	use DateTime;
 	my $dt = DateTime->now;
 	my $dmy = $dt->dmy;         # 20-07-2022
 	my $hms = $dt->hms;         # 14:02:29
-	print "$dmy $hms";
+	print "$dmy";
 [% END %]
 
 <p>
@@ -32,7 +32,7 @@
 
 <!-- <small>document last modified: [% doc_modified %]</small> -->
 <br>
-<small>site last modified: [% time_now %]</small>
+<small>site last modified: [% site_mod %]</small>
 <br>
 <small>Ryan J.P. Casalino &copy; 2015 - [% date.format(date.now, '%Y') %]</small>
 <script data-goatcounter="https://boringtranquility-io.goatcounter.com/count"
