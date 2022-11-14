@@ -3,7 +3,7 @@ title: 'Netbooting OpenBSD &mdash; and more!'
 layout: post
 ---
 
-This document's primary intended purpose is to guide one through the process of netbooting into OpenBSD on a SPARC box. It's ancillary purpose is to impart enough working knowledge for one to netboot NixOS on an AMD64 box. It will also cover a bit of netboot.xyz, some of iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
+This document's primary intended purpose is to guide one through the process of netbooting into OpenBSD on a SPARC box. Its ancillary purpose is to impart enough working knowledge for one to netboot NixOS on an AMD64 box. It will also cover a bit of netboot.xyz, some of iPXE (an open source implementation of the  Preboot eXecution Environment), Open Firmware (also known as OpenBoot), and a tiny amount of Forth programming.
 
 <aside>
 <small>
