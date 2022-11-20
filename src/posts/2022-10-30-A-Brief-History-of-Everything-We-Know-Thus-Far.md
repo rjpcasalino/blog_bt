@@ -47,6 +47,7 @@ What's Einstein got to say?
 <center>
 <video
   controls
+  src="//upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   width="300"
