@@ -15,7 +15,7 @@ Four billion years in eight chapters and I haven't picked up this book in months
 
 > I recall!
 
-I needed a bit of science with my Freud (the great fraud!) whom I can't put down for long and now I see [Loren Eiseley](https://en.wikipedia.org/wiki/Loren_Eiseley) jump about my mind. More on him later.
+I needed a bit of science with my Freud (the great fraud!) whom I can't put down for long and now I see [Loren Eiseley](https://en.wikipedia.org/wiki/Loren_Eiseley) jump about my mind. More on him soon.
 
 I was waiting for Knoll to acknowledge Gould and he does at some point but I do recall that he takes his sweet ass time doing so but every man wants to be somebody so I get it. I marvel at these deep minds sometimes. How they can convey knowledge with such a crisp self-confidence or is it a smug self-confidence?
 
@@ -31,7 +31,7 @@ Whereas mine (what you are now reading) is for _vrfc_.
 
 I suppose we should start with gravity. It's what keeps us grounded! Ha, dad joke? Really. Come now.
 
-What's Einstein got to say?
+What's Einstein got to say about gravity?
 
 >  "If we pick up a stone and then let it go, why does it fall to the ground?" The usual answer to this question is: "Because it is attracted by the earth."
 
