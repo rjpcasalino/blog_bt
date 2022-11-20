@@ -133,15 +133,17 @@ I consulted Eiseley further on all this and I'm reading and reading ( I cheat an
 
 Italics are mine.
 
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia".
+
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
+Knoll understands that some other of his fellow scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). I'd just like to point out that it is the year 2022 and Knoll is perhaps surround by men and women that "enthuse" about this notion of "panspermia".
 
-And once you turn the page of your Eiseley and you'll see even more but it doesn't hurt to reprint it here (helps me practice my typing):
+Once you turn the page of your Eiseley text you'll see even more here: (all this quoting helps me practice my typing):
 
 > This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
 
-Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud because he ponders as he is apt to about Freud in his other work. That notwithstanding, more on this mystery:
+Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud and you'll know that if you ever read Eiseley. Gould has read him too. That notwithstanding, more on this mystery of carbon and life:
 
 > Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to us across the infinite wastes of space.
 
