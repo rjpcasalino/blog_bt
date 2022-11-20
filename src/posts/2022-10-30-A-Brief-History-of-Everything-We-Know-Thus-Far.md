@@ -33,7 +33,7 @@ I suppose we should start with gravity. It's what keeps us grounded! Ha, dad jok
 
 What's Einstein got to say?
 
-> "If we pick up a stone and then let it go, why does it fall to the ground?" The usual answer to this question is: "Because it is attracted by the earth."
+>  "If we pick up a stone and then let it go, why does it fall to the ground?" The usual answer to this question is: "Because it is attracted by the earth."
 
 
 > The action of the earth on the stone takes place indirectly. The earth produces in its surroundings a gravitational field, which acts on the stone and produces its motion of fall.
@@ -89,11 +89,11 @@ When we look up at the sky we're looking into history because the light has take
 > [[Vera] Rubin's calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.](https://en.wikipedia.org/wiki/Vera_Rubin)
 
 
-13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light and we humans now have something to look back to.<sup><small>\*</small></sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths but we have tools that can help us understand the composition of its source.
+13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light.<sup><small>\*</small></sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths. But we have the tools that can help us understand the composition of its source. Who makes those tools and how? That's for the reader to find out.
 
 Light, light on the brain. Here's what Hawking has to say:
 
-> By the wave/particle duality of quantum mechanics, light can be regarded as both a wave and particle.
+> By the [wave/particle duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality) of quantum mechanics, light can be regarded as both a wave and particle.
 
 [Max Planck](https://en.wikipedia.org/wiki/Max_Planck) suggested that light, X rays, and other waves could not be emitted at an arbitrary rate, but only in certain packets that he called quanta, mostly quoting Hawking.
 
@@ -123,11 +123,11 @@ How do we know what this ancient Earth was made of? Different substances melt at
 > CO<sub>2</sub> is necessary for the survival of life on earth.
 
 We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
-> To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, fixing carbon to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
+> To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, [fixing carbon](https://en.wikipedia.org/wiki/Biological_carbon_fixation) to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
 
 I consulted Eiseley further on all this and I'm reading and reading ( I cheat and use the index sometimes :-) ) and I see in the three books of his I have before me he only mentions carbon twice and here's the second time:
 
-> Somewhere, somehow, sometime, in the mysterious chemistry of carbon, the *long march* toward the talking animal had begun. (p. 124, _The Immense Journey_ )
+> Somewhere, somehow, sometime, in the *mysterious chemistry of carbon, the long march* toward the talking animal had begun. (p. 124, _The Immense Journey_)
 
 Italics are mine.
 
@@ -139,11 +139,11 @@ And once you turn the page you'll see even more but it doesn't hurt to reprint i
 
 > This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
 
-Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had read Freud because he writes about in some other of his texts but that's for later. More on this mystery:
+Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud because he ponders as he is apt to about Freud in his other work. That notwithstanding, more on this mystery:
 
-> Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to use across the infinite wastes of space.
+> Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to us across the infinite wastes of space.
 
-> [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 127)
+> [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 126-127)
 
 <hr>
 
@@ -156,7 +156,6 @@ You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wik
 <sub><small>\* "A star is formed when a large amount of gas (mostly hydrogen) starts to collapse in on itself due to gravitational attraction. As it contracts the atoms of the gas collide with each other more and more frequently and at greater and greater speeds—the gas heats up. Eventually, the gas will be so hot that when the hydrogen atoms collide they no longer bounce off each other, but instead coalesce to form helium. The heat released in this reaction, which is like a controlled hydrogen bomb explosion is what makes the star shine." (p. ??, BHT)</small></sub>
 
 <small>
-### TODO
 
 > God does not play dice
 
