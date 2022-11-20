@@ -110,7 +110,7 @@ Light and gravity: an important duo.
 Our Sun has about enough fuel to keep burning and exploding for another five thousand million years or thereabouts. Think about time and its deep reach. How far back does it actually go? Knoll says this as "through the immensity of time". Time is big, Rex.
 The early stars were great foundries fusing elements in the tedium of time. Eons of endless fusion.
 
-About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth (p. ??, Knoll).
+About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth (p. ??, _A Brief History of Earth_).
 
 My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day.
 
@@ -133,7 +133,7 @@ I consulted Eiseley further on all this and I'm reading and reading ( I cheat an
 
 Italics are mine.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
 
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
