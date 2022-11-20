@@ -112,7 +112,7 @@ The early stars were great foundries fusing elements in the tedium of time. Eons
 
 About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth (p. ??, Knoll).
 
-My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-)
+My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day.
 
 Anyhow,
 
@@ -127,13 +127,13 @@ How do we know what this ancient Earth was made of? Different substances melt at
 We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
 > To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, [fixing carbon](https://en.wikipedia.org/wiki/Biological_carbon_fixation) to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
 
-I consulted Eiseley further on all this and I'm reading and reading ( I cheat and use the index sometimes :-) ) and I see in the three books of his I have before me he only mentions carbon twice and here's the second time:
+I consulted Eiseley further on all this and I'm reading and reading ( I cheat and use the index sometimes ) and I see in the three books of his I have before me he only mentions carbon twice and here's the second time:
 
 > Somewhere, somehow, sometime, in the *mysterious chemistry of carbon, the long march* toward the talking animal had begun. (p. 124, _The Immense Journey_)
 
 Italics are mine.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landing on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
 
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
