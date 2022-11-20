@@ -47,11 +47,11 @@ What's Einstein got to say?
 <center>
 <video
   controls
-  src="//upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv"
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   width="300"
   playsinline
+<source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="SD VP9 (480P)" data-shorttitle="VP9 480P" data-transcodekey="480p.vp9.webm" data-width="654" data-height="480" data-bandwidth="1225816" data-framerate="29.97" res="480" label="SD 480p">
