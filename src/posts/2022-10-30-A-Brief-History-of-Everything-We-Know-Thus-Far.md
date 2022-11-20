@@ -133,11 +133,11 @@ I consulted Eiseley further on all this and I'm reading and reading ( I cheat an
 
 Italics are mine.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
-
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
-And once you turn the page you'll see even more but it doesn't hurt to reprint it here (helps me practice my typing):
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
+
+And once you turn the page of your Eiseley and you'll see even more but it doesn't hurt to reprint it here (helps me practice my typing):
 
 > This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
 
