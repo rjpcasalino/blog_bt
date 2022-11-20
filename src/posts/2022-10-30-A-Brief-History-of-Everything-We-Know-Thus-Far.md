@@ -7,7 +7,7 @@ layout: post
 
 that I love Bod Seger and one of his songs needs new life outside a truck ad ... here we go!
 
-I got COVID-19 (or is it SARS‑CoV‑2?) a few months back (we will never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read. Does that not sound nice?
+I got COVID-19 (or is it SARS‑CoV‑2?) a few months back (we __must__ never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read. Does that not sound nice?
 
 Anyhow,
 
@@ -15,7 +15,9 @@ Four billion years in eight chapters and I haven't picked up this book in months
 
 > I recall!
 
-I needed a bit of science with my Freud (the great fraud!) whom I can't put down for long and now I see [Loren Eiseley](https://en.wikipedia.org/wiki/Loren_Eiseley) jump about my mind. What a wonderful mind his was! But I looked toward Harvard and found what I truly needed. I was waiting for Knoll to acknowledge Gould and he does at some point but I do recall that he takes his sweet ass time doing so but every man wants to be somebody so I get it. I marvel at these deep minds sometimes. How they can convey knowledge with such a crisp self-confidence or is it more smug self-confidence?
+I needed a bit of science with my Freud (the great fraud!) whom I can't put down for long and now I see [Loren Eiseley](https://en.wikipedia.org/wiki/Loren_Eiseley) jump about my mind. More on him later.
+
+I was waiting for Knoll to acknowledge Gould and he does at some point but I do recall that he takes his sweet ass time doing so but every man wants to be somebody so I get it. I marvel at these deep minds sometimes. How they can convey knowledge with such a crisp self-confidence or is it a smug self-confidence?
 
 Anyway,
 
@@ -26,8 +28,6 @@ Whereas mine (what you are now reading) is for _vrfc_.
 ## Prologue: An Invitation
 
 > 20 years...where'd they go?
-
-A great overview of what we're about to experience! Lots of what I wish were color illustrations but I guess hardcovers are expensive to turn out and money must be saved!
 
 I suppose we should start with gravity. It's what keeps us grounded! Ha, dad joke? Really. Come now.
 
@@ -108,7 +108,7 @@ Light and gravity: an important duo.
 Our Sun has about enough fuel to keep burning and exploding for another five thousand million years or thereabouts. Think about time and its deep reach. How far back does it actually go? Knoll says this as "through the immensity of time". Time is big, Rex.
 The early stars were great foundries fusing elements in the tedium of time. Eons of endless fusion.
 
-About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth or so says Knoll.
+About 4.6 billion years ago and 93 million miles away from the newly formed Sun (Sol) all these collisions of atoms and the resulting heat and accompanying coalescing into forms we're left with some kind of Earth but not as we know it today, of course. Back then Earth was not hospitable to life. We know this from rocks. If light is telling us the story of the universe than rocks tell the history of Earth (p. ??, Knoll).
 
 My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day. :-)
 
@@ -116,19 +116,36 @@ Anyhow,
 
 How do we know what this ancient Earth was made of? Different substances melt at different temperatures. For example, water will turn to ice at 0<span>&#8451;</span> (32 <span>&#8457;</span>). In much the same way, "minerals found in rocks crystallize from molten precursors at temperatures that range from hundreds to more than 1,000 <span>&#8451;</span>." (p. 17, Knoll)  Carbon dioxide formed later.
 
-[Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Easy. Here's Wikipedia, the People's Encyclopedia:
+[Carbon dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide), please explain that to a 3 year old. Atomic number 8! Easy. Here's Wikipedia, the People's Encyclopedia:
 
 > In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas.
+
+> CO<sub>2</sub> is necessary for the survival of life on earth.
 
 We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
 > To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, fixing carbon to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
 
+I consulted Eiseley further on all this and I'm reading and reading ( I cheat and use the index sometimes :-) ) and I see in the three books of his I have before me he only mentions carbon twice and here's the second time:
+
+> Somewhere, somehow, sometime, in the mysterious chemistry of carbon, the *long march* toward the talking animal had begun. (p. 124, _The Immense Journey_ )
+
+Italics are mine.
+
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landing on old Earth. This is called "panspermia" and Knoll says he understands that some other scientists rave about this idea of seeded life (p. 72). This is 2022 and Knoll is surround by men and women that "enthuse" about this notion.
+
+Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
+
+And once you turn the page you'll see even more but it doesn't hurt to reprint it here (helps me practice my typing):
+
+> This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
+
+Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had read Freud because he writes about in some other of his texts but that's for later. More on this mystery:
+
+> Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to use across the infinite wastes of space.
+
+> [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 127)
 
 <hr>
-
-Soon we're talking about rocks from space and some even think that life came here from out there riding on a holy comet and boom landing on old Earth. This is called "panspermia" and Knoll says he understands that some others enthuse about this idea of seeded life (p. 72). 
-
-Eiseley also discusses panspermia and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126 of _The Immense Journey_). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt.
 
 This is all very great reading. This calls to mind [preformationism](https://en.wikipedia.org/wiki/Preformationism)—Gould has a wonderful essay about this that all should read called "On Heroes and Fools in Science". 
 
