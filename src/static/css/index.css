@@ -19,7 +19,7 @@ blockquote p::after {
 aside {
 	width: 40%;
 	padding-left: .5rem;
-    	margin-left: .5rem;
+	margin-left: .5rem;
 	float: right;
 	box-shadow: inset 5px 0 5px -5px #29627e;
 	font-style: italic;
@@ -102,93 +102,3 @@ figcaption {
   -webkit-clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
 }
 
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
- body {
-   margin-left: auto;
-   margin-right: auto;
-   width: 75vw;
-   font-family: sans-serif;
-   line-height: 1.5;
-   overflow-x: hidden;
- }
-}
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
- body {
-   margin-left: auto;
-   margin-right: auto;
-   width: 75vw;
-   font-family: sans-serif;
-   line-height: 1.5;
-   overflow-x: hidden;
- }
-}
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
- body {
-   margin-left: auto;
-   margin-right: auto;
-   width: 75vw;
-   font-family: sans-serif;
-   line-height: 1.5;
-   overflow-x: hidden;
- }
-}
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
- body {
-   margin-left: auto;
-   margin-right: auto;
-   width: 75vw;
-   font-family: sans-serif;
-   line-height: 1.5;
-   overflow-x: hidden;
- }
-}
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
- body {
-   margin-left: auto;
-   margin-right: auto;
-   width: 75vw;
-   font-family: sans-serif;
-   line-height: 1.5;
-   overflow-x: hidden;
- }
-}
