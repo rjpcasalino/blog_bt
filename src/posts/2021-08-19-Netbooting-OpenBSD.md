@@ -140,7 +140,7 @@ Address resolution provides dynamic mapping between two different forms of addre
 A diskless system would read its unique hardware or physical address from the interface card (device) and send an RARP request (a broadcast to the network) asking for someone to reply with that diskless system's IP address. This is the job of the DHCP server. Below is an example of `rarpd` getting a packet and sending a reply:
 <aside>
 <small>
-> Most routers are incapable of forwarding RARP requests. BOOTP was meant to improve upon RARP and address its shortcomings. DHCP was meant to improve upon BOOTP and address its shortcomings, especially the proliferation of "vendor extensions" as defined in RFC 1497.
+Most routers are incapable of forwarding RARP requests. BOOTP was meant to improve upon RARP and address its shortcomings. DHCP was meant to improve upon BOOTP and address its shortcomings, especially the proliferation of "vendor extensions" as defined in RFC 1497.
 </small>
 </aside>
 
@@ -201,7 +201,7 @@ When the client asks, our bootserver will reply and load the first stage bootloa
 
 <small>
 <aside>
-> DHCP is built directly on UDP and IP which are as yet inherently insecure. Furthermore, DHCP is generally intended to make maintenance of remote and/or diskless hosts easier. While perhaps not impossible, configuring such hosts with passwords or keys may be difficult and inconvenient. Therefore, DHCP in its current form is quite insecure.
+DHCP is built directly on UDP and IP which are as yet inherently insecure. Furthermore, DHCP is generally intended to make maintenance of remote and/or diskless hosts easier. While perhaps not impossible, configuring such hosts with passwords or keys may be difficult and inconvenient. Therefore, DHCP in its current form is quite insecure.
 </aside>
 </small>
 
@@ -253,8 +253,8 @@ After you've downloaded the sets, use `signify` to verify:
 
 <aside>
 <small>
-> MAKEDEV - create system and device special files.
-> See intro(4) for a more complete discussion of special files.
+MAKEDEV - create system and device special files.
+See intro(4) for a more complete discussion of special files.
 </small>
 </aside>
 
