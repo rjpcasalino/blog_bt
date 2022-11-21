@@ -50,7 +50,7 @@ What's Einstein got to say about gravity?
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   playsinline
-  width="350"
+  width="300"
 <source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 
@@ -86,9 +86,11 @@ Knoll calls gravity the "architect of the universe":
 
 Quick, what's the speed of light?! 186,276 miles per second or 299,792,458 meters per second! - just as every schoolboy should know. Also, did you happen to know that when the sun goes out we won't know for around 8 minutes?<sup><small>\*</small></sup>
 
-When we look up at the sky we're looking into history because the light has taken so long to get here. Wild. Just wild. What's even more insane is what we don't see. Dark matter and dark energy make up 95% of all that exists! This dark matter doesn't interact with light. Why? No one is certain. We do know one of your namesakes lent a helping hand in understanding that it's out there:
+When we look up at the sky we're looking into history because the light has taken so long to get here. Wild. Just wild. What's even more insane is what we don't see. Dark matter and dark energy make up 95% of all that exists! This dark matter doesn't interact with light. Why? No one is certain. We do know one of your namesakes lent a helping hand in understanding that it's out there.
 
-> [[Vera] Rubin's calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.](https://en.wikipedia.org/wiki/Vera_Rubin)
+<aside>
+[Rubin's](https://en.wikipedia.org/wiki/Vera_Rubin) calculations showed that galaxies must contain at least five to ten times as much dark matter as ordinary matter.
+</aside>
 
 
 13.8 billion years ago the "primordial kernel of universe began to expand rapidly" and is still. With the collapse of atoms into hot, dense balls due to gravity which caused hydrogen nuclei therein to fuse and form helium we have light.<sup><small>\*</small></sup> Most of our understanding of things comes from light. Our eyes can only detect a narrow range of wavelengths. But we have the tools that can help us understand the composition of its source. Who makes those tools and how? That's for the reader to find out.
@@ -97,7 +99,13 @@ Light, light on the brain. Here's what Hawking has to say:
 
 > By the [wave/particle duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality) of quantum mechanics, light can be regarded as both a wave and particle.
 
-[Max Planck](https://en.wikipedia.org/wiki/Max_Planck) suggested that light, X rays, and other waves could not be emitted at an arbitrary rate, but only in certain packets that he called quanta, mostly quoting Hawking.
+[Max Planck](https://en.wikipedia.org/wiki/Max_Planck) suggested that light, X rays, and other waves could not be emitted at an arbitrary rate, but only in certain packets that he called quanta. But what of these [waves](https://en.wikipedia.org/wiki/Doppler_effect)?
+
+> [V]isible light consists of fluctuations, or waves, in the electromagnetic field. The wavelength (or distance from one wave crest to the next) of light is extremely small, ranging from four to seven ten millionths of a meter. The different wavelengths of light are what the human eye sees as different colors, with the longest wavelengths appearing at the red end of the spectrum and the shortest wavelengths at the blue end. (p. 40, _My Worn Paperback of BHT_)
+
+<img src="/static/imgs/redshift-blueshift.jpg">
+
+This leads us to Heisenberg's uncertainty principle. I hear clocks ticking far off and away and they're floating too and I see the past, present, and future as I've never seen them before. Redshifted one second, blueshifted the next. Just riding the waves here as best as one can. Imagine if Moe Berg actually shot Heisenberg.
 
 Light and gravity: an important duo.
 
