@@ -50,6 +50,7 @@ What's Einstein got to say about gravity?
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   playsinline
+  width="400"
 <source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 
@@ -144,6 +145,7 @@ Once you turn the page of your Eiseley text you'll see even more here: (all this
 
 Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud and you'll know that if you ever read Eiseley. Gould has read him too. That notwithstanding, more on this mystery of carbon and life:
 
+
 > Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to us across the infinite wastes of space.
 
 > [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 126-127)
@@ -168,3 +170,17 @@ You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wik
 </small>
 
 <a href="https://en.wikipedia.org/wiki/Sirius"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Star-sizes.jpg"></a>
+
+<aside>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain
+
+And washed the spider out.
+
+Out came the sun
+
+And dried up all the rain
+
+And the itsy bitsy spider climbed up the spout again.
+</aside>
