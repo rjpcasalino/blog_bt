@@ -49,7 +49,6 @@ What's Einstein got to say about gravity?
   controls
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
-  width="300"
   playsinline
 <source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
@@ -167,3 +166,5 @@ You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wik
 
 > Clearly more on Knoll since this post is suppose to be about his book.
 </small>
+
+<a href="https://en.wikipedia.org/wiki/Sirius"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Star-sizes.jpg"></a>
