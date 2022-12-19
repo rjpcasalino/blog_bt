@@ -1,3 +1,13 @@
+aside {
+	width: 40%;
+	padding-left: .5rem;
+	margin-left: .5rem;
+	float: right;
+	box-shadow: inset 5px 0 5px -5px #29627e;
+	font-style: italic;
+	color: #29627e;
+}
+
 blockquote {
     margin: 0;
 }
@@ -16,14 +26,9 @@ blockquote p::after {
     content: '\201D';
 } */
 
-aside {
-	width: 40%;
-	padding-left: .5rem;
-	margin-left: .5rem;
-	float: right;
-	box-shadow: inset 5px 0 5px -5px #29627e;
-	font-style: italic;
-	color: #29627e;
+code {
+    white-space: pre-wrap !important;
+    overflow-wrap: break-word !important;
 }
 
  /* horizontal rule 
