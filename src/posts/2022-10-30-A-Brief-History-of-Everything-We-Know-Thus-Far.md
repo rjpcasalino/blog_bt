@@ -133,7 +133,7 @@ How do we know what this ancient Earth was made of? Different substances melt at
 > CO<sub>2</sub> is necessary for the survival of life on earth.
 
 We'd have to discuss the Biogeochemical cycle but suffice it to say that the food we eat is made of it and it comes from the oceans and the atmosphere. Every breath we take brings in oxygen, a waste product. That's where we get all this energy to walk around and do stuff with.
-> To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, [fixing carbon](https://en.wikipedia.org/wiki/Biological_carbon_fixation) to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub> Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
+> To review, plants and other photosynthetic organisms remove CO<sub>2</sub> from air and water, [fixing carbon](https://en.wikipedia.org/wiki/Biological_carbon_fixation) to form the biomolecules required for growth and reproduction. Animals, fungi, and innumerable microorganism gain energy by respiring those molecules, returning carbon to the environment as CO<sub>2</sub>. Photosynthesis and respiration almost but not quite balance each other, the "not quite" portion being organic matter that escapes respiration and related processes to accumulate in sediments. (p. 216)
 
 I consulted Eiseley further on all this and I'm reading and reading ( I cheat and use the index sometimes ) and I see in the three books of his I have before me he only mentions carbon twice and here's the second time:
 
@@ -141,7 +141,7 @@ I consulted Eiseley further on all this and I'm reading and reading ( I cheat an
 
 Italics are mine.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia".
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia". And Jack London writes of this kind of stuff. Yes, indeed! Very memorizing just thinking of his ["The Red One"](https://www.gutenberg.org/files/788/788-0.txt). This story can be got for free. I can hear you now: don't say "be got" and maybe you're right on that score. In any case, [here's the link again](https://www.gutenberg.org/files/788/788-0.txt) to that short story by London. 
 
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
@@ -151,7 +151,7 @@ Once you turn the page of your Eiseley text you'll see even more here: (all this
 
 > This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
 
-Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud and you'll know that if you ever read Eiseley. Gould has read him too. That notwithstanding, more on this mystery of carbon and life:
+Freud (or his translators) loved the word "elucidate" and its derivatives. Eiseley had obviously read Freud and you'll know that if you ever read Eiseley. Gould has read Freud too. Why don't you?! That notwithstanding, more on this mystery of carbon and life:
 
 
 > Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to us across the infinite wastes of space.
