@@ -17,7 +17,7 @@ Four billion years in eight chapters and I haven't picked up this book in months
 
 I needed a bit of science with my Freud (the great fraud!) whom I can't put down for long and now I see [Loren Eiseley](https://en.wikipedia.org/wiki/Loren_Eiseley) jump about my mind. More on him soon.
 
-I was waiting for Knoll to acknowledge Gould and he does at some point but I do recall that he takes his sweet ass time doing so but every man wants to be somebody so I get it. I marvel at these deep minds sometimes. How they can convey knowledge with such a crisp self-confidence or is it a smug self-confidence?
+I was waiting for Knoll to acknowledge Gould and he does at some point but I do recall that he takes his sweet ass time doing so (p. 133) but every man wants to be somebody so I get it. I marvel at these deep minds sometimes. We all end in the ocean in the end, don't we? Also, didn't we come from the ocean? Anyways, I sometimes wonder how they can convey knowledge with such a crisp self-confidence but check myself because maybe it's a smug self-confidence?
 
 Anyway,
 
