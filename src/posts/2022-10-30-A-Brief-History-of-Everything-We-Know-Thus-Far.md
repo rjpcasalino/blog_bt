@@ -49,7 +49,6 @@ What's Einstein got to say about gravity?
   controls
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
-  playsinline
 <source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 
@@ -165,7 +164,6 @@ One wonders if Knoll felt that way standing the arctic island of Spitsbergen? To
   controls
   preload="metadata"
   poster="/wiki/File:Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm"
-  playsinline
 <source src="/static/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.720p.vp9.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="720p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="854" data-height="480" data-bandwidth="754312" data-framerate="25" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="SD VP9 (480P)" data-shorttitle="VP9 480P" data-transcodekey="480p.vp9.webm" data-width="854" data-height="480" data-bandwidth="822944" data-framerate="25" res="480" label="SD 480p">
