@@ -50,7 +50,6 @@ What's Einstein got to say about gravity?
   preload="metadata"
   poster="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollo_15_feather_and_hammer_drop.ogv/654px--Apollo_15_feather_and_hammer_drop.ogv.jpg"
   playsinline
-  width="300"
 <source src="/static/Apollo_15_feather_and_hammer_drop.ogv.480p.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Apollo_15_feather_and_hammer_drop.ogv/Apollo_15_feather_and_hammer_drop.ogv.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="SD 480p">
 
@@ -122,6 +121,8 @@ About 4.6 billion years ago and 93 million miles away from the newly formed Sun 
 
 My mind wonders now to the [Cambrian explosion and the Burgess shale](https://en.wikipedia.org/wiki/Burgess_Shale-type_preservation) of which I learned from Gould and he has written a book called [_Wonderful Life_](https://en.wikipedia.org/wiki/Wonderful_Life_(book)) all about it. I haven't read it all but do plan to finish some day.
 
+> Why, Little Jew, do you go back to Sem, and not to the protoplasm? To me, the living begins in the plasmatic contraction, and not in a rabbi's office. (p. 41, _Listen, Little Man_)
+
 Anyhow,
 
 How do we know what this ancient Earth was made of? Different substances melt at different temperatures. For example, water will turn to ice at 0<span>&#8451;</span> (32 <span>&#8457;</span>). In much the same way, "minerals found in rocks crystallize from molten precursors at temperatures that range from hundreds to more than 1,000 <span>&#8451;</span>." (p. 17, Knoll)  Carbon dioxide formed later.
@@ -147,7 +148,7 @@ Eiseley discusses "panspermia" and according to him the idea came from [Lord Kel
 
 Knoll understands that some other of his fellow scientists rave about this idea of seeded life (p. 72, _A Brief History of Earth_). I'd just like to point out that it is the year 2022 and Knoll is perhaps surround by men and women that "enthuse" about this notion of "panspermia".
 
-Once you turn the page of your Eiseley text you'll see even more here: (all this quoting helps me practice my typing):
+Once you turn the page of your Eiseley text:
 
 > This theory (panspermia) had a certain attraction as a way out of an embarrassing dilemma, but it suffers from the defect of explaining nothing, even if it should prove true. It does not _elucidate_ the nature of life.
 
@@ -157,6 +158,32 @@ Freud (or his translators) loved the word "elucidate" and its derivatives. Eisel
 > Since life makes use of the chemical compounds of this earth [Gaia], it would seem better to proceed, until incontrovertible evidence to the contrary is obtained, on the assumption that life has actually arisen upon this planet. The now widely accepted view that the entire universe in its present state is limited in time, and the apparently lethal nature of the unscreened solar radiation are both obstacles which greatly lessen the likelihood that life has come to us across the infinite wastes of space.
 
 > [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 126-127)
+
+One wonders if Knoll felt that way standing the arctic island of Spitsbergen? To ascertain or discern the magic of Spitsbergen one needs a microscope, one must turn the eye back toward Gaia and look real hard. Microfossils embedded in ancient limestone, 750-800 Million years old. Spitsbergen sounds like a wonderful place. Perhaps we'll visit someday and see the [Svalbard Global Seed Vault](https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault). Looking into your microscope and maybe you'll see much blue-green algae, otherwise known as "Cyanobacteria" which you can see here courtesy of Wikipedia:
+<center>
+<video
+  controls
+  preload="metadata"
+  poster="/wiki/File:Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm"
+  playsinline
+<source src="/static/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.720p.vp9.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="720p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="854" data-height="480" data-bandwidth="754312" data-framerate="25" res="480" label="SD 480p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="SD VP9 (480P)" data-shorttitle="VP9 480P" data-transcodekey="480p.vp9.webm" data-width="854" data-height="480" data-bandwidth="822944" data-framerate="25" res="480" label="SD 480p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.720p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="HD VP9 (720P)" data-shorttitle="VP9 720P" data-transcodekey="720p.vp9.webm" data-width="1280" data-height="720" data-bandwidth="1484520" data-framerate="25" res="720" label="HD 720p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.720p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="HD WebM (720P)" data-shorttitle="WebM 720P" data-transcodekey="720p.webm" data-width="1280" data-height="720" data-bandwidth="1500064" data-framerate="25" res="720" label="HD 720p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.1080p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Full HD VP9 (1080P)" data-shorttitle="VP9 1080P" data-transcodekey="1080p.vp9.webm" data-width="1920" data-height="1080" data-bandwidth="2897872" data-framerate="25" res="1080" label="HD 1080p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.1080p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="Full HD WebM (1080P)" data-shorttitle="WebM 1080P" data-transcodekey="1080p.webm" data-width="1920" data-height="1080" data-bandwidth="2998480" data-framerate="25" res="1080" label="HD 1080p">
+<source src="//upload.wikimedia.org/wikipedia/commons/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm" type="video/webm; codecs=&quot;vp8&quot;" data-title="Original WebM file, 1,920 × 1,080 (3.61 Mbps)" data-shorttitle="WebM source" data-width="1920" data-height="1080" data-bandwidth="3606664" data-framerate="25" res="99999" label="WebM source">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.120p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Lowest bandwidth VP9 (120P)" data-shorttitle="VP9 120P" data-transcodekey="120p.vp9.webm" data-width="214" data-height="120" data-bandwidth="76640" data-framerate="25" res="120" label="Low 120p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.160p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="Low bandwidth WebM (160P)" data-shorttitle="WebM 160P" data-transcodekey="160p.webm" data-width="284" data-height="160" data-bandwidth="95280" data-framerate="25" res="160" label="Low 160p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.180p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="Low bandwidth VP9 (180P)" data-shorttitle="VP9 180P" data-transcodekey="180p.vp9.webm" data-width="320" data-height="180" data-bandwidth="138904" data-framerate="25" res="180" label="Low 180p">
+<source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.240p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="Small WebM (240P)" data-shorttitle="WebM 240P" data-transcodekey="240p.webm" data-width="426" data-height="240" data-bandwidth="188064" data-framerate="25" res="240" label="Low 240p">
+<p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.webm">link to the video</a> instead.
+</p>
+</video>
+</center>
 
 <hr>
 
@@ -191,4 +218,8 @@ Out came the sun
 And dried up all the rain
 
 And the itsy bitsy spider climbed up the spout again.
+</aside>
+
+<aside>
+> It took many million years to develop you from a jelly-fish to a terrestrain biped. Your biological aberration, in the form of rigidity, has lasted only six thousand years. It will take a hundred or five hundred or maybe five thousand years before you rediscover nature in you, before you find the jelly-fish in yourself again. (p. 41, _Listen, Little Man_)
 </aside>
