@@ -199,11 +199,6 @@ You can probably get all the Gould you'd ever need at [Wikiquote](https://en.wik
 
 > God does not play dice
 
-> Small bit more on quantum mechanics and key players
-
-> Clearly more on Knoll since this post is suppose to be about his book.
-</small>
-
 <a href="https://en.wikipedia.org/wiki/Sirius"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Star-sizes.jpg"></a>
 
 <aside>
@@ -220,6 +215,4 @@ And dried up all the rain
 And the itsy bitsy spider climbed up the spout again.
 </aside>
 
-<aside>
 > It took many million years to develop you from a jelly-fish to a terrestrain biped. Your biological aberration, in the form of rigidity, has lasted only six thousand years. It will take a hundred or five hundred or maybe five thousand years before you rediscover nature in you, before you find the jelly-fish in yourself again. (p. 41, _Listen, Little Man_)
-</aside>
