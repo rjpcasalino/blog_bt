@@ -92,3 +92,4 @@ Here are helpful links for those interested in cwm and more:
 * [cwmrc(5)](https://man.openbsd.org/cwmrc.5)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
 * [Netbooting OpenBSD](/posts/2021-08-19-Netbooting-OpenBSD.html) - cwm is an official window manager for OpenBSD and works well there too. Reading this one will learn more than one cares to regarding OpenBSD and net booting basics. Getting the cwm running with X forwarding is not covered as yet.
+* [Some "hidden" or esoteric options can be found here - thanks Joel](https://www.tumfatig.net/2021/from-clean-green-mockup-to-openbsd-cwm1-desktop/)
