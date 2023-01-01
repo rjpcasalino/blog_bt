@@ -102,7 +102,9 @@ Light, light on the brain. Here's what Hawking has to say:
 
 > [V]isible light consists of fluctuations, or waves, in the electromagnetic field. The wavelength (or distance from one wave crest to the next) of light is extremely small, ranging from four to seven ten millionths of a meter. The different wavelengths of light are what the human eye sees as different colors, with the longest wavelengths appearing at the red end of the spectrum and the shortest wavelengths at the blue end. (p. 40, _My Worn Paperback of BHT_)
 
+<a target="_blank" href="/static/imgs/redshift-blueshift.jpg">
 <img src="/static/imgs/redshift-blueshift.jpg">
+</a>
 
 This leads us to Heisenberg's uncertainty principle. I hear clocks ticking far off and away and they're floating too and I see the past, present, and future as I've never seen them before. Redshifted one second, blueshifted the next. Just riding the waves here as best as one can. Imagine if Moe Berg actually shot Heisenberg.
 
@@ -160,12 +162,17 @@ Freud (or his translators) loved the word "elucidate" and its derivatives. Eisel
 > [M]en are now fascinated by the crystalline viruses and have turned that remarkable instrument, the electron microscope, upon strange molecular "beings" never previously seen by man. Some are satisfied with this glimpse below the cell and find the virus a halfway station on the road to life. Perhaps it is, but as I wander about in the thin mist that is beginning to filter among these decaying stems and ruined spider webs, a kind of disconsolate uncertainty has taken hold of me. (p. 126-127)
 
 One wonders if Knoll felt that way standing the arctic island of Spitsbergen? To ascertain or discern the magic of Spitsbergen one needs a microscope, one must turn the eye back toward Gaia and look real hard. Microfossils embedded in ancient limestone, 750-800 Million years old. Spitsbergen sounds like a wonderful place. Perhaps we'll visit someday and see the [Svalbard Global Seed Vault](https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault). Looking into your microscope and maybe you'll see much blue-green algae, otherwise known as "Cyanobacteria" which you can see here courtesy of Wikipedia:
+
+<audio controls loop>
+  <source src="/static/outfoxing.mp3" type="audio/mp3" />
+</audio>
 <center>
 <video
   controls
   preload="metadata"
-  poster="/wiki/File:Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm"
+  poster=""
   playsinline
+  loop
 <source src="/static/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.720p.vp9.mp4" type="video/mp4;" data-width="654" data-height="480" data-bandwidth="1106416" data-framerate="29.97" res="480" label="720p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-title="SD WebM (480P)" data-shorttitle="WebM 480P" data-transcodekey="480p.webm" data-width="854" data-height="480" data-bandwidth="754312" data-framerate="25" res="480" label="SD 480p">
 <source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm/Video-_The_Cyanobacteria-_Oscillatoria_and_Gleocapsa.webm.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-title="SD VP9 (480P)" data-shorttitle="VP9 480P" data-transcodekey="480p.vp9.webm" data-width="854" data-height="480" data-bandwidth="822944" data-framerate="25" res="480" label="SD 480p">
@@ -216,3 +223,8 @@ And the itsy bitsy spider climbed up the spout again.
 </aside>
 
 > It took many million years to develop you from a jelly-fish to a terrestrain biped. Your biological aberration, in the form of rigidity, has lasted only six thousand years. It will take a hundred or five hundred or maybe five thousand years before you rediscover nature in you, before you find the jelly-fish in yourself again. (p. 41, _Listen, Little Man_)
+
+
+<script type="text/javascript">
+// Track credit: Outfoxing the Fox by Kevin MacLeod under Creative Commons
+</script>
