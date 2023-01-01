@@ -97,8 +97,9 @@ OpenBoot provides a programmable user interface that gives us access to an exten
 > `help` without any specifier, displays instructions on how to use the help system and lists the available help categories. Because of the large number of commands, help is available only for commands that are used frequently.
 
 Since we're hoping to netboot, it might be wise to test the network connection &mdash;
-
-![watch-net test](/static/imgs/watch-net_test.jpg)
+<a target="_blank" href="/static/imgs/watch-net_test.jpg">
+![watch-net test OpenBoot](/static/imgs/watch-net_test.jpg)
+</a>
 <sub>one can test _devices_ and issue commands<sub>
 
 If we're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some of what is to be discussed further below depends on what architecture one is trying to netboot. Unless otherwise noted, one can assume the client is a SPARC64 box.
@@ -109,7 +110,9 @@ Let's take a look at what our client is hoping to see once the `boot net` comman
 
 Okay, let's go ahead and boot from the network...
 
+<a target="_blank" href="/static/imgs/rarp_error.jpg">
 ![rarp client error](/static/imgs/rarp_error.jpg)
+</a>
 <sub>Retrying...Check TFTP server and network setup</sub>
 
 Thankfully, the client offers advice as to what to do next.
@@ -229,7 +232,7 @@ The manual can be cryptic and nothing clears things up better than an example:
 
 (you'd find this in <samp>/etc/examples/dhcpd.conf</samp>).
 
-It's worth mentioning that  DHCP leases can be assigned almost any length from zero seconds to infinity. 7200 seconds equals two hours. Other common values one could use: 86400 (one day), 604800 (one week) and 2592000 (30 days).
+It's worth mentioning that DHCP leases can be assigned almost any length from zero seconds to infinity. 7200 seconds equals two hours. Other common values one could use: 86400 (one day), 604800 (one week) and 2592000 (30 days).
 
 It'll behoove you to have a look over [RFC 2132](https://datatracker.ietf.org/doc/html/rfc2132). You've always known you'd one day find yourself wading through RFCs. It was only a matter of time. Endless reams of paper saved but just festooned to the screen instead.
 
