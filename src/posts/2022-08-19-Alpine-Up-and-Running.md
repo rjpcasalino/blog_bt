@@ -105,7 +105,7 @@ And here are the fonts that work best for most setups:
 
 	apk add terminus-font ttf-inconsolata ttf-dejavu font-noto font-noto-cjk ttf-font-awesome font-noto-extra
 
-### Blogging and nix flakes and docker
+##### Blogging and nix flakes and docker
 Before starting let's install docker:
 
 	apk add docker
