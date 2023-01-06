@@ -102,6 +102,7 @@ To get suspend to work on LID close follow this guide: https://wiki.alpinelinux.
 You might need to create the directories and don't forget to make the script you'll copy executable.
 
 And here are the fonts that work best for most setups:
+
 	apk add terminus-font ttf-inconsolata ttf-dejavu font-noto font-noto-cjk ttf-font-awesome font-noto-extra
 
 ### Blogging and nix flakes and docker
