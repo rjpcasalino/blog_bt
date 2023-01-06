@@ -3,9 +3,9 @@ title: "Using Alpine on ASUS VivoBook E203MAS_L203MA 1.0"
 Layout: post
 ---
 
-> I said dance, not fuck. Don't get it confused. — Cardi B
+> I said "dance", not "fuck", don't get it confused. — Cardi B
 
-Whereas there are offical docs and myraid guides to follow regarding setting up Alpine Linux I decided to record the process on a brand newASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked all my boxes.
+Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked all my boxes.
 
 First, use [etcher](https://www.balena.io/etcher/) to create a bootable USB drive.
 
@@ -13,7 +13,7 @@ First, use [etcher](https://www.balena.io/etcher/) to create a bootable USB driv
 
 Second, turn off secure boot in the BIOS (get to the BIOS with F2 on this box).
 
-Third, this is a simple sys install (not running from RAM) so just follow steps given in installer.
+Third, this is a [simple sys install](https://wiki.alpinelinux.org/wiki/Install_to_disk) (not running from RAM) so just follow steps given in installer.
 
 Fourth, you will need the community repos so edit `/etc/apk/repositories` and remove the comment to allow downloading from community repos.
 
@@ -92,7 +92,7 @@ In order to discover the key mapping of the touchpad issue this command:
 
 	xinput list
 And from there once you've discovered what device, get the button map via:
-	xinput get-button-map "<ur device>"
+	xinput get-button-map "the device"
 And when you are ready, set the button map with:
 	xinput set-button-map 1 2 3 4 5 6 7
 
