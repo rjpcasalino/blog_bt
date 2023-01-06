@@ -92,8 +92,11 @@ In order to discover the key mapping of the touchpad issue this command:
 
 	xinput list
 And from there once you've discovered what device, get the button map via:
+
 	xinput get-button-map "the device"
+
 And when you are ready, set the button map with:
+
 	xinput set-button-map 1 2 3 4 5 6 7
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
