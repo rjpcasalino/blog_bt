@@ -1,17 +1,17 @@
 ---
-title: "Using Alpine on ASUS VivoBook E203MAS_L203MA 1.0"
+title: "Alpine Up and Running on ASUS VivoBook E203MAS_L203MA"
 Layout: post
 ---
 
 > I said "dance", not "fuck", don't get it confused. — Cardi B
 
-Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked all my boxes.
+Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked some of my boxes. Lack of back lit keys turned out to be more bothersome than I'd figured it would be. But USB-C, microSD, HDMI, and two USB 3.1 ports it's a pretty robust offering from ASUS. Republic of China all the way!
 
-First, use [etcher](https://www.balena.io/etcher/) to create a bootable USB drive.
+First, use [rpi-imager](https://github.com/raspberrypi/rpi-imager) to create a bootable USB drive. It just works.
 
 <hr>
 
-Second, turn off secure boot in the BIOS (get to the BIOS with F2 on this box).
+Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook).
 
 Third, this is a [simple sys install](https://wiki.alpinelinux.org/wiki/Install_to_disk) (not running from RAM) so just follow steps given in installer.
 
@@ -29,6 +29,8 @@ Finally, as root begin installing goodies:
 	apk add git neofetch feh # feh is for wallpaper
 
 	apk add cwm # calm window manager
+
+	apk add polybar
 
 	apk add xinit
 
@@ -56,17 +58,20 @@ Finally, as root begin installing goodies:
 	apk add bash
 
 	# Ok, done with apk for now
+
 	touch /etc/login.defs
 	# make sure /etc/default is around
 	touch /etc/default/adduser
 
-	# pick bash
+	# pick bash if you want
 	doas lchsh <user>
 
 	rc-update add dbus default
 	rc-update add bluetooth
 	rc-update add bluealsa
+
 	setup-xorg-base # do magic
+
 	addgroup <user> audio
 	addgroup <user> audio
 	addgroup <user> input
@@ -78,13 +83,14 @@ Finally, as root begin installing goodies:
 	# Either run install.sh from Shangri-la or do whateve u like
 	touch .xinitrc 
 	# or copy contents (TODO make install.sh do that)
-    # before starting X, install setxkbmap for compose key
-    apk add setxkbmap
-    # see .XCompose for more
-    # then, startx!
+ 
+	# before starting X, install setxkbmap for compose key
+	apk add setxkbmap
+	# see .XCompose for more
+	# then, startx!
 	startx
 
-Ok, once that stuff is out of the way let's work on the touchpad. Install and read about xinput:
+OK, once that stuff is out of the way let's work on the touchpad. Install and read about xinput:
 
 	apk add xinput xinput-doc
 
@@ -101,10 +107,11 @@ And when you are ready, set the button map with:
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
 
-To get suspend to work on LID close follow this guide: https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close
+To get suspend to work on LID close follow this guide: [https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close](https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close)
+
 You might need to create the directories and don't forget to make the script you'll copy executable.
 
-And here are the fonts that work best for most setups:
+And, finally, here are the fonts that work best for most setups:
 
 	apk add terminus-font ttf-inconsolata ttf-dejavu font-noto font-noto-cjk ttf-font-awesome font-noto-extra
 
