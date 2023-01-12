@@ -5,7 +5,7 @@ Layout: post
 
 > I said "dance", not "fuck", don't get it confused. — Cardi B
 
-Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked some of my boxes. Lack of back lit keys turned out to be more bothersome than I'd figured it would be. But USB-C, microSD, HDMI, and two USB 3.1 ports it's a pretty robust offering from ASUS. Republic of China all the way!
+Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked some of my boxes. Lack of back lit keys turned out to be more bothersome than I'd figured it would be. But coming equipped with USB-C, microSD, HDMI, and two USB 3.1 ports makes it a pretty robust offering from ASUS for a budget laptop. Slick and light with a price point that won't leave your wallet longing for that soft feel of greenback cotton, the VivoBook makes me shout "Republic of China all the way!"
 
 First, use [rpi-imager](https://github.com/raspberrypi/rpi-imager) to create a bootable USB drive. It just works.
 
