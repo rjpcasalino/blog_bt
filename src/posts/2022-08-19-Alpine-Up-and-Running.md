@@ -1,5 +1,5 @@
 ---
-title: "Alpine Up and Running on ASUS VivoBook E203MAS_L203MA"
+title: "Alpine Up and Running on ASUS VivoBook E203MAS_L203MA or ASUS Chromebook C223"
 Layout: post
 ---
 
@@ -11,7 +11,7 @@ First, use [rpi-imager](https://github.com/raspberrypi/rpi-imager) to create a b
 
 <hr>
 
-Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook).
+Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook; Chromebook requires dev mode).
 
 Third, this is a [simple sys install](https://wiki.alpinelinux.org/wiki/Install_to_disk) (not running from RAM) so just follow steps given in installer.
 
@@ -19,49 +19,48 @@ Fourth, you will need the community repos so edit `/etc/apk/repositories` and re
 
 Finally, as root begin installing goodies:
 
-	# become root
+	# become root or use doas
 	su -
 	# add basics
 	apk add man mandocs openbox xterm terminus-font doas
 
-...and some other crap (using doas):
+...and some other crap:
 
-	apk add git neofetch feh # feh is for wallpaper
+	apk add acpi git neofetch feh cwm polybar xinit light 
+	# acpi is a client for battery, power, and thermal readings
+	# git for duh, neofetch for hacker factor, and feh is for wallpaper
+	# the calm window manager
+	# polybar is a great status bar
+	# light for backlight control
 
-	apk add cwm # calm window manager
-
-	apk add polybar
-
-	apk add xinit
-
-	apk add light # for backlight control
-
-	apk add dbus dbus-openrc # for bluetooth
+	# Getting bluetooth working requires dbus and bluez 
+	apk add dbus dbus-openrc
 
 	apk add bluez bluez-openrc bluez-alsa
-
 	# bluez-alsa is needed to get bluetooth headsets to work
-	# oddly found this here: https://wiki.postmarketos.org/index.php?title=Bluetooth&mobileaction=toggle_view_desktop
+
+	# oddly found that out here: https://wiki.postmarketos.org/index.php?title=Bluetooth&mobileaction=toggle_view_desktop
 	# Getting bluetooth working requires dbus and bluez 
+
 	# Check out dbus here: https://www.freedesktop.org/wiki/Software/dbus/
 	# Remember to add bluetooth to runtime so it works at boot
-	# audio is easy with alsa drivers and such
 
+	# audio is easy with alsa drivers and such
 	apk add alsa-utils alsa-utils-doc alsa-lib alsaconf alsa-ucm-conf
 
 	# read more about alsa here: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
-	# to change shell we need libuser
 
+	# to change shell we need libuser
 	apk add libuser
 
-	# Alpine uses ash as default shell but we want bash
+	# Alpine uses ash as default shell but we might want bash
 	apk add bash
 
 	# Ok, done with apk for now
 
 	touch /etc/login.defs
 	# make sure /etc/default is around
-	touch /etc/default/adduser
+	touch /etc/default/useradd
 
 	# pick bash if you want
 	doas lchsh <user>
@@ -73,16 +72,15 @@ Finally, as root begin installing goodies:
 	setup-xorg-base # do magic
 
 	addgroup <user> audio
-	addgroup <user> audio
 	addgroup <user> input
 	addgroup <user> video
 
 	# logout so the changes take effect
+
 	# startx needs xinitrc to load the Xresources file
 	# and start cwm
-	# Either run install.sh from Shangri-la or do whateve u like
+	# Either run install.sh from Shangri-la or do whatever u like
 	touch .xinitrc 
-	# or copy contents (TODO make install.sh do that)
  
 	# before starting X, install setxkbmap for compose key
 	apk add setxkbmap
@@ -120,6 +118,9 @@ Before starting let's install docker:
 
 	apk add docker
 	addgroup <user> docker
+
+	rc-update add docker boot
+	service start docker
 
 I use a static site generator of my own (less than steller) making called bss — here's how to get it working with Nix and Docker:
 
