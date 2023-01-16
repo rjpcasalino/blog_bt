@@ -11,7 +11,7 @@ First, use [rpi-imager](https://github.com/raspberrypi/rpi-imager) to create a b
 
 <hr>
 
-Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook; Chromebook requires developer mode).
+Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook; Chromebook requires [developer mode](https://www.chromium.org/chromium-os/chromiumos-design-docs/developer-mode/)).
 
 Third, this is a [simple sys install](https://wiki.alpinelinux.org/wiki/Install_to_disk) (not running from RAM) so just follow steps given in installer.
 
@@ -22,16 +22,16 @@ Finally, as root begin installing goodies:
 	# become root or use doas
 	su -
 	# add basics
-	apk add man mandocs openbox xterm terminus-font doas
+	apk add man mandocs openbox xterm xinit terminus-font doas
 
 ...and some other crap:
 
-	apk add acpi git neofetch feh cwm polybar xinit light 
+	apk add acpi git neofetch feh cwm polybar light
 	# acpi is a client for battery, power, and thermal readings
 	# git for duh, neofetch for hacker factor, and feh is for wallpaper
-	# the calm window manager
+	# the calm window manager is my go to
 	# polybar is a great status bar
-	# light for backlight control
+	# light for screen backlight control
 
 	# Getting bluetooth working requires dbus and bluez 
 	apk add dbus dbus-openrc
@@ -47,16 +47,14 @@ Finally, as root begin installing goodies:
 
 	# audio is easy with alsa drivers and such
 	apk add alsa-utils alsa-utils-doc alsa-lib alsaconf alsa-ucm-conf
-
 	# read more about alsa here: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 
 	# to change shell we need libuser
 	apk add libuser
-
 	# Alpine uses ash as default shell but we might want bash
 	apk add bash
 
-	# Ok, done with apk for now
+	# OK, done with apk for now
 
 	touch /etc/login.defs
 	# make sure /etc/default is around
@@ -68,24 +66,24 @@ Finally, as root begin installing goodies:
 	rc-update add dbus default
 	rc-update add bluetooth
 	rc-update add bluealsa
+	
+	# do magic
+	setup-xorg-base
 
-	setup-xorg-base # do magic
-
+	# add your user to all useful groups
 	addgroup <user> audio
 	addgroup <user> input
 	addgroup <user> video
-
 	# logout so the changes take effect
 
-	# startx needs xinitrc to load the Xresources file
+	# startx needs .xinitrc to load the Xresources file
 	# and start cwm
-	# Either run install.sh from Shangri-la or do whatever u like
 	touch .xinitrc 
  
 	# before starting X, install setxkbmap for compose key
 	apk add setxkbmap
 	# see .XCompose for more
-	# then, startx!
+	# then, startx or xinit!
 	startx
 
 OK, once that stuff is out of the way let's work on the touchpad. Install and read about xinput:
@@ -105,7 +103,8 @@ And when you are ready, set the button map with:
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
 
-The Chromebook doesn't have traditional function keys so use `xev` to find the right keycode or keysym name. Bind the key in `.cwmrc` to the action you'd like taken. For example, having the reduce brightness key actual reduce screen brightness.
+The Chromebook doesn't have traditional function keys so use `xev` to find the right keycode or keysym name. 
+Bind the chosen key in `.cwmrc` to the action you'd like taken. For example, having the reduce brightness key actual reduce screen brightness.
 
 To get suspend to work on LID close follow this guide: [https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close](https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close)
 
@@ -120,15 +119,16 @@ Before starting let's install docker:
 
 	apk add docker
 	addgroup <user> docker
-
+	
+	# have docker start on boot
 	rc-update add docker boot
 	service start docker
 
 I use a static site generator of my own (less than stellar) making called bss — here's how to get it working with Nix and Docker:
 
 	# Once you've cloned it, mount the dirs and expose the ports
-	$ docker run -it --rm -v $(pwd)/bss/:/bss -v $(pwd)/blog_bt:/blog_bt -p 8000:8000 nixos/nix
+	docker run -it --rm -v $(pwd)/bss/:/bss -v $(pwd)/blog_bt:/blog_bt -p 9000:9000 nixos/nix
 	# bss is flakes based so we have to pass annoying flags but this can also be set in nix config
-	$ nix build --extra-experimental-features nix-command --extra-experimental-features flakes
+	nix build --extra-experimental-features nix-command --extra-experimental-features flakes
 	# copy the resulting program into a dir on the PATH
-	$ cp result/bin/bss  /nix/var/nix/profiles/default/bin/
+	cp result/bin/bss  /nix/var/nix/profiles/default/bin/
