@@ -5,13 +5,13 @@ Layout: post
 
 > I said "dance", not "fuck", don't get it confused. — Cardi B
 
-Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked some of my boxes. Lack of back lit keys turned out to be more bothersome than I'd figured it would be. But coming equipped with USB-C, microSD, HDMI, and two USB 3.1 ports makes it a pretty robust offering from ASUS for a budget laptop. Slick and light with a price point that won't leave your wallet longing for that soft feel of greenback cotton, the VivoBook makes me shout "Republic of China all the way!"
+Whereas there are official docs and myriad guides to follow regarding setting up Alpine Linux I decided to record the process on a brand new ASUS VivoBook. Why the E203 VivoBook? I'm a big fan of the ASUS EeePC series and the E203 is a worthy successor. Simple and small, lightweight, and with a keyboard that pleases the fingertips: the E203 checked some of my boxes. Lack of back lit keys turned out to be more bothersome than I'd figured it would be. But coming equipped with USB-C, microSD, HDMI, and two USB 3.1 ports makes it a pretty robust offering from ASUS for a budget laptop. Slick and light with a price point that won't leave your wallet longing for that soft feel of greenback cotton, the VivoBook makes me shout "Republic of China all the way!". I also had an ASUS Chromebook hanging around burning a hole in my floor but the star is the VivoBook.
 
 First, use [rpi-imager](https://github.com/raspberrypi/rpi-imager) to create a bootable USB drive. It just works.
 
 <hr>
 
-Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook; Chromebook requires dev mode).
+Second, turn off secure boot in the BIOS (get to the BIOS with F2 on the VivoBook; Chromebook requires developer mode).
 
 Third, this is a [simple sys install](https://wiki.alpinelinux.org/wiki/Install_to_disk) (not running from RAM) so just follow steps given in installer.
 
@@ -105,6 +105,8 @@ And when you are ready, set the button map with:
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
 
+The Chromebook doesn't have traditional function keys so use `xev` to find the right keycode or keysym name. Bind the key in `.cwmrc` to the action you'd like taken. For example, having the reduce brightness key actual reduce screen brightness.
+
 To get suspend to work on LID close follow this guide: [https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close](https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close)
 
 You might need to create the directories and don't forget to make the script you'll copy executable.
@@ -122,7 +124,7 @@ Before starting let's install docker:
 	rc-update add docker boot
 	service start docker
 
-I use a static site generator of my own (less than steller) making called bss — here's how to get it working with Nix and Docker:
+I use a static site generator of my own (less than stellar) making called bss — here's how to get it working with Nix and Docker:
 
 	# Once you've cloned it, mount the dirs and expose the ports
 	$ docker run -it --rm -v $(pwd)/bss/:/bss -v $(pwd)/blog_bt:/blog_bt -p 8000:8000 nixos/nix
