@@ -45,7 +45,7 @@ Finally, as root begin installing goodies:
 	rc-update add dbus default
 
 	# audio is easy with alsa drivers and such
-	# ("easy" - alas doesn't see sound card on Chromebook)
+	# ("easy" - alas, alas...alsa doesn't see sound card on Chromebook; I hate being dyslexic)
 	apk add alsa-utils alsa-utils-doc alsa-lib alsaconf alsa-ucm-conf
 	# read more about alsa here: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 
