@@ -34,24 +34,24 @@ Finally, as root begin installing goodies:
 	# light for screen backlight control
 
 	# Getting bluetooth working requires dbus and bluez 
-	apk add dbus dbus-openrc
-
-	apk add bluez bluez-openrc bluez-alsa
-	# bluez-alsa is needed to get bluetooth headsets to work
-
-	# oddly found that out here: https://wiki.postmarketos.org/index.php?title=Bluetooth&mobileaction=toggle_view_desktop
-	# Getting bluetooth working requires dbus and bluez 
-
 	# Check out dbus here: https://www.freedesktop.org/wiki/Software/dbus/
-	# Remember to add bluetooth to runtime so it works at boot
+	apk add dbus dbus-openrc
+	apk add bluez bluez-openrc bluez-alsa
+	# oddly found that out here: https://wiki.postmarketos.org/index.php?title=Bluetooth
+
+	# Remember to add bluetooth and others to runtime so it works at boot!
+	rc-update add bluetooth boot
+	rc-update add bluealsa boot
+	rc-update add dbus default
 
 	# audio is easy with alsa drivers and such
+	# ("easy" - alas doesn't see sound card on Chromebook)
 	apk add alsa-utils alsa-utils-doc alsa-lib alsaconf alsa-ucm-conf
 	# read more about alsa here: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 
 	# to change shell we need libuser
 	apk add libuser
-	# Alpine uses ash as default shell but we might want bash
+	# Alpine uses ash as default shell but one might want bash
 	apk add bash
 
 	# OK, done with apk for now
@@ -63,10 +63,6 @@ Finally, as root begin installing goodies:
 	# pick bash if you want
 	doas lchsh <user>
 
-	rc-update add dbus default
-	rc-update add bluetooth
-	rc-update add bluealsa
-	
 	# do magic
 	setup-xorg-base
 
@@ -103,7 +99,7 @@ And when you are ready, set the button map with:
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
 
-The Chromebook doesn't have traditional function keys so use `xev` to find the right keycode or keysym name. 
+The Chromebook doesn't have traditional function keys so use `xev` to find the right keycode or keysym name.
 Bind the chosen key in `.cwmrc` to the action you'd like taken. For example, having the reduce brightness key actual reduce screen brightness.
 
 To get suspend to work on LID close follow this guide: [https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close](https://wiki.alpinelinux.org/wiki/Suspend_on_LID_close)
@@ -126,7 +122,7 @@ Before starting let's install docker:
 
 I use a static site generator of my own (less than stellar) making called bss — here's how to get it working with Nix and Docker:
 
-	# Once you've cloned it, mount the dirs and expose the ports
+	# Once you've cloned bss, mount the dirs and expose the ports
 	docker run -it --rm -v $(pwd)/bss/:/bss -v $(pwd)/blog_bt:/blog_bt -p 9000:9000 nixos/nix
 	# bss is flakes based so we have to pass annoying flags but this can also be set in nix config
 	nix build --extra-experimental-features nix-command --extra-experimental-features flakes
