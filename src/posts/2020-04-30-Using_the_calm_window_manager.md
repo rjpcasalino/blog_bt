@@ -69,16 +69,11 @@ The contents of `.xinitrc`:
 	#!/usr/bin/env sh
 
 	xrdb -load $HOME/.Xresources
-        
-	# status bars shape and location should be updated
-	# and sbar stuff placed on PATH if missing
-	# otherwise, ignore this
 
-	xterm -cr white -g 13x1+30+0   -hold -e sbar_ip &
-	xterm -cr white -g 17x1-0+0    -hold -e sbar_time &
-	xterm -cr white -g 4x1+0+0     -hold -e sbar_bat &
+	setxkbmap -option compose:ralt
 
-	$HOME/.fehbg & # wallpaper
+	polybar &
+	xscreensaver &
 
 	exec cwm
 
