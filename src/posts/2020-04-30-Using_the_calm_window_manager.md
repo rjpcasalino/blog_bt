@@ -46,7 +46,7 @@ Configuration is pleasant and straightforward (*.cwmrc*):
     bind-key XF86MonBrightnessUp	"light -A 10"
     bind-key XF86MonBrightnessDown	"light -U 10"
 
-Applications listed in the config such as firefox can be selected with C-Question, which allow one to open them quickly. As mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question if the command isn't listed in your config. Recall that this opens the "exec program" dialog.
+Applications listed in the config such as firefox can be selected with C-Question, which allow one to open them quickly. As mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question (?) — spawns "exec program" dialog — if you haven't listed the command in your configuration.
 
 Ersatz tiling can be achieved with key-bindings for window snapping (see above).
 
