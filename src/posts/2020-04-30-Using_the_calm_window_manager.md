@@ -7,12 +7,12 @@ The calm window manager (cwm) is a "lightweight and efficient window manager for
 
 The control keys are fairly simple (CTRL, META, and SHIFT):
 
-	CM-Return	Spawn a new terminal.
-	...
-	M-Return	Hide current window
-	...
-	M-Question (?)	Spawn "exec program" dialog.
-	M-Period (.)	Spawn "ssh to" dialog.
+    CM-Return	Spawn a new terminal.
+    ...
+    M-Return	Hide current window
+    ...
+    M-Question (?)	Spawn "exec program" dialog.
+    M-Period (.)	Spawn "ssh to" dialog.
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys.
 
@@ -20,26 +20,29 @@ One can move windows about with key bindings one would use if one were familiar 
 
 Configuration is pleasant and straightforward (*.cwmrc*):
 
-	command firefox  firefox
-	command shot	 scrot
-	command pad 	 "xterm -e ed /home/joe-user/yellowpad.md"
+    fontname "ProFontWindows Nerd Font Mono:size=13"
+    # Overide the default (xterm)
+    command term    "kitty"
 
-	borderwidth 1
-	# Inherit groups 
-	sticky yes
+    command firefox "firefox"
+    command shot    "scrot"
 
-	# Define a “gap” in pixels at the edge of the screen. Maximized windows will not overlap gap area.
-	gap 24 0 0 0
-	# Ignore programs by name, not drawing borders around them.
-	ignore sbar_ip
-	ignore sbar_time
+    borderwidth 1
 
-	# miss i3? Snapping made easy:
-	bind-key CM-Right		window-snap-right
-	...
-        # brightness keys on an X280 ThinkPad
-	bind-key XF86MonBrightnessUp	"light -A 10"
-	bind-key XF86MonBrightnessDown	"light -U 10"
+    # Inherit groups
+    sticky yes
+
+    # Define a "gap" in pixels at the edge of the screen. Maximized windows will not overlap gap area.
+    gap 24 0 0 0
+
+    # Ignore programs by name, not drawing borders around them.
+    ignore polybar
+
+    # miss i3? Snapping made easy:
+    bind-key CM-Right		window-snap-right
+    ...
+    bind-key XF86MonBrightnessUp	"light -A 10"
+    bind-key XF86MonBrightnessDown	"light -U 10"
 
 Applications listed in the config such as firefox can be selected with C-Question, which allow one to open them quickly. As mentioned, M-Period will spawn an ssh session which reads one's .ssh/config. Use M-Question if the command isn't listed in your config. Recall that this opens the "exec program" dialog.
 
