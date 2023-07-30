@@ -20,15 +20,17 @@ One can move windows about with key bindings one would use if one were familiar 
 
 Configuration is pleasant and straightforward (*.cwmrc*):
 
+    # Set fonts
     fontname "ProFontWindows Nerd Font Mono:size=13"
+
     # Overide the default (xterm)
     command term    "kitty"
-
+    # more examples
     command firefox "firefox"
     command shot    "scrot"
 
+    # geometry stuff
     borderwidth 1
-
     # Inherit groups
     sticky yes
 
@@ -38,9 +40,9 @@ Configuration is pleasant and straightforward (*.cwmrc*):
     # Ignore programs by name, not drawing borders around them.
     ignore polybar
 
-    # miss i3? Snapping made easy:
+    # Miss i3? Snapping made easy:
     bind-key CM-Right		window-snap-right
-    ...
+    # More examples
     bind-key XF86MonBrightnessUp	"light -A 10"
     bind-key XF86MonBrightnessDown	"light -U 10"
 
