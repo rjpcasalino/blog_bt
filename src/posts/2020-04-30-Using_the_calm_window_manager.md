@@ -11,8 +11,8 @@ The control keys are fairly simple (CTRL, META, and SHIFT):
     ...
     M-Return	Hide current window
     ...
-    M-Question (?)	Spawn "exec program" dialog.
-    M-Period (.)	Spawn "ssh to" dialog.
+    M-Question (?)  Spawn "exec program" dialog.
+    M-Period (.)    Spawn "ssh to" dialog.
 
 There are 35 odd-ish key bindings. That's not too bad. cwm's "GROUPS" concept makes it easy to simulate "virtual desktops". Groupings can be traversed via arrow keys.
 
@@ -29,7 +29,7 @@ Configuration is pleasant and straightforward (*.cwmrc*):
     command firefox "firefox"
     command shot    "scrot"
 
-    # geometry stuff
+    # Geometry stuff
     borderwidth 1
     # Inherit groups
     sticky yes
@@ -42,7 +42,7 @@ Configuration is pleasant and straightforward (*.cwmrc*):
 
     # Miss i3? Snapping made easy:
     bind-key CM-Right		window-snap-right
-    # More examples
+    # more examples
     bind-key XF86MonBrightnessUp	"light -A 10"
     bind-key XF86MonBrightnessDown	"light -U 10"
 
