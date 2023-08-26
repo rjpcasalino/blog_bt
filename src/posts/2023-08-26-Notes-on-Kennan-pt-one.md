@@ -1,9 +1,9 @@
 ---
-title: 'Notes on Kennan pt 1'
+title: 'Notes on Kennan pt one'
 layout: post
 ---
 
-pt 1
+pt one
 
 It's a strange thing. I'm sitting here at 4AM or thereabouts and it is August 26th of 2023. This has been a strange year of our Lord indeed. Here I am. Sitting here telling myself I need to write, that I am a writer. But I look around and see I am walled in by books I haven't written. They seem endless. I'll get rid of a few here and there. Create a massive pile and dump them off at some used book store far North on State Route 99. There are readers everywhere. Anyhow, I am surrounded by these books. Seemingly endless like I've said. My mother calls them "dust collectors" (they are) but she loves to read. She hates books but loves to read? I don't think that's all truth but maybe more or less. My mother's an odd bird but that's for another time. I'm sitting here and thinking I need to write and I'm looking at books and thinking well maybe I should finally write about one of the books I've actually read. Many of these books are waiting either to be given away or read. I'm always getting off track. So I grab one of these books I've actually read called "George F. Kennan: An American Life" by John Lewis Gaddis and I randomly flip to page 424 and I see my red pencil has been at work. I underline the important bits in red pencil because I once read that an old Big Boss out in Kansas City did the same. That's a different book for a different time.
 
