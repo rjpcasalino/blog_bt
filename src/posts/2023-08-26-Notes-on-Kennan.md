@@ -28,14 +28,3 @@ I am reminded that Kennan often wrote very long run on sentences. The Long Teleg
 > Over this community there pass, in endless rhythm, the characteristic season of the north: the long winters of snow and darkness; the protracted in-between season of gray skies, slush, and a pervasive dampness; the white nights of the summer solstice, with their unbelievable, eerie poetry; and, finally, the brief, pathetic summers, suggestive rather than explicit, drawing to a close almost before they have begun, passionately cherished by the inhabitants for their very rareness and brevity.
 
 One wishes Kennan's writing was cherished for its brevity. It ain't.
-
-Part 2
-
-I'll jump ahead but I'll save it in the eeditor's room, I promise.
-
-It's July 17, 1918 and, according my dear Kennan, the Secretary of War is sitting nervous as all hell in the Baltimore Hotel in Kansas City waiting on one General Graves. Grave indeed this mission. The dough boys were landing in Russia and that was coming down from the biggest Boss of all. The Secretary handle the aide-memoire tight. This was the Big Time. This was it. He was sending men off to die.
-
-God Bless you and good-bye.
-
-This aide-memorie had underlines of deep red. Time to restore order and take Vladivostok. Or rather to make order there of a more "steady" nature.
-Exoeditions into the inter--defintely no.
