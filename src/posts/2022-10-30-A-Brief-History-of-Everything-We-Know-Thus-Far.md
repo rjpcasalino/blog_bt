@@ -3,7 +3,7 @@ title: 'A Brief History of Everything We Know Thus Far'
 layout: post
 ---
 
-> Sometimes late at night when I'm bathed in the firelight and the moon comes calling a ghostly white and I recall  —
+> Sometimes late at night when I'm bathed in the firelight and the moon comes calling a ghostly white and I recall
 
 that I love Bod Seger and one of his songs needs new life outside a truck ad ... here we go!
 
