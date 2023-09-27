@@ -1,5 +1,5 @@
 ---
-title: 'Dora or Dreaming in Hysteria'
+title: "Dora or Dreaming in Hysteria or Freud's Boys"
 layout: post
 ---
 
