@@ -3,7 +3,7 @@ title: "Dora or Dreaming in Hysteria or Freud's Boys"
 layout: post
 ---
 
-"'If the whole ocean were ink for writing the words of my Lord, it would run dry before those words were exhausted'—even if We were to add another ocean to it."
+"'If the whole ocean were ink for writing the words of my Lord, it would run dry before those words were exhausted'<span>&mdash;</span>even if We were to add another ocean to it."
 	<span>&mdash;</span> Qur'an Surah 18 verse 109
 
 said another way <span>&mdash;</span>
@@ -82,6 +82,6 @@ my 34th birthday is drawing to a close. what a day it has been.
 
 Rank and Freud and the Ego and the Id and the Superego and the cs, pcs, ucs, and the mental apparatus and such like.
 
-	Vitaliy Kyrychenko, owner of the Pink Freud, has made detailed plans in case of an invasion. At the same time, he’s planning to invest in the bar.
+	Vitaliy Kyrychenko, owner of the Pink Freud, has made detailed plans in case of an invasion. At the same time, he's planning to invest in the bar.
 
 Life is OK. Say after me, it's better to be safe than sorry! I'll be good.
