@@ -35,7 +35,7 @@ Dora is our opening (as she opens her purse and inserts her finger). Dora wants 
 
 After another late night it was back to the clinic. Thank God his dear friend, Freud had been supplying him with some nose candy. Always made him ready for the day ahead. He'd have a pep in his step as he danced to the clinic. Everyday, the talking cure! Nothing more nothing less. Talking the cure with these women!
 
-It's really all just "chimney sweeping" all this haphazard application of the "talking cure". Women always come up with better names. I'm gonna hypnotize me some corpulent ladies. Close your eyes and the "Red Men" (quoting Freud) is gonna fade away.
+It's really all just "chimney sweeping" all this haphazard application of the "talking cure". Women always come up with better names. I'm gonna hypnotize me some corpulent ladies. Close your eyes and the "Red Man" (quoting Freud) is gonna fade away.
 
 University of Vienna <span>&mdash;</span> 1881 with MD; At the time Schlomo had been frequently using cocaine to suppress the distressing swelling in his nose. Blowing lines with Fliess (dear, incompetent friend). To Fliess we owe it all. Was he not wrong in his positing the idea of innate bisexuality? Schlomo took a great liking to so many young men, one wonders if Fliess' ideas resonated because they stirred a great longing in the poor Jew's heart? Freud ordered his letters to and from Fliess to be destroyed (bird can't fly in a cage). 
 
