@@ -31,6 +31,8 @@ That's my first (red) underlining of Rank. Rank, Otto. I saw your name embezzled
 
 "Art and Artist" and "Trauma of Birth" and we're all just returning to the womb each and everyday. Incest fantasies. Ye is a motherfucker, yeah, so? He gave me Chaka Khan. Grasping Rank, dead too young. He distanced himself from Father Freud. Jaded, Freud wanted nothing to do with him. Yet, in Rank he saw his future, his son. Rank gives us the ultimate male anxiety: we lack the power of birth. If only we had the ability to shit a child. If only one could give birth through the anus. Thanks, Rank. I needed that. Cheers all around. Women have penis envy and Men have birth envy. Go figure.
 
+<span>&#xA7;</span>
+
 Dora is our opening (as she opens her purse and inserts her finger). Dora wants our embrace.
 
 After another late night it was back to the clinic. Thank God his dear friend, Freud had been supplying him with some nose candy. Always made him ready for the day ahead. He'd have a pep in his step as he danced to the clinic. Everyday, the talking cure! Nothing more nothing less. Talking the cure with these women!
@@ -53,7 +55,7 @@ Dora was never told that these "chimney sweeping" sessions were to be recorded a
 
 I have a "strangely prurient mind" and for that I am sorry. Freud immediately carried out a physical examination of (our) colleague's sister. She was cured. Did she feel his hard cock between her tits? No, she responses to a course of Hg injections.
 
-Sigmund examined children naked. They were in a state of undress, but of course. He recalls all of this in his "Dream Book". Dora's cough just masks her desire to suck off her papa **use the word Freud uses in Dora** (Father Freud). Dora always knows he'll go there and, to Freud Dora's disagreement only confirms his incorrect notion. Repression, see. 
+Sigmund examined children naked. They were in a state of undress, but of course. He recalls all of this in his "Dream Book". Dora's cough just masks her desire to suck off her papa **use the word Freud uses in Dora**. Dora always knows he'll go there and, to Freud Dora's disagreement only confirms his incorrect notion. Repression, see. 
 
 Father Freud has a morbid obsession with proving that Dora masturbates. Wants to see it so bad, this old man.
 
@@ -70,15 +72,15 @@ Freud bases his analysis on two dreams he claims to have written down verbatim a
 Dreaming is a device we employ to circumvent repression.
 Dreams, dreams, dreams - are a indirect representation of the mind. They show us (you) who we are as she plays with her purse. Dreams, dreams, dreams are a indirect representation of the mind. 
 
+<span>&#xA7;</span>
+
 In later life he has a correspondence with Einstein. All the adherents of science hope he (who? me. you.) had very little to do with superego, ego and id. 
 
-"Civilization and Its Discontents" and "The Future of An Illusion" were my introductory works. Why I started there is because that's what I found at the used book store in Ballard where I picked up what Freud they had. Actually, truth be told, I started with the History of the psychoanalytical movement which I guess was the start of his attempt to guide his work after death. I actually started with "The Daniel of Death
-" which really speaks about Otto Rank as the one to read ... there are many to read after Freud this mad man of cocaine.
+"Civilization and Its Discontents" and "The Future of An Illusion" were my introductory works. Why I started there is because that's what I found at the used book store in Ballard where I picked up what Freud they had. Actually, truth be told, I started with the History of the psychoanalytical movement which I guess was the start of his attempt to guide his work after death. I actually started with "The Daniel of Death" which really speaks about Otto Rank as the one to read. There are so many to read after Freud, the mad man of cocaine.
 
-I had forgotten that Daniel of Death has some great tidbits on Nazi scum.
+I had forgotten that "Daniel of Death" has some great tidbits on Nazi scum.
 
-Sexuality is the subject of his greatest concern. 
-my 34th birthday is drawing to a close. what a day it has been.
+Sexuality is the subject of his greatest concern.
 
 Rank and Freud and the Ego and the Id and the Superego and the cs, pcs, ucs, and the mental apparatus and such like.
 
