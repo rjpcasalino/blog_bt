@@ -78,7 +78,7 @@ In later life he has a correspondence with Einstein. All the adherents of scienc
 
 "Civilization and Its Discontents" and "The Future of An Illusion" were my introductory works. Why I started there is because that's what I found at the used book store in Ballard where I picked up what Freud they had. Actually, truth be told, I started with the "The History of the Psychoanalytic Movement"  which I guess was the start of his attempt to guide his work after death. Well, being more honest after a few drinks <span>&mdash;</span> I actually started with "The Daniel of Death" which really speaks about Otto Rank as the one to read. There are so many to read after Freud, the mad man of cocaine.
 
-I had forgotten that "Daniel of Death" has some great tidbits on Nazi scum. Hitler, Nazis. Why won't they just be forgotten and why isn's there some anti-Nazi drug or pill we could all pop when our minds get too close to their thinking? Why? Why not?
+    I had forgotten that "Daniel of Death" has some great tidbits on Nazi scum. Hitler, Nazis. Why won't they just be forgotten and why isn't there some anti-Nazi drug or pill we could all pop when our minds get too close to their thinking? Why? Why not?
 
 Sexuality is the subject of Freud's greatest concern. Please, someone smarter than me, read him and let me know!
 
