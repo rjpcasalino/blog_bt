@@ -7,7 +7,7 @@ layout: post
 
 that I love Bod Seger and one of his songs needs new life outside a truck ad ... here we go!
 
-I got COVID-19 (or is it SARS<span>&mdash:</span>CoV‑2?) a few months back (we __must__ never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read. Does that not sound nice?
+I got COVID-19 (or is it SARS<span>&mdash;</span>CoV‑2?) a few months back (we __must__ never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read. Does that not sound nice?
 
 Anyhow,
 
