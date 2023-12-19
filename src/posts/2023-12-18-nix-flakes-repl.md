@@ -64,7 +64,7 @@ Something I just [learned](https://discourse.nixos.org/t/korora-a-tiny-fast-type
 
     nix-repl> t.check 1234
     error:
-           … while calling the 'throw' builtin
+           ... while calling the 'throw' builtin
 
              at /nix/store/n5jj2abpas1ihg5l26cysyl8rak7pa21-source/default.nix:101:50:
 
@@ -104,7 +104,7 @@ Jump into a shell and:
 
     rjpc ~ % bash /nix/store/7l4aggxkh6lyxg1axy486rr44kpmvgh1-show-rjpc.net/bin/show\ rjpc.net
 
-    ∼/rjpc
+    ~/rjpc
 
         Hi, I'm just another "Netizen Smith" cruising the metaverse for lovers and
         friends
