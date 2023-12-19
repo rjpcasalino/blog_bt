@@ -103,14 +103,8 @@ And even sillier things:
 Jump into a shell and:
 
     rjpc ~ % bash /nix/store/7l4aggxkh6lyxg1axy486rr44kpmvgh1-show-rjpc.net/bin/show\ rjpc.net
+
     ∼/rjpc
-
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-      • GitHub
-      • sourcehut
-      • blog
-      • resume/cv
 
         Hi, I'm just another "Netizen Smith" cruising the metaverse for lovers and
         friends
@@ -121,7 +115,7 @@ Jump into a shell and:
 
 There's more to read using `:e` -
 
-    310   /*¬
+    310   /*
     311     Similar to writeShellScriptBin and writeScriptBin.
     312     Writes an executable Shell script to /nix/store/<store path>/bin/<name> and
     313     checks its syntax with shellcheck and the shell's -n option.
