@@ -73,19 +73,48 @@ Exploring with `:e` is essential but so is using Google/ChatGPT and asking for h
     nix-repl> (lib.getAttr "content" (lib.mkIf (you == "sad") x)).b
     "it gets easier!"
 
-It gets better! or worse, depending on your point of view:
+We're not really checking the condition above just looking at the contents of `x` regardless so what `you` is doesn't matter. We could look at the condition if we wanted.
+
+    nix-repl> lib.getAttr "content" (lib.mkIf (you == "learning") x)
+    { a = "great!"; b = "it gets easier!"; c = "it never gets easier!"; }
+
+    nix-repl> lib.getAttr "condition" (lib.mkIf (you == "learning") x)
+    false
+
+    nix-repl> lib.getAttr "condition" (lib.mkIf (you == "sad") x)
+    true
+
+You can do odd things just remember to stay happy!
+
+    nix-repl> you = "learning"
+
+    nix-repl> if (lib.getAttr "condition" (lib.mkIf (you == "learning") x)) then x.a else x.b
+    "great!"
+
+    nix-repl> if (lib.getAttr "condition" (lib.mkIf (you != "learning") x)) then x.a else x.b 
+    "it gets easier!"
+
+More examples:
 
     nix-repl> x = true
 
     nix-repl> if x then "it's true!" else "I guess everything is a lie and that's a fact"
     "it's true!"
 
-Reduce typing and CPU fan spins:
+`optionalAttrs` can be useful but note the difference:
 
     nix-repl> x = false
     # optionalAttrs just means:
     nix-repl> lib.optionalAttrs (!x) { a = "if cond then as else {};"; }
     see discourse: https://discourse.nixos.org/t/optionalattrs-in-module-infinite-recursion-with-config/27876/5
+
+    nix-repl> you = "learning"
+
+    nix-repl> lib.optionalAttrs (lib.getAttr "condition" (lib.mkIf (you == "learning") x)) x.a
+    "great!"
+
+    nix-repl> lib.optionalAttrs (lib.getAttr "condition" (lib.mkIf (you != "learning") x)) x.b
+    { } # empty set
 
 Here's something I recently [learned](https://discourse.nixos.org/t/korora-a-tiny-fast-type-system-for-nix-in-nix/36900/5) regarding the repl and importing:
 
