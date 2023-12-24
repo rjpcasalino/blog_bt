@@ -142,7 +142,7 @@ Some random things:
     nix-repl> silly "hello" {y = " world"; a = " uh"; b = " is this thing on?";}  10
     "hello world uh is this thing on? 10"
 
-And some stuff in my cribsheet that probably should be here as well:
+And some notes not related to nix repl in my crib sheet that I wanted to share:
 
     nix hash to-sri --type sha256 $(nix-prefetch-url --unpack https://github.com/r-c-f/waynergy/archive/refs/tags/v0.0.16.tar.gz)
 
@@ -150,4 +150,5 @@ You could read the man page but it might just leave you...unhappy. In "nix class
 
     nix-hash --to-sri
 
-This is very useful if you ever want to update a package in nixpkgs or package one yourself. There are probably other ways to get the sha256 but I don't know of them.
+This is very useful if you ever want to update a package in nixpkgs or package one yourself. There are probably other ways to get the sha256 but I don't know...WAIT!
+Ah, yes, you can use `lib.fakeSha256` to make a dummy hash and when you first compile a package an error should show up saying that the hash is wrong and display the actual hash it wants. I've done it this way in the past but the above is a better, but only in, like, my opinion.
