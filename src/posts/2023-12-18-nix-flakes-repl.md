@@ -146,4 +146,8 @@ And some stuff in my cribsheet that probably should be here as well:
 
     nix hash to-sri --type sha256 $(nix-prefetch-url --unpack https://github.com/r-c-f/waynergy/archive/refs/tags/v0.0.16.tar.gz)
 
-You could read the man page but it might just leave you...unhappy.
+You could read the man page but it might just leave you...unhappy. In "nix classic" you could use:
+
+    nix-hash --to-sri
+
+This is very useful if you ever want to update a package in nixpkgs or package one yourself. There are probably other ways to get the sha256 but I don't know of them.
