@@ -137,12 +137,13 @@ Working with nix and the repl is exhausting so it's a good idea to step outside 
 
 Some random things:
 
-    nix-repl> :p lib.reverseList (lib.attrsToList lib.maintainers)
-
     nix-repl> silly = x: {y ? "", ... }@args: z: x + y + args.a + args.b + " " + builtins.toString z
 
     nix-repl> silly "hello" {y = " world"; a = " uh"; b = " is this thing on?";}  10
     "hello world uh is this thing on? 10"
 
+And some stuff in my cribsheet that probably should be here as well:
 
+    nix hash to-sri --type sha256 $(nix-prefetch-url --unpack https://github.com/r-c-f/waynergy/archive/refs/tags/v0.0.16.tar.gz)
 
+You could read the man page but it might just leave you...unhappy.
