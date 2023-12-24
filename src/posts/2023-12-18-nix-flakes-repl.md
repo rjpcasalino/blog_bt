@@ -56,7 +56,24 @@ Nevertheless, you can scope things out:
 
 Remember that `:?` prints the commands available to you.
 
-Something I just [learned](https://discourse.nixos.org/t/korora-a-tiny-fast-type-system-for-nix-in-nix/36900/5) regarding the repl and importing:
+OK, let's get some basics down:
+
+    nix-repl> you = "learning"
+
+    nix-repl> x = { a = "great!"; b = "it gets easier!"; c = "it never gets easier!";} 
+
+    nix-repl> lib.mkIf (you == "learning") x
+    { _type = "if"; condition = true; content = { ... }; }
+
+    nix-repl> (lib.getAttr "content" (lib.mkIf (you == "learning") x)).a
+    "great!"
+
+Exploring with `:e` is essential but so is using Google/ChatGPT and asking for help on discourse. `:e` if you want to really understand, I guess.
+
+    nix-repl> (lib.getAttr "content" (lib.mkIf (you == "sad") x)).b
+    "it gets easier!"
+
+Here's something I recently [learned](https://discourse.nixos.org/t/korora-a-tiny-fast-type-system-for-nix-in-nix/36900/5) regarding the repl and importing:
 
     nix-repl> korora = import (builtins.fetchGit "https://github.com/adisbladis/korora.git") { inherit lib; }
 
