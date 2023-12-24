@@ -151,4 +151,4 @@ You could read the man page but it might just leave you...unhappy. In "nix class
     nix-hash --to-sri
 
 This is very useful if you ever want to update a package in nixpkgs or package one yourself. There are probably other ways to get the sha256 but I don't know...WAIT!
-Ah, yes, you can use `lib.fakeSha256` to make a dummy hash and when you first compile a package an error should show up saying that the hash is wrong and display the actual hash it wants. I've done it this way in the past but the above is a better, but only in, like, my opinion.
+Ah, yes, you can use `lib.fakeSha256` to make a dummy hash and when you first compile a package an error should show up saying that the hash is wrong and display the actual hash it wants. I've done it this way in the past but the above is better, but only in, like, my opinion.
