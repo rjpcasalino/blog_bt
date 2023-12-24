@@ -73,6 +73,20 @@ Exploring with `:e` is essential but so is using Google/ChatGPT and asking for h
     nix-repl> (lib.getAttr "content" (lib.mkIf (you == "sad") x)).b
     "it gets easier!"
 
+It gets better! or worse, depending on your point of view:
+
+    nix-repl> x = true
+
+    nix-repl> if x then "it's true!" else "I guess everything is a lie and that's a fact"
+    "it's true!"
+
+Reduce typing and CPU fan spins:
+
+    nix-repl> x = false
+    # optionalAttrs just means:
+    nix-repl> lib.optionalAttrs (!x) { a = "if cond then as else {};"; }
+    see discourse: https://discourse.nixos.org/t/optionalattrs-in-module-infinite-recursion-with-config/27876/5
+
 Here's something I recently [learned](https://discourse.nixos.org/t/korora-a-tiny-fast-type-system-for-nix-in-nix/36900/5) regarding the repl and importing:
 
     nix-repl> korora = import (builtins.fetchGit "https://github.com/adisbladis/korora.git") { inherit lib; }
