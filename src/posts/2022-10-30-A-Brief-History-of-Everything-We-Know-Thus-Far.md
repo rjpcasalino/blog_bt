@@ -7,11 +7,11 @@ layout: post
 
 that I love Bod Seger and one of his songs needs new life outside a truck ad ... here we go!
 
-I got COVID-19 (or is it SARS<span>&mdash;</span>CoV<span>&mdash;</span>2?) a few months back (we __must__ never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read. Does that not sound nice?
+I got COVID-19 (or is it SARS<span>&mdash;</span>CoV<span>&mdash;</span>2?) a few months back (we __must__ never forget [Li Wenliang](https://en.wikipedia.org/wiki/Li_Wenliang)) and when I was sick with this virus of all viruses I read Andrew H. Knoll's fabulous book ["A Brief History of Earth"](https://www.amazon.com/Brief-History-Earth-Billion-Chapters/dp/0062853910) and I told myself that today I would write about what I read and why I liked what I read.
 
 Anyhow,
 
-Four billion years in eight chapters and I haven't picked up this book in months so I am trying to recall from memory what I did learn or why I wanted to read it in the first place. Okay, okay — something is coming back to me. [Stephen Gould](https://en.wikipedia.org/wiki/Stephen_Jay_Gould) — I was really into his books over the summer and was really digging his writings on Darwin. Darwin. In my mind I see now his partner in crime: [Alfred Russel Wallace](https://en.wikipedia.org/wiki/Alfred_Russel_Wallace) who was not a racist but an honest person in a bad time. More on him later.
+Four billion years in eight chapters and I haven't picked up this book in months so I am trying to recall from memory what I did learn or why I wanted to read it in the first place. Okay, okay<span>&mdash;</span>something is coming back to me. [Stephen Gould](https://en.wikipedia.org/wiki/Stephen_Jay_Gould)<span>&mdash;</span>I was really into his books over the summer and was really digging his writings on Darwin. Darwin. In my mind I see now his partner in crime: [Alfred Russel Wallace](https://en.wikipedia.org/wiki/Alfred_Russel_Wallace) who was not a racist but an honest person in a bad time. More on him later.
 
 > I recall!
 
