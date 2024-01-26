@@ -27,7 +27,7 @@ Whereas mine (what you are now reading) is for _vrfc_.
 
 ## Prologue: An Invitation
 
-> 20 years...where'd they go?
+> 20 years now...where'd they go?
 
 I suppose we should start with gravity. It's what keeps us grounded! Ha, dad joke? Really. Come now.
 
