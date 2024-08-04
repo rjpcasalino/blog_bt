@@ -144,7 +144,7 @@ I consulted Eiseley further on all this and I'm reading and reading ( I cheat an
 
 Italics are mine.
 
-Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia". And Jack London writes of this kind of stuff. Yes, indeed! Very mesmerizing just thinking of his ["The Red One"](https://www.gutenberg.org/files/788/788-0.txt). This story can be got for free. I can hear you now: don't say "be got" and maybe you're right on that score. In any case, [here's the link again](https://www.gutenberg.org/files/788/788-0.txt) to that short story by London. 
+Soon we're talking about rocks from space and some even think that life came here from way out there riding some holy comet and boom! landed on old Earth. This is called "panspermia". And Jack London writes of this kind of stuff. Yes, indeed! Very memorizing just thinking of his ["The Red One"](https://www.gutenberg.org/files/788/788-0.txt). This story can be got for free. I can hear you now: don't say "be got" and maybe you're right on that score. In any case, [here's the link again](https://www.gutenberg.org/files/788/788-0.txt) to that short story by London. 
 
 Eiseley discusses "panspermia" and according to him the idea came from [Lord Kelvin](https://en.wikipedia.org/wiki/William_Thomson%2C_1st_Baron_Kelvin) and [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) (p. 126, [_Ibid_](https://en.wikipedia.org/wiki/Ibid.)). All of this doesn't really solve the origin of life problem, however. Just moves it elsewhere. We owe Arrhenius a great debt for other things. More on that at 5 PST.
 
