@@ -7,7 +7,9 @@ layout: post
 			peopled earth, nor gods nor men his neighbors!
 
 That line:
-	Starbuck is Stubb reversed, and Stubb is Starbuck
+
+    Starbuck is Stubb reversed, and Stubb is Starbuck
+
 It sticks to me like butter.
 
 Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? He beat a woman. He beat a woman. Allah can Diddy be forgiven?
