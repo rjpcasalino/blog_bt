@@ -6,23 +6,21 @@ layout: post
 				and ye two are all mankind; and Ahab stands alone among the millions of the
 			peopled earth, nor gods nor men his neighbors!
 
-And so that is the scene that I recall, that I remark and that line:
+That line:
 	Starbuck is Stubb reversed, and Stubb is Starbuck
 It sticks to me like butter.
 
 Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? He beat a woman. He beat a woman. Allah can Diddy be forgiven?
 Ahab...stands alone among the millions. Ahab. Stands
 
-[o]n an ivory stubb and Pip is pip install nowadays but Pip.
-Poor Pip:
-
+[o]n an ivory stubb and Pip is `pip install` nowadays but Pip, poor Pip:
 
 	"Oh! spite of million villains, this makes me a bigot in the fadeless fidelity of man!—and a black! and crazy!——but methinks like-cures-like applies to him too; he grows so sane again."
 	"They tell me, sir, that Stubb did once desert poor little Pip, whose drowned bones now show white, for all the blackness of his living skin. But."
 			
 				... "But I will never desert ye, sir, as Stubb did him. Sir, I must go with ye."
 
-Sorry, but might I interject? Pip has gone mad at this point and speaks as if he is outside himself and perhaps as if by inspiration? Both Ahab and Pip are mad mad men.
+Pip has gone mad at this point and speaks as if he is outside himself and perhaps as if by inspiration? Both Ahab and Pip are mad mad men.
 
 	"Weep so, and I will murder thee! have a care, for Ahab too is mad.
 			Listen,
@@ -47,14 +45,12 @@ Some notes from the "Northwestern-Newberry" edition:
 	I watch as it trails off a man named Stewart calling Melville careless.
 	Careless Melville. He wrote America's first Great Novel. America. This book reeks of America.
 
-
-
+<hr>
 
 "Herman Melville's composition of _Moby-Dick_, a dawdling, on-and-off affair"——
 I must interject.
 
 Here is the reason ppl don't read Melville.
-
 
 Paglia sees _Moby-Dick_ as "a sexual reply to _The Scarlet Letter_" and I've got nothing else on that but moving on
 		I quote her at length in what follows because I love her. Because she is right?
@@ -62,14 +58,14 @@ Paglia sees _Moby-Dick_ as "a sexual reply to _The Scarlet Letter_" and I've got
 "...correct a sexual excluson, but _Moby-Dick_'s worldview is vaster."
 
 "hermaphroditizes the great whale"
-		
+
 one of the "novel's supreme moments" quoting Paglia:
 Quoting Melville:
-					"A vast pulpy mass, furlongs in length and breadth, of glancing cream-color, lay floating on the water, innumerable long arms radiating from its centre, and curling curling curling——
+    "A vast pulpy mass, furlongs in length and breadth, of glancing cream-color, lay floating on the water, innumerable long arms radiating from its centre, and curling curling curling——
 
-	God is "gender-neutral" _(cheers of "yes" and "right")_ and it's true that Melville cannot "bear to leave his loom gender-netural"
+    God is "gender-neutral" _(cheers of "yes" and "right")_ and it's true that Melville cannot "bear to leave his loom gender-netural"
 
-back to Pip:
+Back to Pip:
 
 	"Twenty pages later comes the first mention of the male weaver, when a castaway loses his wits and sees 'God's foot upon the treadle of the loom.'"
 
