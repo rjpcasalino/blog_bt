@@ -44,7 +44,7 @@ Some notes from the "Northwestern-Newberry" edition:
 		
 217.21 Fedallah] That this Arabic name would be an impossible one for a Parsee is asserted by Luther S. Mansfield  and Howard P. Vincent in their Hendricks House edition of _Moby-Dick_ (New York, 1952), p. 732; their assertion is refuted by Dorothee Metlitsky Finkelstein, in _Melvill's Orienda_ (New Haven and London: Yale University Press, 1961), p.228...
 
-	I watch as it trails off a man named Stewart calling Melville careless.
+	I watch as it trails off to a man named Stewart calling Melville careless.
 	Careless Melville. He wrote America's first Great Novel. America. This book reeks of America.
 
 <hr>
