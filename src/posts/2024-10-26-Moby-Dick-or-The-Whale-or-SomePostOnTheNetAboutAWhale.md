@@ -15,7 +15,7 @@ It sticks with me like butter.
 Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? He beat a woman. He beat a woman. Allah can Diddy be forgiven?
 Ahab stands alone among the millions. Ahab. Stands
 
-[o]n an ivory stubb and Pip is `pip install` nowadays but Pip, poor Pip:
+[o]n an ivory stubb and Pip is [`pip install`](https://pip.pypa.io/en/stable/installation/) nowadays but Pip, poor Pip:
 
 	"Oh! spite of million villains, this makes me a bigot in the fadeless fidelity of man!—and a black! and crazy!——but methinks like-cures-like applies to him too; he grows so sane again."
 	"They tell me, sir, that Stubb did once desert poor little Pip, whose drowned bones now show white, for all the blackness of his living skin. But."
