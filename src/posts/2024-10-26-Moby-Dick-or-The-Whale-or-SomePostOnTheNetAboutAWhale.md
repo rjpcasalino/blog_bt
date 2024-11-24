@@ -10,10 +10,10 @@ That line:
 
     Starbuck is Stubb reversed, and Stubb is Starbuck
 
-It sticks to me like butter.
+It sticks with me like butter.
 
 Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? He beat a woman. He beat a woman. Allah can Diddy be forgiven?
-Ahab...stands alone among the millions. Ahab. Stands
+Ahab stands alone among the millions. Ahab. Stands
 
 [o]n an ivory stubb and Pip is `pip install` nowadays but Pip, poor Pip:
 
