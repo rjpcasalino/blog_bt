@@ -28,7 +28,7 @@ Pip has gone mad at this point and speaks as if he is outside himself and perhap
 			Listen,
 
 		and thou wilt often hear my ivory foot upon the deck, and still know that I am there. And now I quit thee. Thy hand!——Met!
-	TRUE ART THOU, LAD, AS THE CIRCUMFERENCE TO IS CENTRE. So: God for ever bless thee; and if it come to that,——
+	TRUE ART THOU, LAD, AS THE CIRCUMFERENCE TO ITS CENTRE. So: God for ever bless thee; and if it come to that,——
 		God for ever save thee, let what will befall."
 
 
