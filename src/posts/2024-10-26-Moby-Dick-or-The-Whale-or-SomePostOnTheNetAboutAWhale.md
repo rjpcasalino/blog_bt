@@ -50,21 +50,20 @@ Some notes from the "Northwestern-Newberry" edition:
 
 <hr>
 
-"Herman Melville's composition of _Moby-Dick_, a dawdling, on-and-off affair"——
-I must interject.
+"Herman Melville's composition of _Moby-Dick_, a dawdling, on-and-off affair"<span>&mdash;</span>might I interject a notion at this juncture?
 
-Here is the reason ppl don't read Melville.
+Here is the reason people don't read Melville.
 
 Paglia sees _Moby-Dick_ as "a sexual reply to _The Scarlet Letter_" and I've got nothing else on that but moving on
 		I quote her at length in what follows because I love her. Because she is right?
 
-"...correct a sexual excluson, but _Moby-Dick_'s worldview is vaster."
+"...correct a sexual exclusion, but _Moby-Dick_'s worldview is vaster."
 
 "hermaphroditizes the great whale"
 
 one of the "novel's supreme moments" quoting Paglia:
 Quoting Melville:
-    "A vast pulpy mass, furlongs in length and breadth, of glancing cream-color, lay floating on the water, innumerable long arms radiating from its centre, and curling curling curling——
+    "A vast pulpy mass, furlongs in length and breadth, of glancing cream-color, lay floating on the water, innumerable long arms radiating from its centre, and curling curling curling<span>&mdash;</span>
 
     God is "gender-neutral" _(cheers of "yes" and "right")_ and it's true that Melville cannot "bear to leave his loom gender-netural"
 
