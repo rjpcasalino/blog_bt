@@ -48,6 +48,10 @@ Some notes from the "Northwestern-Newberry" edition:
 	I watch as it trails off to a man named Stewart calling Melville careless.
 	Careless Melville. He wrote America's first Great Novel. America. This book reeks of America.
 
+But I'm back again in a flash and playing with the boys Finkelstein alights:
+
+	[Their] theory is cleary untenable. There is no "Islamic dispenation" which makes it "impossible" for a Parsee to bear an Islamic name. In [Muslim] law the fire-worshiping Zoroastrians were treated like Jews and Christians, "the people of the Book," as distinguished from heathen. They could if they wished bear Islamic names, as did many Jews living in Muslim countries.
+
 <hr>
 
 "Herman Melville's composition of _Moby-Dick_, a dawdling, on-and-off affair"<span>&mdash;</span>might I interject a notion at this juncture?
