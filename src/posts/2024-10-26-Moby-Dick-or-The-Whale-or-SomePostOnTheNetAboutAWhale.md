@@ -45,12 +45,13 @@ Some notes from the "Northwestern-Newberry" edition:
 217.21 Fedallah] That this Arabic name would be an impossible one for a Parsee is asserted by Luther S. Mansfield  and Howard P. Vincent in their Hendricks House edition of _Moby-Dick_ (New York, 1952), p. 732; their assertion is refuted by [Dorothee Metlitsky Finkelstein](https://wheelercolumn.berkeley.edu/2020/05/01/professor-dorothee-finkelstein/), in _Melvill's Orienda_ (New Haven and London: Yale University Press, 1961), p.228...
 
 
-	I watch as it trails off to a man named Stewart calling Melville careless.
-	Careless Melville. He wrote America's first Great Novel. America. This book reeks of America.
+I watch as it trails off to a man named Stewart calling Melville careless. Careless Melville. He wrote America's first Great Novel. America. This book reeks of America.
 
 But I'm back again in a flash and playing with the boys Finkelstein alights:
 
-	[Their] theory is cleary untenable. There is no "Islamic dispenation" which makes it "impossible" for a Parsee to bear an Islamic name. In [Muslim] law the fire-worshiping Zoroastrians were treated like Jews and Christians, "the people of the Book," as distinguished from heathen. They could if they wished bear Islamic names, as did many Jews living in Muslim countries.
+[Their] theory is clearly untenable. There is no "Islamic dispensation" which makes it "impossible" for a Parsee to bear an Islamic name. In [Muslim] law the fire-worshiping Zoroastrians were treated like Jews and Christians, "the people of the Book," as distinguished from heathen. They could if they wished bear Islamic names, as did many Jews living in Muslim countries.
+
+And honey I want you, as Bobby says. More on that later.
 
 <hr>
 
