@@ -1,5 +1,5 @@
 ---
-title: "Moby-Dick or The Whale orSomePostOnTheNetAboutAWhale"
+title: "Moby-Dick or The Whale or We Pray 4 U"
 layout: post
 ---
 			Ye two are the opposite poles of one thing; Starbuck is Stubb reversed, and Stubb is Starbuck;
