@@ -12,8 +12,13 @@ That line:
 
 It sticks with me like butter.
 
-Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? He beat a woman. He beat a woman. Allah can Diddy be forgiven?
-Ahab stands alone among the millions. Ahab. Stands
+Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? [He beat a woman. He assaulted a woman!](https://www.cnn.com/2024/05/17/entertainment/video/sean-diddy-combs-cassie-venture-surveillance-digvid) Allah, can Diddy be forgiven? 
+
+GOD DAMN HIM. He's a no good rat fuck son of bitch!
+
+But mercy. Just mercy.
+
+Ahab stands alone among the millions. Ahab. Stands:
 
 [o]n an ivory stubb and Pip is [`pip install`](https://pip.pypa.io/en/stable/installation/) nowadays but Pip, poor Pip:
 
