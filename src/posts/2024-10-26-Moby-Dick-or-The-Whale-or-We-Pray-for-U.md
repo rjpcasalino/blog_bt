@@ -10,7 +10,7 @@ That line:
 
     Starbuck is Stubb reversed, and Stubb is Starbuck
 
-It sticks with me like butter.
+[It sticks with me like butter](https://www.youtube.com/watch?v=yCwBltGkJ2U)
 
 Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? [He beat a woman. He assaulted a woman!](https://www.cnn.com/2024/05/17/entertainment/video/sean-diddy-combs-cassie-venture-surveillance-digvid) Allah, can Diddy be forgiven? 
 
