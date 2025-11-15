@@ -16,7 +16,9 @@ Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive 
 
 GOD DAMN HIM. He's a no good rat fuck son of bitch!
 
-But mercy. Just mercy.
+Well, I suppose you have to do the time for the crime. So mercy. He beat her but she ain't dead and he's behind bars turning all gray. Too bad. Bad boy. Gotta do the time. But you'll see His face sooner or later. I remember seeing BIG's face on some American handball court wall and I'm headed for some Highway opposite the Brooklyn Bridge. And snap!
+
+Mercy. Just mercy.
 
 Ahab stands alone among the millions. Ahab. Stands:
 
