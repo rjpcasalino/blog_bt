@@ -60,6 +60,10 @@ But I'm back again in a flash and playing with the boys Finkelstein alights:
 
 And honey I want you, as Bobby says. More on that later.
 
+Finkelstein's body is on my mind and it's working overtime and I pray truly God that one day I will be able to meet her?
+
+Well, it's all black when you're playing with the boys and I am laying it on thick and talking to no one so who cares? On with the show!
+
 <hr>
 
 "Herman Melville's composition of _Moby-Dick_, a dawdling, on-and-off affair"<span>&mdash;</span>might I interject a notion at this juncture?
