@@ -1,5 +1,5 @@
 ---
-title: "Alpine Up and Running on ASUS VivoBook E203MAS_L203MA or ASUS Chromebook C223"
+title: 'Alpine Up and Running on ASUS VivoBook E203MAS_L203MA or ASUS Chromebook C223'
 Layout: post
 ---
 
