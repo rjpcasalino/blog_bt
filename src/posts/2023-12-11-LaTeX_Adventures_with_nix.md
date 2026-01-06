@@ -4,7 +4,11 @@ layout: post
 ---
 First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with LaTeX. No, I will not offer the stylized version of the logo in HTML at the moment. I will soon, probably!
 
-Next is this GitHub repo: [latex_cv](https://github.com/muratcankaracabey/latex_cv)<span>&mdash;</span>you can probably guess why I've gotten interested in LaTeX suddenly. It doesn't hurt to have the LaTeX User's Guide and Reference Manual by Lamport on your desk if you're into dead print. I've got the Second Edition which appears to be from 1994 when I was seven years old. Still, it's useful. Next, [LaTeX at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a bit easier if you're one who likes to sit at the computer and type away. Reading books is old hat, sorry Lamport.
+You can probably guess why I've gotten interested in LaTeX suddenly and again. 
+
+It doesn't hurt to have the LaTeX User's Guide and Reference Manual by Lamport on your desk if you're into dead print/trees. I've got the Second Edition which appears to be from 1994 when I was seven years old. Still, it's useful. 
+
+Next, [LaTeX at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a bit easier if you're one who likes to sit at the computer and type away. Reading books is old hat, sorry Lamport.
 
 Truth be told I've had that LaTeX manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. LaTeX has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but LaTeX is the way to go in the waning days of 2023. No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
 
@@ -52,10 +56,6 @@ Truth be told I've had that LaTeX manual sitting around for awhile and had even 
             });
     }
 
-I've added a `devShell` and the latex2html package which I'll talk about at a later time.
 
-Running `nix build` will produce a dir called `result` with your document in it. I just discovered [`zathura`](https://pwmt.org/projects/zathura/index.html) for viewing PDFs on Linux and it "just works". Give it a try if you're into minimal software programs that just seem to work: `nix run nixpkgs#zathura -- <your>.pdf`.
+Running `nix build` will produce a dir called `result` with your document in it.
 
-Here's a screenshot:
-
-![zathura and LaTeX](/static/imgs/zathura_and_latex_editing.png)
