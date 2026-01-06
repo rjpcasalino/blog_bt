@@ -113,3 +113,28 @@ figcaption {
   -webkit-clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
 }
 
+  .latex-logo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+  }
+
+  .latex-logo .L,
+  .latex-logo .T,
+  .latex-logo .X {
+    text-transform: uppercase;
+  }
+
+  .latex-logo .A {
+    font-size: 0.75em;
+    vertical-align: 0.35em; /* raise A */
+    margin: 0 -0.08em;
+  }
+
+  .latex-logo .E {
+    font-size: 0.75em;
+    vertical-align: -0.15em; /* lower E */
+    margin-left: -0.12em;
+  }
+

@@ -2,9 +2,18 @@
 title: 'LaTeX adventures with nix'
 layout: post
 ---
-First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with LaTeX. No, I will not offer the stylized version of the logo in HTML at the moment. I will soon, probably!
 
-You can probably guess why I've gotten interested in LaTeX suddenly and again. 
+First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with:
+
+<div class="latex-logo">
+  <span class="L">L</span>
+  <span class="A">A</span>
+  <span class="T">T</span>
+  <span class="E">E</span>
+  <span class="X">X</span>
+</div>
+
+<hr>
 
 It doesn't hurt to have the LaTeX User's Guide and Reference Manual by Lamport on your desk if you're into dead print/trees. I've got the Second Edition which appears to be from 1994 when I was seven years old. Still, it's useful. 
 
