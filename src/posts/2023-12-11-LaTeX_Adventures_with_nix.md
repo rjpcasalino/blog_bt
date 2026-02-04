@@ -5,13 +5,7 @@ layout: post
 
 First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with:
 
-<div class="latex-logo">
-  <span class="L">L</span>
-  <span class="A">A</span>
-  <span class="T">T</span>
-  <span class="E">E</span>
-  <span class="X">X</span>
-</div>
+<span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span>
 
 <hr>
 

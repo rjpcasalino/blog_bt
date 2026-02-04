@@ -113,28 +113,25 @@ figcaption {
   -webkit-clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
 }
 
-  .latex-logo {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 64px;
-    font-weight: 400;
-    letter-spacing: -0.05em;
-  }
+.latexlogo {
+  font-family: "Linux Libertine O", "Nimbus Roman No 9 L", "FreeSerif", "Hoefler Text", Times, "Times New Roman", serif;
+}
 
-  .latex-logo .L,
-  .latex-logo .T,
-  .latex-logo .X {
-    text-transform: uppercase;
-  }
+.latexlogosup {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-size: 0.7em;
+  vertical-align: 0.25em;
+  margin-left: -0.4em;
+  margin-right: -0.15em;
+}
 
-  .latex-logo .A {
-    font-size: 0.75em;
-    vertical-align: 0.35em; /* raise A */
-    margin: 0 -0.08em;
-  }
-
-  .latex-logo .E {
-    font-size: 0.75em;
-    vertical-align: -0.15em; /* lower E */
-    margin-left: -0.12em;
-  }
+.latexlogosub {
+  text-transform: uppercase;
+  vertical-align: -0.27ex;
+  margin-left: -0.08em;
+  margin-right: -0.07em;
+  font-size: 1em;
+  font-size: .7em;
+}
 
