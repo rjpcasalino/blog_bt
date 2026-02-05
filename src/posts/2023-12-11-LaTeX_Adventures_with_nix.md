@@ -15,7 +15,7 @@ It doesn't hurt to have the LaTeX User's Guide and Reference Manual by Lamport o
 
 Next, [LaTeX at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a bit easier if you're one who likes to sit at the computer and type away. Reading books is old hat, sorry Lamport.
 
-Truth be told I've had that LaTeX manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. LaTeX has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but LaTeX is the way to go in the waning days of 2023. No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
+I've had that LaTeX manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. LaTeX has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but LaTeX is the way to go in the waning days of 2023 (revised in 2026 and mood is same...). No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
 
     {
       description = "Get Started with LaTeX";
@@ -47,12 +47,10 @@ Truth be told I've had that LaTeX manual sitting around for awhile and had even 
                       SOURCE_DATE_EPOCH=$(date +%s) \
                       OSFONTDIR=${pkgs.commit-mono}/share/fonts \
                       latexmk -interaction=nonstopmode -pdf -lualatex \
-                      ABForm.tex resume.tex lamport.tex;
+                      lamport.tex;
                   '';
                   installPhase = ''
                     mkdir -p $out
-                    cp resume.pdf $out/
-                    cp ABForm.pdf $out/
                     cp lamport.pdf $out
                   '';
                 };
@@ -62,5 +60,5 @@ Truth be told I've had that LaTeX manual sitting around for awhile and had even 
             });
     }
 
-Running `nix build` will produce a dir called `result` with your document in it. Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `Latexmk` will try to open with `acroread` which has been removed from nixpkgs. You can probably hack `latexmk` to open another program instead but maybe another time?
+Running `nix build` will produce a dir called `result` with your document in it (lamport.pdf in this case). Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `Latexmk` will try to open with `acroread` which has been removed from nixpkgs. You can probably hack `latexmk` to open another program instead but maybe another time?
 
