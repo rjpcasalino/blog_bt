@@ -17,50 +17,50 @@ Next, [LaTeX at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a b
 
 Truth be told I've had that LaTeX manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. LaTeX has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but LaTeX is the way to go in the waning days of 2023. No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
 
-        {
-          description = "Get Started with LaTeX";
-          inputs = {
-            nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
-            flake-utils.url = github:numtide/flake-utils;
-          };
-          outputs = { self, nixpkgs, flake-utils }:
-            with flake-utils.lib; eachSystem allSystems
-              (system:
-                let
-                  pkgs = nixpkgs.legacyPackages.${system};
-                  # re: latexmk see: https://latex.us/support/latexmk/INSTALL
-                  tex = pkgs.texlive.combine {
-                    inherit (pkgs.texlive) scheme-full latex-bin latexmk lwarp;
-                  };
-                in
-                rec {
-                  packages = {
-                    document = pkgs.stdenvNoCC.mkDerivation rec {
-                      name = "latex-document";
-                      src = self;
-                      buildInputs = [ pkgs.coreutils pkgs.poppler-utils tex ];
-                      phases = [ "unpackPhase" "buildPhase" "installPhase" ];
-                      buildPhase = ''
-                        export PATH="${pkgs.lib.makeBinPath buildInputs}";
-                        mkdir -p .cache/texmf-var
-                        env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
-                          SOURCE_DATE_EPOCH=$(date +%s) \
-                          OSFONTDIR=${pkgs.commit-mono}/share/fonts \
-                          latexmk -interaction=nonstopmode -pdf -lualatex \
-                          ABForm.tex resume.tex lamport.tex;
-                      '';
-                      installPhase = ''
-                        mkdir -p $out
-                        cp resume.pdf $out/
-                        cp ABForm.pdf $out/
-                        cp lamport.pdf $out
-                      '';
-                    };
-                  };
-                  packages.default = packages.document;
-                  devShell = with pkgs; mkShell { packages = [ packages.document.buildInputs ]; shellHook = ''SOURCE_DATE_EPOCH=$(date +%s); printf "\t%s\n\t%s\n", "Hello LaTeX", "run latexmk -interaction=nonstopmode -pdf -pvc -lualatex <your_tex_doc.tex>"''; };
-                });
-        }
+    {
+      description = "Get Started with LaTeX";
+      inputs = {
+        nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
+        flake-utils.url = github:numtide/flake-utils;
+      };
+      outputs = { self, nixpkgs, flake-utils }:
+        with flake-utils.lib; eachSystem allSystems
+          (system:
+            let
+              pkgs = nixpkgs.legacyPackages.${system};
+              # re: latexmk see: https://latex.us/support/latexmk/INSTALL
+              tex = pkgs.texlive.combine {
+                inherit (pkgs.texlive) scheme-full latex-bin latexmk lwarp;
+              };
+            in
+            rec {
+              packages = {
+                document = pkgs.stdenvNoCC.mkDerivation rec {
+                  name = "latex-document";
+                  src = self;
+                  buildInputs = [ pkgs.coreutils pkgs.poppler-utils tex ];
+                  phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+                  buildPhase = ''
+                    export PATH="${pkgs.lib.makeBinPath buildInputs}";
+                    mkdir -p .cache/texmf-var
+                    env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
+                      SOURCE_DATE_EPOCH=$(date +%s) \
+                      OSFONTDIR=${pkgs.commit-mono}/share/fonts \
+                      latexmk -interaction=nonstopmode -pdf -lualatex \
+                      ABForm.tex resume.tex lamport.tex;
+                  '';
+                  installPhase = ''
+                    mkdir -p $out
+                    cp resume.pdf $out/
+                    cp ABForm.pdf $out/
+                    cp lamport.pdf $out
+                  '';
+                };
+              };
+              packages.default = packages.document;
+              devShell = with pkgs; mkShell { packages = [ packages.document.buildInputs ]; shellHook = ''SOURCE_DATE_EPOCH=$(date +%s); printf "\t%s\n\t%s\n", "Hello LaTeX", "run latexmk -interaction=nonstopmode -pdf -pvc -lualatex <your_tex_doc.tex>"''; };
+            });
+    }
 
-Running `nix build` will produce a dir called `result` with your document in it.
+Running `nix build` will produce a dir called `result` with your document in it. Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `Latexmk` will try to open with `acroread` which has been removed from nixpkgs. You can probably hack `latexmk` to open another program instead but maybe another time?
 
