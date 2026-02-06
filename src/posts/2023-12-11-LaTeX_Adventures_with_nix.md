@@ -1,21 +1,24 @@
 ---
-title: 'LaTeX adventures with nix'
+title: '<span class="use-latex-logo"></span> adventures with nix'
 layout: post
 ---
 
 First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with:
+<template id="latex-logo">
+  <span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span>
+</template>
 
 <h1>
-<span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span>
+<span class="use-latex-logo"></span>
 </h1>
 
 <hr>
 
-It doesn't hurt to have the LaTeX User's Guide and Reference Manual by Lamport on your desk if you're into dead print/trees. I've got the Second Edition which appears to be from 1994 when I was seven years old. Still, it's useful. 
+It doesn't hurt to have the <span class="use-latex-logo"></span> User's Guide and Reference Manual by Lamport on your desk if you're into dead print/trees. I've got the Second Edition which appears to be from 1994 when I was seven years old. Still, it's useful. 
 
-Next, [LaTeX at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a bit easier if you're one who likes to sit at the computer and type away. Reading books is old hat, sorry Lamport.
+Next, [<span class="use-latex-logo"></span> at wikibooks](https://en.wikibooks.org/wiki/LaTeX) makes things a bit easier if you're one who likes to sit at the computer and type away. Reading books is old hat, sorry Lamport.
 
-I've had that LaTeX manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. LaTeX has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but LaTeX is the way to go in the waning days of 2023 (revised in 2026 and mood is same...). No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
+I've had that <span class="use-latex-logo"></span> manual sitting around for awhile and had even dogeared some pages but I set it aside a bit ago because I had no real need. Now with the world going mad and jobs being lost all around us I've wanted to update my resume. My old CV was written using [groff](https://www.gnu.org/software/groff/) and it just wasn't up to snuff (the CV or groff). Handling fonts in groff seemed to be a real pain and it's no cake walk with LaTeX but it's far easier. <span class="use-latex-logo"></span> has a thriving community whereas groff's is smaller and withering. Don't get me wrong I like groff but <span class="use-latex-logo"></span> is the way to go in the waning days of 2023 (revised in 2026 and mood is same...). No ands ifs or buts about it. And seeing as it's soon to be a new year new things are afoot. I'll paste my `flake.nix` here (it's pretty much the one you'd find on flyx.org):
 
     {
       description = "Get Started with LaTeX";
@@ -60,5 +63,9 @@ I've had that LaTeX manual sitting around for awhile and had even dogeared some 
             });
     }
 
-Running `nix build` will produce a dir called `result` with your document in it (lamport.pdf in this case). Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `Latexmk` will try to open with `acroread` which has been removed from nixpkgs. You can probably hack `latexmk` to open another program instead but maybe another time?
+Running `nix build` will produce a dir called `result` with your document in it (lamport.pdf in this case). Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `latexmk` will try to open with `acroread` which has been removed from nixpkgs for security reasons. You can probably hack `latexmk` to open another program instead but maybe another time?
+
+<hr>
+
+Soon we'll explore creating HTML from these tex docs and still use nix so everything is sorta contained.
 

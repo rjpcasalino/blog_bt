@@ -40,5 +40,11 @@
 </div>
 <script data-goatcounter="https://boringtranquility-io.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+<script>
+  document.querySelectorAll('.use-latex-logo').forEach(el => {
+    el.append(document.getElementById('latex-logo').content.cloneNode(true));
+  });
+</script>
 </body>
 </html>
