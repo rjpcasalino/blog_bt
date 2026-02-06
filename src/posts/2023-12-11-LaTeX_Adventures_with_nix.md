@@ -3,10 +3,12 @@ title: '<span class="use-latex-logo"></span> adventures with nix'
 layout: post
 ---
 
-First, [Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with:
 <template id="latex-logo">
   <span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span>
 </template>
+
+First, [Exploring Nix Flakes: Build <span class="use-latex-logo"></span> Documents Reproducibly](https://flyx.org/nix-flakes-latex/) is an invaluable resource and a must read to get up to speed quickly with:
+
 
 <h1>
 <span class="use-latex-logo"></span>
