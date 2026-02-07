@@ -1,5 +1,5 @@
 ---
-title: '<span class="use-latex-logo"></span> adventures with nix'
+title: 'LaTeX adventures with nix'
 layout: post
 ---
 
@@ -65,9 +65,4 @@ I've had that <span class="use-latex-logo"></span> manual sitting around for awh
             });
     }
 
-Running `nix build` will produce a dir called `result` with your document in it (lamport.pdf in this case). Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `latexmk` will try to open with `acroread` which has been removed from nixpkgs for security reasons. You can probably hack `latexmk` to open another program instead but maybe another time?
-
-<hr>
-
-Soon we'll explore creating HTML from these tex docs and still use nix so everything is sorta contained.
-
+Running `nix build` will produce a dir called `result` with your document in it (lamport.pdf in this case). Or you are free to run `nix develop` and have (hoepfully) everything you'd need to run the commands manually. `-pvc` flag means generate a continuous preview which `latexmk` will try to open with `acroread` which has been removed from nixpkgs for security reasons. You can probably hack `latexmk` to open another program instead but maybe another time? Soon we'll explore creating HTML from these tex docs and still use nix so everything is sorta contained. Notice `lwarp` in the flake above; it is the program we will use to create an HTML file from our tex doc.
