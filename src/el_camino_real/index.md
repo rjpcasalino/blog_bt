@@ -5,7 +5,7 @@ layout: post
 
 ![El Camino Real Bell](https://upload.wikimedia.org/wikipedia/commons/c/cc/El_Camino_Real_California_2.JPG)
 
-They are melting these [bells](https://www.dailymail.co.uk/news/article-7170313/University-California-Santa-Cruz-removes-El-Camino-Real-Bell-marks-inclusive.html).
+They are melting these [bells](https://www.dailymail.co.uk/news/article-7170313/University-California-Santa-Cruz-removes-El-Camino-Real-Bell-marks-inclusive.html) on the Royal Road.
 
 - - - 
 
