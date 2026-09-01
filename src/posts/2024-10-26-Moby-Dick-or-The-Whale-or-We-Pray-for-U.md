@@ -87,7 +87,7 @@ Back to Pip:
 
 	"Twenty pages later comes the first mention of the male weaver, when a castaway loses his wits and sees 'God's foot upon the treadle of the loom.'"
 
-Confession: I can't spell Paglia without looking and Camille Paglia is——
+Confession: I can't spell Paglia without looking and Camille Paglia is<span>&mdash;</span>
 
 				an enemy to Melville's
 					"real heaven":"all-male platoon each with his hand in someone else's pocket. The circle jerk is another Romantic:"
@@ -101,3 +101,7 @@ A wonderful summary of the book! But he fails to mention Pip? Perhaps this is my
 But I am a white man and I am nasty. I see the ghosts. I say God is one. Like America is one. God is in America. I quote. What can I say? I am just a man. Just giving a warning. Just waiting like you are waiting—for we are all somehow dreadfully cracked about the head, and sadly need mending.
 
 'no suicides permitted here, and no smoking in the parlor;'
+
+<hr>
+
+We begin again after many months at sea lost to the void as it were and Pip is back and he's bigger than ever that much we know. We have to dive deep into our Finkelstein and really alight or else all is lost in the ever cooling night.

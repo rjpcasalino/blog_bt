@@ -1,4 +1,4 @@
 ---
-title: Boring Tranquility
+title: Boring Tranquility 
 layout: index
 ---

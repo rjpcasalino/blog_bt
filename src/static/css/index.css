@@ -1,125 +1,306 @@
-aside {
-	width: 40%;
-	padding-left: .5rem;
-	margin-left: .5rem;
-	float: right;
-	box-shadow: inset 5px 0 5px -5px #29627e;
-	font-style: italic;
-	color: #29627e;
+/* ==========================================================================
+   1. Design Tokens & CSS Custom Properties
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Color Palette - Light */
+  --bg-color: #ffffff;
+  --surface-color: #f8fafc;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --accent: #29627e;
+  --accent-hover: #1d4559;
+  --border-color: #e2e8f0;
+  --code-bg: #f1f5f9;
+  --quote-bg: #f8fafc;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, Monaco, 'Andale Mono', monospace;
+  --font-serif: Georgia, Cambria, 'Times New Roman', Times, serif;
+
+  /* Layout */
+  --max-content-width: 68ch;
+  --max-container-width: 960px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
 }
 
-blockquote {
-    margin: 0;
-}
-
-blockquote p {
-    padding: 15px;
-    background: #eee;
-    border-radius: 5px;
-}
-
-/* blockquote p::before {
-    content: '\201C';
-}
-
-blockquote p::after {
-    content: '\201D';
-} */
-
-code {
-    white-space: pre-wrap !important;
-    overflow-wrap: break-word !important;
-}
-
- /* horizontal rule 
-  */
-hr {
-	overflow: visible; /* For IE */
-	padding: 0;
-	border: none;
-	border-top: medium double #333;
-	color: #333;
-	text-align: center;
-}
-
-hr:after {
-	content: "\00A7";
-	display: inline-block;
-	position: relative;
-	top: -0.7em;
-	font-size: 1.5em;
-	padding: 0 0.25em;
-	background: white;
-}
-
-a {
-	color: black;
-	text-decoration: underline;
-}
-
-a:visited {
-	color: black;
-	text-decoration: underline;
-}
-
-a:hover {
-	color: black;
-	text-decoration: none;
-}
-
-ol {
-	margin: 15px;
-	line-height: 1.5;
-}
-
-pre {
-	background-color: #FFF;
-	white-space: pre-wrap;
-	padding: 10px;
-	/* max-width: 50vw;*/
-}
-
-img {
-	max-width: 100%; 
-	height: auto;
-}
-
-video {
-	width: 100%;
-	max-width: 100%;
-	max-height: 100%;
-}
-
-figcaption {
-	font-size: .84em;
-	text-align: center;
-}
-
-.footnotes {
-	font-size: .84em;
-	text-align: left;
-	line-height: 1;
-	list-style: none;
-	line-break: anywhere;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0f172a;
+    --surface-color: #1e293b;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-hover: #7dd3fc;
+    --border-color: #334155;
+    --code-bg: #1e293b;
+    --quote-bg: #1e293b;
+  }
 }
 
 .masthead-wrap {
- filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  /* Softer, more modern layered shadow */
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08)) 
+          drop-shadow(0 4px 6px rgba(0, 0, 0, 0.04));
+  margin-bottom: 3rem;
+  display: block;
 }
 
 #masthead {
-  max-width: 50vw;
-  clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
-  -webkit-clip-path: polygon(0% 0%, 87% 5%, 98% 87%, 3% 93%);
+  width: 100%;
+  max-width: 100%;
+  /* A more balanced, deliberate geometric cut that scales well */
+  clip-path: polygon(2% 2%, 98% 0%, 100% 95%, 0% 100%);
+  -webkit-clip-path: polygon(2% 2%, 98% 0%, 100% 95%, 0% 100%);
+  object-fit: cover;
+  border-radius: 4px; /* Softens the image slightly before the clip */
+  transition: transform 0.3s ease;
 }
 
+@media (min-width: 640px) {
+  #masthead {
+    /* Prevents the image from becoming overwhelmingly large on desktop */
+    max-width: 65vw; 
+  }
+}
+
+/* ==========================================================================
+   2. Core Reset & Global Base
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem 4rem;
+}
+
+/* Container Structure */
+.container {
+  width: 100%;
+  max-width: var(--max-container-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main, article {
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========================================================================
+   3. Typography & Links
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 { font-size: clamp(1.85rem, 1.4rem + 1.8vw, 2.75rem); letter-spacing: -0.025em; }
+h2 { font-size: clamp(1.4rem, 1.2rem + 1vw, 2rem); letter-spacing: -0.02em; }
+h3 { font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+a:hover, a:focus {
+  color: var(--accent-hover);
+  text-decoration-thickness: 2px;
+}
+
+a:visited {
+  color: var(--accent);
+}
+
+/* ==========================================================================
+   4. Custom Elements (Aside, Blockquote, Section Dividers)
+   ========================================================================== */
+aside {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  box-shadow: inset 4px 0 0 -0px var(--accent);
+  font-style: italic;
+  color: var(--accent);
+  background: var(--surface-color);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+@media (min-width: 640px) {
+  aside {
+    width: 40%;
+    float: right;
+    margin: 0.25rem 0 1rem 1.5rem;
+  }
+}
+
+blockquote {
+  margin: 1.75rem 0;
+}
+
+blockquote p {
+  padding: 1rem 1.25rem;
+  background: var(--quote-bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Horizontal Rule with Section Symbol */
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+  text-align: center;
+  margin: 3rem 0;
+}
+
+hr::after {
+  content: "\00A7";
+  display: inline-block;
+  position: relative;
+  top: -0.75em;
+  font-size: 1.25em;
+  padding: 0 0.5em;
+  background: var(--bg-color);
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   5. Lists, Tables & Utilities
+   ========================================================================== */
+ol, ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+ol { list-style-type: decimal; }
+ul { list-style-type: disc; }
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.footnotes {
+  font-size: 0.85em;
+  text-align: left;
+  line-height: 1.4;
+  list-style: none;
+  line-break: anywhere;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* ==========================================================================
+   6. Code & Media Elements
+   ========================================================================== */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius-sm);
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+pre {
+  background-color: var(--code-bg);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+  white-space: pre;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  /* border-radius: var(--radius-md); */
+}
+
+figcaption {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+
+/* ==========================================================================
+   7. LaTeX Logos Preservation
+   ========================================================================== */
 .latexlogo {
   font-family: "Linux Libertine O", "Nimbus Roman No 9 L", "FreeSerif", "Hoefler Text", Times, "Times New Roman", serif;
 }
 
 .latexlogosup {
   text-transform: uppercase;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
   font-size: 0.7em;
   vertical-align: 0.25em;
   margin-left: -0.4em;
@@ -131,7 +312,24 @@ figcaption {
   vertical-align: -0.27ex;
   margin-left: -0.08em;
   margin-right: -0.07em;
-  font-size: 1em;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
+.latex-logo {
+  font-family: "Computer Modern Serif", "Latin Modern Roman", serif;
+  white-space: nowrap;
+}
+
+.latex-logo .a {
+  position: relative;
+  top: -0.4em;
+  font-size: 0.7em;
+  margin-left: -0.1em;
+}
+
+.latex-logo .e {
+  position: relative;
+  bottom: -0.2em;
+  font-size: 0.7em;
+  margin-left: -0.1em;
+}

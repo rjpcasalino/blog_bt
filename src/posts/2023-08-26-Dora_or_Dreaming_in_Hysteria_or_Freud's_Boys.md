@@ -89,3 +89,5 @@ But alas alas alas...
 	Vitaliy Kyrychenko, owner of the Pink Freud, has made detailed plans in case of an invasion. At the same time, he's planning to invest in the bar.
 
 Life is OK. Say after me, it's better to be safe than sorry. We'll all be good someday.
+
+And years later the war goes on. And on and on and what are we to do in this sad summer?
