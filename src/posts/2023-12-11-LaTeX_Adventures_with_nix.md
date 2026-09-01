@@ -117,3 +117,5 @@ Running `nix build` will produce a dir called `result` with your document in it 
 
 Soon we'll explore creating HTML from these tex docs and still use nix so everything is sorta contained. Notice `lwarp` in the flake above; it is the program we will use to create an HTML file from our tex doc.
 
+to be continued...
+
