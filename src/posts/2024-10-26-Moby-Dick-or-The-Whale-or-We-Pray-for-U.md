@@ -10,19 +10,19 @@ That line:
 
     Starbuck is Stubb reversed, and Stubb is Starbuck
 
-[It sticks with me like butter](https://www.youtube.com/watch?v=yCwBltGkJ2U)
+[It sticks with me like butter](https://www.youtube.com/watch?v=yCwBltGkJ2U).
 
-Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Diddy? [He beat a woman. He assaulted a woman!](https://www.cnn.com/2024/05/17/entertainment/video/sean-diddy-combs-cassie-venture-surveillance-digvid) Allah, can Diddy be forgiven? 
+Now I call on Allah: can You forgive him? Can You forgive Ahab? Can You forgive Michael Richards and Diddy 2? [He beat a woman. He assaulted a woman!](https://www.cnn.com/2024/05/17/entertainment/video/sean-diddy-combs-cassie-venture-surveillance-digvid) Allah, can Diddy be forgiven? And man, I miss Michael too but, shit, his words are disgusting and wanna make me vomit and send him to hell too.
 
-GOD DAMN HIM. He's a no good rat fuck son of bitch!
+GOD DAMN HIM. He's a no good rat fuck son of bitch! Both of 'em!
 
-Well, I suppose you have to do the time for the crime. So mercy. He beat her but she ain't dead and he's behind bars turning all gray. Too bad. Bad boy. Gotta do the time. But you'll see His face sooner or later. I remember seeing BIG's face on some American handball court wall and I'm headed for some Highway opposite the Brooklyn Bridge. And snap!
+Well, I suppose you have to do the time for the crime. So mercy. He beat her but she ain't dead and he's behind bars turning all gray. Richards too. Too bad. Bad boy. Gotta do the time. But you'll see His face sooner or later. I remember seeing BIG's face on some American handball court wall and I'm headed for some Highway opposite the Brooklyn Bridge. And snap!
 
-Mercy. Just mercy.
+Mercy. Just mercy. Every time I pray.
 
 Ahab stands alone among the millions. Ahab. Stands:
 
-[o]n an ivory stubb and Pip is [`pip install`](https://pip.pypa.io/en/stable/installation/) nowadays but Pip, poor Pip:
+[o]n an ivory stub and Pip is [`pip install`](https://pip.pypa.io/en/stable/installation/) nowadays but Pip, poor Pip:
 
 	"Oh! spite of million villains, this makes me a bigot in the fadeless fidelity of man!—and a black! and crazy!——but methinks like-cures-like applies to him too; he grows so sane again."
 	"They tell me, sir, that Stubb did once desert poor little Pip, whose drowned bones now show white, for all the blackness of his living skin. But."
