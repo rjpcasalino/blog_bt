@@ -5,11 +5,11 @@ layout: post
 
 > I said "dance", not "fuck", don't get it confused.
 
-So I picked up a Lenovo ThinkPad X13s (Gen 1) — an ARM64 machine running Qualcomm's Snapdragon 8cx Gen 3 (`SC8280XP`). Light, fanless, and with a keyboard that pleases the fingertips. My new box is named `arty`. How fast the Nix addiction spreads! I am running NixOS upon all my machines. Such are the actions of madmen.
+I picked up a Lenovo ThinkPad X13s (`SC8280XP`) — ARM64, fanless, with a keyboard that pleases the fingertips. My new box is named `arty`. How fast the Nix addiction spreads! I am running NixOS upon all my machines. Such are the actions of madmen.
 
-First, do not try to run your root filesystem off a USB-C drive. You'll lose your mind. Between Qualcomm's DWC3 controller choking on UAS queues and the internal Foxconn 5G modem pulling a sudden power blip on the PMIC rail that resets the left Type-C port, `ext4` will abort its journal and leave you crying in the rain. Install straight to the internal NVMe (`/dev/nvme0n1`) and dual-boot if you must.
+First, don't run your root filesystem off USB-C. Between Qualcomm's DWC3 controller choking on UAS queues and the Foxconn 5G modem pulling a power blip on the PMIC rail that resets the left Type-C port, `ext4` will abort its journal and leave you crying in the rain. Install straight to internal NVMe (`/dev/nvme0n1`).
 
-Second, mainline Linux needs the right Device Tree Blob (`sc8280xp-lenovo-thinkpad-x13s.dtb`), a pile of Lenovo-specific firmware blobs under `/lib/firmware/qcom/sc8280xp/LENOVO/21BX/` for the Adreno 660 GPU and DSPs, and [Johan Hovold's](https://github.com/jhovold/linux) power fixes so the battery doesn't drain 15W while pretending to sleep:
+Second, mainline Linux needs the right DTB (`sc8280xp-lenovo-thinkpad-x13s.dtb`), Lenovo's firmware blobs under `/lib/firmware/qcom/sc8280xp/LENOVO/21BX/` for the Adreno 660 GPU and DSPs, and [Johan Hovold's](https://github.com/jhovold/linux) power fixes<sup id="fnref:1"><a href="#sup1">[1]</a></sup> so the battery doesn't burn 15W pretending to sleep:
 
     boot.loader.systemd-boot.extraFiles = {
       "dtbs/x13s-${config.boot.kernelPackages.kernel.version}.dtb" =
@@ -24,15 +24,15 @@ Second, mainline Linux needs the right Device Tree Blob (`sc8280xp-lenovo-thinkp
       "mem_sleep_default=s2idle"
     ];
 
-    # Qualcomm fTPM isn't exposed to mainline; don't let systemd wait 90s for it
+    # Qualcomm fTPM isn't exposed to mainline; don't wait 90s for it
     systemd.tpm2.enable = false;
     boot.initrd.systemd.tpm2.enable = false;
 
-With `s2idle` properly configured, standby draw drops to around `0.3W`–`0.5W`. Whatever you do, **do not** run `rtcwake` to test it. On the `SC8280XP`, the PMIC RTC alarm registers (`pm8xxx-rtc`) belong to non-HLOS TrustZone firmware. Touch `/dev/rtc0` and TrustZone traps immediately, crashing the SoC straight into the UEFI menu. Just close the lid like a normal person.
+With `s2idle` working, standby drops to ~`0.4W`. Whatever you do, **do not** run `rtcwake`. On `SC8280XP`, the PMIC RTC alarm registers (`pm8xxx-rtc`) belong to TrustZone firmware. Touch `/dev/rtc0` and TrustZone traps immediately, crashing straight into the UEFI menu. Just close the lid.
 
 <hr>
 
-One quirk that drove me nuts: unlike x86 ThinkPads that talk to the Embedded Controller over LPC (`thinkpad_acpi`), the X13s has its EC hanging off an I2C bus (`0x28`). If you want the classic red ThinkPad dot to breathe when the machine sleeps and go solid when it wakes, you have to poke register `0x80` yourself with `i2ctransfer`:
+Unlike x86 ThinkPads that talk to the Embedded Controller over LPC (`thinkpad_acpi`), the X13s hangs its EC off an I2C bus (`0x28`). If you want the red ThinkPad dot to breathe during sleep and go solid on wake, poke register `0x80` with `i2ctransfer`:
 
     powerManagement = {
       enable = true;
@@ -46,6 +46,12 @@ One quirk that drove me nuts: unlike x86 ThinkPads that talk to the Embedded Con
       '';
     };
 
-Spoof your factory Wi-Fi and Bluetooth MACs via `udev` and `btmgmt`, enable `services.fprintd.enable = true` for the Synaptics fingerprint reader, and toss `msm`, `panel-edp`, and `phy-qcom-qmp-pcie` into `boot.initrd.kernelModules`. Wayland, Sway, audio, and hardware acceleration all hum right along.
+Spoof your factory Wi-Fi and Bluetooth MACs via `udev` and `btmgmt`, set `services.fprintd.enable = true`, and toss `msm`, `panel-edp`, and `phy-qcom-qmp-pcie` into `boot.initrd.kernelModules`. Wayland, Sway, audio, and GPU acceleration all hum right along.
 
 Nix is nix and so are you.
+
+- - -
+
+<div class="footnotes">
+<li><sup id="sup1"><a href="#fnref:1">[1]</a></sup> <small>At the end of kernel boot, Linux disables unclaimed clocks and power domains—crashing the <code>SC8280XP</code> if firmware or late-loading initrd modules (like <code>msm</code> or QMP PHYs) haven't claimed them yet; Hovold wired up the proper DTB dependency graphs while <code>clk_ignore_unused</code> and <code>pd_ignore_unused</code> act as a safety net. For Modern Standby (<code>s2idle</code>), every active voter on Qualcomm's RPMH power domains and interconnects must release its vote during suspend or the SoC stays awake burning 10–15W. Hovold patched the interconnect, DWC3/QMP combo PHY, and PCIe drivers to release their power votes on suspend, and mapped the Power Domain Controller (PDC) wakeup interrupts so the lid and I2C keyboard can actually wake the machine from deep sleep (~0.4W).</small></li>
+</div>
