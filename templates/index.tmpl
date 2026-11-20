@@ -18,7 +18,7 @@
 		    [% END %]
 
 			[% FOREACH c = collections.posts.sort.reverse %]
-    			<p><a href="posts/[% c %]">[% c.replace('(-|_|\.html|[0-9])', ' ') %]</a></p>
+    			<p><a href="posts/[% c %]">[% c.replace('^\d{4}-\d{2}-\d{2}-|\.html$', '').replace('(-|_)', ' ') %]</a></p>
 			[% END %]
 
 		</div>
