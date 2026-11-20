@@ -3,9 +3,9 @@ title: 'NixOS on the ThinkPad X13s'
 layout: post
 ---
 
-> I said "dance", not "fuck", don't get it confused.
+The Lenovo ThinkPad X13s (`SC8280XP`) is ARM64, fanless, and has a keyboard that pleases the fingertips. I got it secondhand three years ago? I don't remember, but I remember I was excited because it promised running local models would be easy and fun and all that crap. Removing Windows was easy enough, but then getting it back is a pain, so I went with Ubuntu and that was OK, but the battery would drain like a tub when the lid was closed—and that's just no good and means the machine was largely worthless. Getting NixOS on there was the dream, but I had to set it aside and move on to other things. But now we're entering a new age of technological advance, and that means I can have a cloud model like Gemini 3.8 Flash do some of the heavy lifting and reverse engineering, which it did. I spent an hour or two and now I have this ThinkPad running with NixOS, and its little red dot is breathing like it hasn't in many years under Linux. Assisted Intelligence! That's the new two words. What follows is a write-up by the model based on notes taken during the process. I hope you find them useful.
 
-I picked up a Lenovo ThinkPad X13s (`SC8280XP`) — ARM64, fanless, with a keyboard that pleases the fingertips. My new box is named `arty`. How fast the Nix addiction spreads! I am running NixOS upon all my machines. Such are the actions of madmen.
+<hr>
 
 First, don't run your root filesystem off USB-C. Between Qualcomm's DWC3 controller choking on UAS queues and the Foxconn 5G modem pulling a power blip on the PMIC rail that resets the left Type-C port, `ext4` will abort its journal and leave you crying in the rain. Install straight to internal NVMe (`/dev/nvme0n1`).
 
