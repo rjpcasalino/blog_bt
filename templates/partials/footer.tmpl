@@ -45,6 +45,24 @@
   document.querySelectorAll('.use-latex-logo').forEach(el => {
     el.append(document.getElementById('latex-logo').content.cloneNode(true));
   });
+
+  if (navigator.clipboard) {
+    document.querySelectorAll('pre').forEach(pre => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-btn';
+      btn.textContent = 'Copy';
+      btn.addEventListener('click', () => {
+        const code = pre.querySelector('code');
+        const text = (code || pre).innerText;
+        navigator.clipboard.writeText(text).then(() => {
+          btn.textContent = 'Copied';
+          setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+        });
+      });
+      pre.appendChild(btn);
+    });
+  }
 </script>
 </body>
 </html>
