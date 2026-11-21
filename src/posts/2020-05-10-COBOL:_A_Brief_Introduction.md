@@ -21,7 +21,7 @@ _Suggested listening_
 <br>
 <audio
 controls
-src="https://wiki.boringtranquility.io/assets/audio/Fanfare.mp3">
+src="/static/Fanfare.mp3">
     Your browser does not support the
     <code>audio</code> element.
 </audio>
@@ -35,18 +35,6 @@ COBOL's adoption rate slowly grew and by the early 1970s it was the most widely 
 COBOL continues to power portions of the Individual Master File, the IRS system used to process tax returns. [According to the Government Accountability Office](https://www.gao.gov/assets/680/677454.pdf) myriad other government agencies continue to write and maintain COBOL code. Efforts are underway to "modernize" some of these aging systems, but it is more than likely that COBOL will continue to power critical governmental and non-governmental systems alike for the foreseeable future.
 <hr>
 ### Getting Started
-
-_Suggested listening_
-<br>
-[_Saku_](https://en.wikipedia.org/wiki/Susumu_Yokota)
-<br>
-<audio
-controls
-src="https://wiki.boringtranquility.io/assets/audio/Saku.mp3">
-    Your browser does not support the
-    <code>audio</code> element.
-</audio>
-
 
 _This document assumes a bit of programming knowledge and familiarity with GNU tools. I won't be going into minute detail so I suggest you refer to the manual when you want clarity._
 

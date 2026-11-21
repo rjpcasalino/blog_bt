@@ -22,13 +22,13 @@ Finally, as root begin installing goodies:
 	# become root or use doas
 	su -
 	# add basics
-	apk add man mandocs openbox xterm xinit terminus-font doas
+	apk add mandoc man-pages openbox xterm xinit terminus-font doas
 
 ...and some other crap:
 
-	apk add acpi git neofetch feh cwm polybar light
+	apk add acpi git fastfetch feh cwm polybar light
 	# acpi is a client for battery, power, and thermal readings
-	# git for duh, neofetch for hacker factor, and feh is for wallpaper
+	# git for duh, fastfetch for hacker factor, and feh is for wallpaper
 	# the calm window manager is my go to
 	# polybar is a great status bar
 	# light for screen backlight control
@@ -95,7 +95,7 @@ And from there once you've discovered what device, get the button map via:
 
 And when you are ready, set the button map with:
 
-	xinput set-button-map 1 2 3 4 5 6 7
+	xinput set-button-map "the device" 1 2 3 4 5 6 7
 
 The mapping is in physical order and setting one of the above values with "0" will disable the button. Thus setting 2 to "0" will disable that action.
 
@@ -118,7 +118,7 @@ Before starting let's install docker:
 	
 	# have docker start on boot
 	rc-update add docker boot
-	service start docker
+	rc-service docker start
 
 I use a static site generator of my own (less than stellar) making called bss — here's how to get it working with Nix and Docker:
 

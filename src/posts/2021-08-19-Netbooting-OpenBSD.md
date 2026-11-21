@@ -17,7 +17,6 @@ Manuals one will want to have handy for reference —
      arp(8)
      boot_sparc64(8)
      biosboot(8) — amd64-specific first-stage system bootstrap
-     boot_sparc64(8) 
      cu(4) 
      dhcpd(8)
      dhcpd.conf(5)
@@ -100,7 +99,7 @@ Since we're hoping to netboot, it might be wise to test the network connection &
 <a target="_blank" href="/static/imgs/watch-net_test.jpg">
 ![watch-net test OpenBoot](/static/imgs/watch-net_test.jpg)
 </a>
-<sub>one can test _devices_ and issue commands<sub>
+<sub>one can test _devices_ and issue commands</sub>
 
 If we're receiving good packets, this means the client is ready. The boot server, in my case, became the Ultra 10's new job. Keep in mind that some of what is to be discussed further below depends on what architecture one is trying to netboot. Unless otherwise noted, one can assume the client is a SPARC64 box.
 
@@ -314,7 +313,7 @@ PXE can be used for newer clients to netboot OpenBSD. Accordingly, `pxeboot(8)`:
 
 > The pxeboot boot program will look for an /etc/boot.conf configuration file on the TFTP server. If it finds one, it processes the commands within it. boot.conf processing can be skipped by holding down either Control key as pxeboot starts.
 
-see: https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-pxe
+see: [Booting NixOS from PXE](https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-pxe)
 
 #### enter netboot.xyz
 
@@ -322,7 +321,7 @@ netboot.xyz is a tool that uses iPXE and allows users to boot into various Opera
 
 > If you are experiencing issues with the regular netboot.xyz.kpxe bootloader, you can try and use the netboot.xyz-undionly.kpxe bootloader. The regular bootloader includes common NIC drivers in the iPXE image, while the undionly loader will piggyback off the NIC (Network interface controller) boot firmware.
 
-#### shotrcomings / TODOs
+#### shortcomings / TODOs
 
 Ideally, X11 would work on these diskless workstations. Sadly, I keep getting the No Screen Found error. Clearly, it's just an issue with how the settings are exported on the bootserver.
 

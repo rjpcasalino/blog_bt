@@ -79,10 +79,10 @@ We're not really checking the condition above just looking at the contents of `x
     { a = "great!"; b = "it gets easier!"; c = "it never gets easier!"; }
 
     nix-repl> lib.getAttr "condition" (lib.mkIf (you == "learning") x)
-    false
+    true
 
     nix-repl> lib.getAttr "condition" (lib.mkIf (you == "sad") x)
-    true
+    false
 
 You can do odd things just remember to stay happy!
 
@@ -169,7 +169,7 @@ Jump into a shell and:
         Hi, I'm just another "Netizen Smith" cruising the metaverse for lovers and
         friends
 
-`WirteShellApplication` isn't too silly actually:
+`writeShellApplication` isn't too silly actually:
 
 > This can be used to easily produce a shell script that has some dependencies (runtimeInputs). It automatically sets the PATH of the script to contain all of the listed inputs, sets some sanity shellopts (errexit, nounset, pipefail), and checks the resulting script with shellcheck.
 
@@ -204,11 +204,11 @@ Some random things:
 
 And some notes not related to nix repl in my crib sheet that I wanted to share:
 
-    nix hash to-sri --type sha256 $(nix-prefetch-url --unpack https://github.com/r-c-f/waynergy/archive/refs/tags/v0.0.16.tar.gz)
+    nix hash convert --hash-algo sha256 --to sri $(nix-prefetch-url --unpack https://github.com/r-c-f/waynergy/archive/refs/tags/v0.0.16.tar.gz)
 
 You could read the man page but it might just leave you...unhappy. In "nix classic" you could use:
 
     nix-hash --to-sri
 
 This is very useful if you ever want to update a package in nixpkgs or package one yourself. There are probably other ways to get the sha256 but I don't know...WAIT!
-Ah, yes, you can use `lib.fakeSha256` to make a dummy hash and when you first compile a package an error should show up saying that the hash is wrong and display the actual hash it wants. I've done it this way in the past but the above is better, but only in, like, my opinion.
+Ah, yes, you can use `lib.fakeHash` to make a dummy hash and when you first compile a package an error should show up saying that the hash is wrong and display the actual hash it wants. I've done it this way in the past but the above is better, but only in, like, my opinion.

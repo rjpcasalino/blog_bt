@@ -52,7 +52,7 @@ Ersatz tiling can be achieved with key-bindings for window snapping (see above).
 
 ### Using cwm with NixOS
 
-[Using X without a Display Manager](https://nixos.wiki/wiki/Using_X_without_a_Display_Manager) on NixOS isn't intuitive but easy to do nevertheless.
+[Using X without a Display Manager](https://wiki.nixos.org/wiki/Using_X_without_a_Display_Manager) on NixOS isn't intuitive but easy to do nevertheless.
 
 Here's my configuration XServer block:
 
